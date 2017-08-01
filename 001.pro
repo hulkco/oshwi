@@ -1,4 +1,4 @@
-update=15/07/2017 11:10:33
+update=29/07/2017 19:45:56
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,6 +25,16 @@ BoardOutlineThickness=0.152400000000
 ModuleOutlineThickness=0.152400000000
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -114,13 +124,4 @@ LibName82=ESP8266
 LibName83=oled_i2c_display_128x64
 LibName84=connector
 LibName85=ws2812b
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
+LibName86=SPX3819M5-L-1-8

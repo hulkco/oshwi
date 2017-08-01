@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\GReynaga\Downloads\Proyectos\oshwdem_001\001.sch</source>
+    <date>31/07/2017 08:18:10</date>
+    <tool>Eeschema (2017-05-14 revision 14bb238b3)-makepkg</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>001.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C92DF</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C9490</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C94C0</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C9770</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CBBD8</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CBBE4</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CBBEA</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CBBF0</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CBBF6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C72A9</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CF4CC</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E0622</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED-RGB-WS2812B-4SMD</value>
+      <footprint>Wickerlib:LED-RGB-5050-SMD</footprint>
+      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RGB WS2812B W/DVR 4SMD</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">1655</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">1528-1104-ND</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RGB-WS2812B-4SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D0515</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>LED-RGB-WS2812B-4SMD</value>
+      <footprint>Wickerlib:LED-RGB-5050-SMD</footprint>
+      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RGB WS2812B W/DVR 4SMD</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">1655</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">1528-1104-ND</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RGB-WS2812B-4SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D08CE</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>LED-RGB-WS2812B-4SMD</value>
+      <footprint>Wickerlib:LED-RGB-5050-SMD</footprint>
+      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RGB WS2812B W/DVR 4SMD</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">1655</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">1528-1104-ND</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RGB-WS2812B-4SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D1904</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>LED-RGB-WS2812B-4SMD</value>
+      <footprint>Wickerlib:LED-RGB-5050-SMD</footprint>
+      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RGB WS2812B W/DVR 4SMD</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">1655</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">1528-1104-ND</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RGB-WS2812B-4SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D190F</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>LED-RGB-WS2812B-4SMD</value>
+      <footprint>Wickerlib:LED-RGB-5050-SMD</footprint>
+      <datasheet>http://www.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RGB WS2812B W/DVR 4SMD</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">1655</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">1528-1104-ND</field>
+      </fields>
+      <libsource lib="wickerlib" part="LED-RGB-WS2812B-4SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D1F1E</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596066B1</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961485E</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X02</value>
+      <footprint>Connectors_Molex:Molex_PicoBlade_53261-0271_02x1.25mm_Angled</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961A222</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>USER/PROG</value>
+      <footprint>Wickerlib:SWITCH-OMRON-MOMENTARY-SMD-B3U-1000P</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597DE78D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="pspice" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597DE794</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="pspice" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597E693B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="pspice" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597E71A3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="pspice" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597EC094</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597EC09A</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>Wickerlib:SWITCH-OMRON-MOMENTARY-SMD-B3U-1000P</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597ECB0D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="pspice" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597ECB14</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597EFFAB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="pspice" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597F3F98</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESP-12</value>
+      <footprint>ESP8266:ESP-12S_SMD</footprint>
+      <libsource lib="ESP8266" part="ESP-12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597FDE8C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SPX3819M5-L-1-8</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>0.54 USD</datasheet>
+      <fields>
+        <field name="Availability">Good</field>
+        <field name="Package">SOT-23-5 Exar</field>
+        <field name="MP">SPX3819M5-L-1-5</field>
+        <field name="Description">SPX3819 Series 1.5 V Fixed Output 500 mA SMT LDO Voltage Regulator - SOT-23-5</field>
+        <field name="MF">Exar</field>
+      </fields>
+      <libsource lib="SPX3819M5-L-1-8" part="SPX3819M5-L-1-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5980EF98</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE-SCHOTTKY-40V-1A-MBRA140-SMA</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 40V 1A MBRA140 SMA</field>
+        <field name="MF_Name">Vishay</field>
+        <field name="MF_PN">VS-MBRA140TRPBF</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">VS-MBRA140TRPBFCT-ND</field>
+      </fields>
+      <libsource lib="wickerlib" part="DIODE-SCHOTTKY-40V-1A-MBRA140-SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598120B7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="pspice" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59813F83</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="pspice" part="CAP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5981D4E1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="pspice" part="CAP">
+      <aliases>
+        <alias>C</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="DIODE-SCHOTTKY-40V-1A-MBRA140-SMA">
+      <description>DIODE SCHOTTKY 40V 1A MBRA140 SMA</description>
+      <docs>http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-SCHOTTKY-40V-1A-MBRA140-SMA</field>
+        <field name="Footprint">Wickerlib:DIODE-SMA</field>
+        <field name="Datasheet">http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A MBRA140 SMA</field>
+        <field name="MF_Name">Vishay</field>
+        <field name="MF_PN">VS-MBRA140TRPBF</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">VS-MBRA140TRPBFCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP8266" part="ESP-12">
+      <aliases>
+        <alias>ESP-07v2</alias>
+      </aliases>
+      <description>ESP8266 ESP-12 module, 16 pins, 2mm, PCB antenna</description>
+      <docs>http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/</docs>
+      <footprints>
+        <fp>ESP-07*</fp>
+        <fp>ESP-12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REST" type="input"/>
+        <pin num="2" name="ADC" type="passive"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15" type="BiDi"/>
+        <pin num="11" name="GPIO2" type="BiDi"/>
+        <pin num="12" name="GPIO0" type="BiDi"/>
+        <pin num="13" name="GPIO4" type="BiDi"/>
+        <pin num="14" name="GPIO5" type="BiDi"/>
+        <pin num="15" name="RXD" type="input"/>
+        <pin num="16" name="TXD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="LED-RGB-WS2812B-4SMD">
+      <description>LED RGB WS2812B W/DVR 4SMD</description>
+      <docs>http://www.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED-RGB-WS2812B-4SMD</field>
+        <field name="Footprint">Wickerlib:LED-RGB-5050-SMD</field>
+        <field name="Datasheet">http://www.adafruit.com/datasheets/WS2812B.pdf</field>
+        <field name="Description">LED RGB WS2812B W/DVR 4SMD</field>
+        <field name="MF_Name">Adafruit</field>
+        <field name="MF_PN">1655</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">1528-1104-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="DI" type="BiDi"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="DO" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="R">
+      <description>Resistance</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPX3819M5-L-1-8" part="SPX3819M5-L-1-8">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPX3819M5-L-1-8</field>
+        <field name="Footprint">SOT95P280X145-5N</field>
+        <field name="Datasheet">0.54 USD</field>
+        <field name="Availability">Good</field>
+        <field name="Package">SOT-23-5 Exar</field>
+        <field name="MP">SPX3819M5-L-1-5</field>
+        <field name="Description">SPX3819 Series 1.5 V Fixed Output 500 mA SMT LDO Voltage Regulator - SOT-23-5</field>
+        <field name="MF">Exar</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="ADJ/BYP" type="passive"/>
+        <pin num="5" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="switches">
+      <uri>C:\Program Files\KiCad\share\kicad\library\switches.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library\pspice.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="SPX3819M5-L-1-8">
+      <uri>C:\Program Files\KiCad\share\kicad\library\SPX3819M5-L-1-8.lib</uri>
+    </library>
+    <library logical="wickerlib">
+      <uri>C:\Program Files\KiCad\share\kicad\library\wickerlib.lib</uri>
+    </library>
+    <library logical="ESP8266">
+      <uri>C:\Program Files\KiCad\share\kicad\library\ESP8266.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="LED5" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R5-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="4" name="GPIO4">
+      <node ref="LED1" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="5" name="Net-(LED1-Pad4)">
+      <node ref="LED2" pin="2"/>
+      <node ref="LED1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(LED2-Pad4)">
+      <node ref="LED2" pin="4"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(LED3-Pad4)">
+      <node ref="LED4" pin="2"/>
+      <node ref="LED3" pin="4"/>
+    </net>
+    <net code="8" name="Net-(LED4-Pad4)">
+      <node ref="LED5" pin="2"/>
+      <node ref="LED4" pin="4"/>
+    </net>
+    <net code="9" name="GPIO12">
+      <node ref="J10" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="10" name="+3.3V">
+      <node ref="LED5" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="LED4" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="LED1" pin="3"/>
+      <node ref="LED2" pin="3"/>
+      <node ref="LED3" pin="3"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="11" name="VCC">
+      <node ref="U2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="12" name="CH_PD">
+      <node ref="J6" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(LED5-Pad4)">
+      <node ref="LED5" pin="4"/>
+    </net>
+    <net code="14" name="REST">
+      <node ref="U1" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="15" name="ADC">
+      <node ref="U1" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="16" name="GPIO16">
+      <node ref="U1" pin="4"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="17" name="GPIO14">
+      <node ref="U1" pin="5"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="18" name="GPIO2">
+      <node ref="J9" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="19" name="RXD">
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="20" name="TXD">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="21" name="VBAT">
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="24" name="GPIO15">
+      <node ref="U1" pin="10"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="25" name="GPIO5">
+      <node ref="J7" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="26" name="GPIO0">
+      <node ref="J11" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="27" name="GPIO13">
+      <node ref="J12" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+  </nets>
+</export>
