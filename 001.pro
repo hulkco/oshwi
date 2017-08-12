@@ -1,4 +1,4 @@
-update=29/07/2017 19:45:56
+update=Sun 06 Aug 2017 07:15:48 PM MDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,8 +23,6 @@ SolderMaskMinWidth=0.004000000000
 DrawSegmentWidth=0.152400000000
 BoardOutlineThickness=0.152400000000
 ModuleOutlineThickness=0.152400000000
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -125,3 +123,6 @@ LibName83=oled_i2c_display_128x64
 LibName84=connector
 LibName85=ws2812b
 LibName86=SPX3819M5-L-1-8
+LibName87=kmr2
+[general]
+version=1

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\GReynaga\Downloads\Proyectos\oshwdem_001\001.sch</source>
-    <date>31/07/2017 08:18:10</date>
-    <tool>Eeschema (2017-05-14 revision 14bb238b3)-makepkg</tool>
+    <source>/home/greynaga/oshwdem-OshPark/001.sch</source>
+    <date>Mon 07 Aug 2017 01:23:22 PM MDT</date>
+    <tool>Eeschema no-vcs-found-b8c621a~59~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -84,7 +84,7 @@
     </comp>
     <comp ref="C3">
       <value>100uF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595C72A9</tstamp>
@@ -194,66 +194,45 @@
     </comp>
     <comp ref="J1">
       <value>CONN_01X02</value>
-      <footprint>Connectors_Molex:Molex_PicoBlade_53261-0271_02x1.25mm_Angled</footprint>
+      <footprint>Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5961A222</tstamp>
     </comp>
-    <comp ref="SW1">
-      <value>USER/PROG</value>
-      <footprint>Wickerlib:SWITCH-OMRON-MOMENTARY-SMD-B3U-1000P</footprint>
-      <libsource lib="switches" part="SW_Push"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>597DE78D</tstamp>
-    </comp>
     <comp ref="R3">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="pspice" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597DE794</tstamp>
     </comp>
     <comp ref="C1">
       <value>100nF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="pspice" part="CAP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597E693B</tstamp>
     </comp>
     <comp ref="C2">
       <value>10nF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="pspice" part="CAP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597E71A3</tstamp>
     </comp>
     <comp ref="R2">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="pspice" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597EC094</tstamp>
     </comp>
     <comp ref="D2">
       <value>RED</value>
-      <footprint>LEDs:LED_1206</footprint>
+      <footprint>LEDs:LED_0805</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597EC09A</tstamp>
-    </comp>
-    <comp ref="SW2">
-      <value>RESET</value>
-      <footprint>Wickerlib:SWITCH-OMRON-MOMENTARY-SMD-B3U-1000P</footprint>
-      <libsource lib="switches" part="SW_Push"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>597ECB0D</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
-      <libsource lib="pspice" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>597ECB14</tstamp>
     </comp>
     <comp ref="J15">
       <value>TEST_1P</value>
@@ -264,7 +243,7 @@
     </comp>
     <comp ref="R4">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="pspice" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597F3F98</tstamp>
@@ -308,17 +287,75 @@
     </comp>
     <comp ref="R5">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="pspice" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59813F83</tstamp>
     </comp>
     <comp ref="C4">
       <value>10nF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="pspice" part="CAP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5981D4E1</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>TEST_1P</value>
+      <footprint>Wickerlib:CONN-HEADER-STRAIGHT-P2.54MM-1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597F8C82</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="pspice" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59827555</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="pspice" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59827AAC</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>USER/PROG</value>
+      <footprint>kmr2:SW_SPST_KMR2</footprint>
+      <datasheet>http://www.omron.com/ecb/products/pdf/en-b3fs_4.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P</field>
+        <field name="MF_Name">Omron</field>
+        <field name="MF_PN">B3F-4002P</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">SW1278CT-ND</field>
+      </fields>
+      <libsource lib="wickerlib" part="SWITCH-MOMENT-SPDT-SMT-B3FS-4002P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59827AA6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="pspice" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59829409</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>kmr2:SW_SPST_KMR2</footprint>
+      <datasheet>http://www.omron.com/ecb/products/pdf/en-b3fs_4.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P</field>
+        <field name="MF_Name">Omron</field>
+        <field name="MF_PN">B3F-4002P</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">SW1278CT-ND</field>
+      </fields>
+      <libsource lib="wickerlib" part="SWITCH-MOMENT-SPDT-SMT-B3FS-4002P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5982941A</tstamp>
     </comp>
   </components>
   <libparts>
@@ -484,15 +521,24 @@
         <pin num="5" name="VOUT" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="switches" part="SW_Push">
-      <description>Push button switch, generic, two pins</description>
+    <libpart lib="wickerlib" part="SWITCH-MOMENT-SPDT-SMT-B3FS-4002P">
+      <description>SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P</description>
       <fields>
         <field name="Reference">SW</field>
-        <field name="Value">SW_Push</field>
+        <field name="Value">SWITCH-MOMENT-SPDT-SMT-B3FS-4002P</field>
+        <field name="Footprint">Wickerlib:SWITCH-OMRON-MOMENTARY-SMT-B3FS-4000</field>
+        <field name="Datasheet">http://www.omron.com/ecb/products/pdf/en-b3fs_4.pdf</field>
+        <field name="Description">SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P</field>
+        <field name="MF_Name">Omron</field>
+        <field name="MF_PN">B3F-4002P</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">SW1278CT-ND</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="TEST_1P">
@@ -507,159 +553,165 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="switches">
-      <uri>C:\Program Files\KiCad\share\kicad\library\switches.lib</uri>
-    </library>
-    <library logical="pspice">
-      <uri>C:\Program Files\KiCad\share\kicad\library\pspice.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="SPX3819M5-L-1-8">
-      <uri>C:\Program Files\KiCad\share\kicad\library\SPX3819M5-L-1-8.lib</uri>
+      <uri>/usr/share/kicad/library/SPX3819M5-L-1-8.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/usr/share/kicad/library/pspice.lib</uri>
     </library>
     <library logical="wickerlib">
-      <uri>C:\Program Files\KiCad\share\kicad\library\wickerlib.lib</uri>
+      <uri>/usr/share/kicad/library/wickerlib.lib</uri>
     </library>
     <library logical="ESP8266">
-      <uri>C:\Program Files\KiCad\share\kicad\library\ESP8266.lib</uri>
+      <uri>/usr/share/kicad/library/ESP8266.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="J1" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="U1" pin="9"/>
-      <node ref="LED1" pin="1"/>
-      <node ref="LED4" pin="1"/>
-      <node ref="LED2" pin="1"/>
-      <node ref="LED3" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="LED5" pin="1"/>
+    <net code="2" name="Net-(D2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="2" name="Net-(R5-Pad2)">
-      <node ref="U2" pin="3"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="3" name="Net-(U2-Pad4)">
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="4" name="GPIO4">
-      <node ref="LED1" pin="2"/>
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="5" name="Net-(LED1-Pad4)">
-      <node ref="LED2" pin="2"/>
-      <node ref="LED1" pin="4"/>
-    </net>
-    <net code="6" name="Net-(LED2-Pad4)">
-      <node ref="LED2" pin="4"/>
-      <node ref="LED3" pin="2"/>
-    </net>
-    <net code="7" name="Net-(LED3-Pad4)">
-      <node ref="LED4" pin="2"/>
-      <node ref="LED3" pin="4"/>
-    </net>
-    <net code="8" name="Net-(LED4-Pad4)">
-      <node ref="LED5" pin="2"/>
-      <node ref="LED4" pin="4"/>
-    </net>
-    <net code="9" name="GPIO12">
-      <node ref="J10" pin="1"/>
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="10" name="+3.3V">
-      <node ref="LED5" pin="3"/>
-      <node ref="C3" pin="1"/>
-      <node ref="LED4" pin="3"/>
-      <node ref="R1" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="LED1" pin="3"/>
-      <node ref="LED2" pin="3"/>
-      <node ref="LED3" pin="3"/>
-      <node ref="U1" pin="8"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="11" name="VCC">
-      <node ref="U2" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="J15" pin="1"/>
-    </net>
-    <net code="12" name="CH_PD">
-      <node ref="J6" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="13" name="Net-(LED5-Pad4)">
-      <node ref="LED5" pin="4"/>
-    </net>
-    <net code="14" name="REST">
-      <node ref="U1" pin="1"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="15" name="ADC">
-      <node ref="U1" pin="2"/>
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="16" name="GPIO16">
-      <node ref="U1" pin="4"/>
-      <node ref="J14" pin="1"/>
-    </net>
-    <net code="17" name="GPIO14">
-      <node ref="U1" pin="5"/>
-      <node ref="J8" pin="1"/>
-    </net>
-    <net code="18" name="GPIO2">
-      <node ref="J9" pin="1"/>
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="19" name="RXD">
+    <net code="3" name="RXD">
       <node ref="J5" pin="1"/>
       <node ref="U1" pin="15"/>
     </net>
-    <net code="20" name="TXD">
-      <node ref="J3" pin="1"/>
-      <node ref="U1" pin="16"/>
+    <net code="4" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="3"/>
     </net>
-    <net code="21" name="VBAT">
+    <net code="5" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="6" name="VBAT">
       <node ref="D1" pin="2"/>
       <node ref="J1" pin="1"/>
     </net>
-    <net code="23" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R2" pin="2"/>
+    <net code="7" name="GND">
+      <node ref="J16" pin="1"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C4" pin="2"/>
     </net>
-    <net code="24" name="GPIO15">
-      <node ref="U1" pin="10"/>
+    <net code="8" name="GPIO4">
+      <node ref="U1" pin="13"/>
+      <node ref="LED1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(LED1-Pad4)">
+      <node ref="LED2" pin="2"/>
+      <node ref="LED1" pin="4"/>
+    </net>
+    <net code="10" name="Net-(LED2-Pad4)">
+      <node ref="LED2" pin="4"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(LED3-Pad4)">
+      <node ref="LED4" pin="2"/>
+      <node ref="LED3" pin="4"/>
+    </net>
+    <net code="12" name="Net-(LED4-Pad4)">
+      <node ref="LED5" pin="2"/>
+      <node ref="LED4" pin="4"/>
+    </net>
+    <net code="13" name="GPIO2">
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="14" name="REST">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="15" name="GPIO15">
       <node ref="J13" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="25" name="GPIO5">
+    <net code="16" name="TXD">
+      <node ref="U1" pin="16"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="17" name="CH_PD">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="18" name="GPIO0">
+      <node ref="SW1" pin="4"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="19" name="GPIO5">
       <node ref="J7" pin="1"/>
       <node ref="U1" pin="14"/>
     </net>
-    <net code="26" name="GPIO0">
-      <node ref="J11" pin="1"/>
-      <node ref="U1" pin="12"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="R3" pin="2"/>
+    <net code="20" name="VCC">
+      <node ref="C1" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="21" name="Net-(LED5-Pad4)">
+      <node ref="LED5" pin="4"/>
+    </net>
+    <net code="22" name="ADC">
+      <node ref="U1" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="23" name="GPIO16">
+      <node ref="J14" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="24" name="GPIO14">
+      <node ref="U1" pin="5"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="25" name="GPIO12">
+      <node ref="U1" pin="6"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="26" name="+3.3V">
+      <node ref="U1" pin="8"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="LED1" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="LED5" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="LED4" pin="3"/>
+      <node ref="LED3" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="LED2" pin="3"/>
     </net>
     <net code="27" name="GPIO13">
       <node ref="J12" pin="1"/>
