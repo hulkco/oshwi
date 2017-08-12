@@ -15,8 +15,8 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
@@ -4138,13 +4138,13 @@
     )
   )
 
-  (module LEDs:LED_1206 (layer F.Cu) (tedit 57FE943C) (tstamp 59926582)
+  (module LEDs:LED_1206 (layer F.Cu) (tedit 598F474F) (tstamp 59926582)
     (at 131.13004 101.67112)
     (descr "LED 1206 smd package")
     (tags "LED led 1206 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /597EC09A)
     (attr smd)
-    (fp_text reference D2 (at 0 -1.6) (layer F.SilkS)
+    (fp_text reference D2 (at 0 -1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RED (at 0 1.7) (layer F.Fab)
@@ -11681,7 +11681,7 @@
   (gr_text TX (at 122.09712 86.44404) (layer B.SilkS) (tstamp 5963CAAB)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify mirror))
   )
-  (gr_text L (at 130.75852 100.31752) (layer F.SilkS) (tstamp 59623C4A)
+  (gr_text ON (at 131.18 99.99) (layer F.SilkS) (tstamp 59623C4A)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
   (gr_text ADC (at 137.71812 91.82616) (layer B.SilkS) (tstamp 59623C05)
