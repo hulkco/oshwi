@@ -1,4 +1,4 @@
-update=Sun 06 Aug 2017 07:15:48 PM MDT
+update=Sat 23 Sep 2017 11:25:46 AM MDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,16 +23,6 @@ SolderMaskMinWidth=0.004000000000
 DrawSegmentWidth=0.152400000000
 BoardOutlineThickness=0.152400000000
 ModuleOutlineThickness=0.152400000000
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -126,3 +116,13 @@ LibName86=SPX3819M5-L-1-8
 LibName87=kmr2
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
