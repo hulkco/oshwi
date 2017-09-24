@@ -92,11 +92,11 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "OSHWI "
+Date "2017-09-23"
+Rev "1"
+Comp "MAZMAKER"
+Comment1 "OSHWDEM 2017 BADGE"
 Comment2 ""
 Comment3 ""
 Comment4 ""
