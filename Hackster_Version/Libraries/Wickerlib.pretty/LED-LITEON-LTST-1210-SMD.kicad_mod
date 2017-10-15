@@ -1,0 +1,52 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Verified: No
+# Finished: Yes
+
+(module LED-LITEON-LTST-1210-SMD (layer F.Cu) (tedit 585F0DF1)
+  (fp_text reference REF** (at 0 -0.1 180) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LED-LITEON-LTST-1210-SMD (at 0 -3.8) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 1.75 2.75) (end 1.75 -2.75) (layer F.CrtYd) (width 0.04064))
+  (fp_line (start -1.75 2.75) (end 1.75 2.75) (layer F.CrtYd) (width 0.04064))
+  (fp_line (start -1.75 -2.75) (end -1.75 2.75) (layer F.CrtYd) (width 0.04064))
+  (fp_line (start 1.75 -2.75) (end -1.75 -2.75) (layer F.CrtYd) (width 0.04064))
+  (fp_line (start -1.6 1.4) (end -1.6 -1.4) (layer F.Fab) (width 0.04064))
+  (fp_line (start 1.6 -1.4) (end 1.6 1.4) (layer F.Fab) (width 0.04064))
+  (fp_line (start -1.6 -1.4) (end -1 -1.4) (layer F.Fab) (width 0.04064))
+  (fp_line (start 0.5 -1.4) (end -0.6 -1.4) (layer F.Fab) (width 0.04064))
+  (fp_line (start 1.6 -1.4) (end 0.9 -1.4) (layer F.Fab) (width 0.04064))
+  (fp_arc (start 0.7 -1.4) (end 0.9 -1.4) (angle 180) (layer F.Fab) (width 0.04064))
+  (fp_line (start -1.5 -1.7) (end -1.5 1.7) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -0.9 1) (end 0.9 1) (layer F.Fab) (width 0.1))
+  (fp_text user %R (at 2.6 -0.2 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 1.5 -1.7) (end 1.5 1.7) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 0.3 0.8) (end -0.3 0.8) (layer F.SilkS) (width 0.1524))
+  (fp_arc (start -0.8 -1.4) (end -0.6 -1.4) (angle 180) (layer F.Fab) (width 0.04064))
+  (fp_line (start -0.5 1.4) (end 0.6 1.4) (layer F.Fab) (width 0.04064))
+  (fp_arc (start -0.7 1.4) (end -0.9 1.4) (angle 180) (layer F.Fab) (width 0.04064))
+  (fp_line (start -1.6 1.4) (end -0.9 1.4) (layer F.Fab) (width 0.04064))
+  (fp_line (start 1.6 1.4) (end 1 1.4) (layer F.Fab) (width 0.04064))
+  (fp_arc (start 0.8 1.4) (end 0.6 1.4) (angle 180) (layer F.Fab) (width 0.04064))
+  (pad 2 smd rect (at -0.7 -1.75) (size 1 1.5) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0762))
+  (pad 4 smd rect (at -0.7 1.75) (size 1 1.5) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0762))
+  (pad 3 smd rect (at 0.7 1.75) (size 1 1.5) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0762))
+  (pad 1 smd rect (at 0.7 -1.75) (size 1 1.5) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0762))
+)
