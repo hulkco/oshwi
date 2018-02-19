@@ -1,5 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:001-rescue
+EESchema Schematic File Version 2
 LIBS:bbd
 LIBS:battery_management
 LIBS:Worldsemi
@@ -522,7 +521,7 @@ L CAP C1
 U 1 1 597E693B
 P 6775 1425
 F 0 "C1" H 6450 1500 50  0000 L CNN
-F 1 "10uF" H 6375 1375 50  0000 L CNN
+F 1 "100nF" H 6375 1375 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6775 1425 50  0001 C CNN
 F 3 "" H 6775 1425 50  0001 C CNN
 	1    6775 1425
@@ -533,7 +532,7 @@ L CAP C2
 U 1 1 597E71A3
 P 9050 1425
 F 0 "C2" H 9228 1471 50  0000 L CNN
-F 1 "10uF" H 9228 1380 50  0000 L CNN
+F 1 "10nF" H 9228 1380 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9050 1425 50  0001 C CNN
 F 3 "" H 9050 1425 50  0001 C CNN
 	1    9050 1425
@@ -619,17 +618,17 @@ Text GLabel 1900 900  1    50   Input ~ 0
 Text GLabel 6775 900  1    50   Input ~ 0
 VBAT
 $Comp
-L SPX3819M5-L-1-8-RESCUE-001 U2
+L SPX3819M5-L-1-8 U2
 U 1 1 5980EF98
 P 8150 1275
 F 0 "U2" H 8150 1745 50  0000 C CNN
-F 1 " SPX3819M5-L-3-3/TR" H 8150 1654 50  0000 C CNN
+F 1 "SPX3819M5-L-1-8" H 8150 1654 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 8150 1275 50  0001 L BNN
-F 3 "http://static6.arrow.com/aropdfconversion/5b4dc1dbf7f196c4115066540c3f3fe0a455a5b4/60document.ashxid615languageid1033.ashxid615languageid1033.pdf" H 8150 1275 50  0001 L BNN
+F 3 "0.54 USD" H 8150 1275 50  0001 L BNN
 F 4 "Good" H 8150 1275 50  0001 L BNN "Availability"
 F 5 "SOT-23-5 Exar" H 8150 1275 50  0001 L BNN "Package"
-F 6 " SPX3819M5-L-3-3/TR" H 8150 1275 50  0001 L BNN "MP"
-F 7 "Stable voltages are always needed for sensitive systems implement this LDO SPX3819M5-L-3-3/TR linear regulator from EXAR. Its typical dropout voltage at current is 0.01@100uA|0.125@50mA|0.18@150mA|0.34@500mA V. " H 8150 1275 50  0001 L BNN "Description"
+F 6 "SPX3819M5-L-1-5" H 8150 1275 50  0001 L BNN "MP"
+F 7 "SPX3819 Series 1.5 V Fixed Output 500 mA SMT LDO Voltage Regulator - SOT-23-5" H 8150 1275 50  0001 L BNN "Description"
 F 8 "Exar" H 8150 1275 50  0001 L BNN "MF"
 	1    8150 1275
 	1    0    0    -1  
@@ -667,7 +666,7 @@ L CAP C4
 U 1 1 5981D4E1
 P 9600 1425
 F 0 "C4" H 9778 1471 50  0000 L CNN
-F 1 "1uF" H 9778 1380 50  0000 L CNN
+F 1 "22nF" H 9778 1380 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9600 1425 50  0001 C CNN
 F 3 "" H 9600 1425 50  0001 C CNN
 	1    9600 1425
