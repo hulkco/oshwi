@@ -1,92 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:001-rescue
-LIBS:bbd
-LIBS:battery_management
-LIBS:Worldsemi
-LIBS:Power_Management
-LIBS:ESD_Protection
-LIBS:xilinx
-LIBS:video
-LIBS:valves
-LIBS:ttl_ieee
-LIBS:transistors
-LIBS:transf
-LIBS:texas
-LIBS:switches
-LIBS:supertex
-LIBS:stm8
-LIBS:stm32
-LIBS:siliconi
-LIBS:silabs
-LIBS:sensors
-LIBS:rfcom
-LIBS:relays
-LIBS:regul
-LIBS:references
-LIBS:pspice
-LIBS:powerint
-LIBS:power
-LIBS:philips
-LIBS:opto
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motorola
-LIBS:motor_drivers
-LIBS:microcontrollers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:memory
-LIBS:maxim
-LIBS:logo
-LIBS:linear
-LIBS:ir
-LIBS:interface
-LIBS:intel
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:elec-unifil
-LIBS:dsp
-LIBS:display
-LIBS:diode
-LIBS:digital-audio
-LIBS:device
-LIBS:dc-dc
-LIBS:cypress
-LIBS:contrib
-LIBS:conn
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:brooktre
-LIBS:audio
-LIBS:atmel
-LIBS:analog_switches
-LIBS:analog_devices
-LIBS:adc-dac
-LIBS:actel
-LIBS:ac-dc
-LIBS:Zilog
-LIBS:Xicor
-LIBS:Oscillators
-LIBS:Lattice
-LIBS:Altera
-LIBS:74xx
-LIBS:74xgxx
-LIBS:wickerlib
-LIBS:ESP8266
-LIBS:oled_i2c_display_128x64
-LIBS:connector
-LIBS:ws2812b
-LIBS:SPX3819M5-L-1-8
-LIBS:kmr2
+EESchema Schematic File Version 4
 LIBS:001-cache
 EELAYER 26 0
 EELAYER END
@@ -106,7 +18,7 @@ NoConn ~ 10475 6700
 Text GLabel 1900 2700 3    50   Input ~ 0
 GND
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5959B226
 P 6800 2650
 F 0 "#PWR08" H 6800 2400 50  0001 C CNN
@@ -117,7 +29,7 @@ F 3 "" H 6800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 5959B39B
 P 6800 2550
 F 0 "#FLG01" H 6800 2625 50  0001 C CNN
@@ -166,7 +78,7 @@ GPIO14
 Text GLabel 4000 1800 0    50   Input ~ 0
 GPIO12
 $Comp
-L TEST_1P J2
+L conn:TEST_1P J2
 U 1 1 595C92DF
 P 4000 1000
 F 0 "J2" V 3954 1188 50  0000 L CNN
@@ -177,7 +89,7 @@ F 3 "" H 4200 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P J4
+L conn:TEST_1P J4
 U 1 1 595C9490
 P 4000 1200
 F 0 "J4" V 3954 1388 50  0000 L CNN
@@ -188,7 +100,7 @@ F 3 "" H 4200 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P J8
+L conn:TEST_1P J8
 U 1 1 595C94C0
 P 4000 1600
 F 0 "J8" V 3954 1788 50  0000 L CNN
@@ -199,7 +111,7 @@ F 3 "" H 4200 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P J10
+L conn:TEST_1P J10
 U 1 1 595C9770
 P 4000 1800
 F 0 "J10" V 3954 1988 50  0000 L CNN
@@ -210,7 +122,7 @@ F 3 "" H 4200 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_1P J13
+L conn:TEST_1P J13
 U 1 1 595CBBD8
 P 5100 2000
 F 0 "J13" V 5054 2188 50  0000 L CNN
@@ -221,7 +133,7 @@ F 3 "" H 5300 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P J9
+L conn:TEST_1P J9
 U 1 1 595CBBE4
 P 5100 1600
 F 0 "J9" V 5054 1788 50  0000 L CNN
@@ -232,7 +144,7 @@ F 3 "" H 5300 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P J7
+L conn:TEST_1P J7
 U 1 1 595CBBEA
 P 5100 1400
 F 0 "J7" V 5054 1588 50  0000 L CNN
@@ -243,7 +155,7 @@ F 3 "" H 5300 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P J5
+L conn:TEST_1P J5
 U 1 1 595CBBF0
 P 5100 1200
 F 0 "J5" V 5054 1388 50  0000 L CNN
@@ -254,7 +166,7 @@ F 3 "" H 5300 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_1P J3
+L conn:TEST_1P J3
 U 1 1 595CBBF6
 P 5100 1000
 F 0 "J3" V 5054 1188 50  0000 L CNN
@@ -265,7 +177,7 @@ F 3 "" H 5300 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 595C807D
 P 7975 4660
 F 0 "#PWR010" H 7975 4410 50  0001 C CNN
@@ -278,7 +190,7 @@ $EndComp
 Text GLabel 4000 1400 0    50   Input ~ 0
 CH_PD
 $Comp
-L TEST_1P J6
+L conn:TEST_1P J6
 U 1 1 595CF4CC
 P 4000 1400
 F 0 "J6" V 3954 1588 50  0000 L CNN
@@ -291,7 +203,7 @@ $EndComp
 Text GLabel 5100 1800 2    50   Input ~ 0
 GPIO0
 $Comp
-L TEST_1P J11
+L conn:TEST_1P J11
 U 1 1 595E0622
 P 5100 1800
 F 0 "J11" V 5054 1988 50  0000 L CNN
@@ -302,7 +214,7 @@ F 3 "" H 5300 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED-RGB-WS2812B-4SMD LED1
+L wickerlib:LED-RGB-WS2812B-4SMD LED1
 U 1 1 595D0515
 P 2975 3950
 F 0 "LED1" H 3025 4325 50  0000 C CNN
@@ -318,7 +230,7 @@ F 8 "1528-1104-ND" H 2975 3600 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RGB-WS2812B-4SMD LED2
+L wickerlib:LED-RGB-WS2812B-4SMD LED2
 U 1 1 595D08CE
 P 4250 3950
 F 0 "LED2" H 4300 4325 50  0000 C CNN
@@ -334,7 +246,7 @@ F 8 "1528-1104-ND" H 4250 3600 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RGB-WS2812B-4SMD LED3
+L wickerlib:LED-RGB-WS2812B-4SMD LED3
 U 1 1 595D1904
 P 5500 3950
 F 0 "LED3" H 5550 4325 50  0000 C CNN
@@ -350,7 +262,7 @@ F 8 "1528-1104-ND" H 5500 3600 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RGB-WS2812B-4SMD LED4
+L wickerlib:LED-RGB-WS2812B-4SMD LED4
 U 1 1 595D190F
 P 6775 3950
 F 0 "LED4" H 6825 4325 50  0000 C CNN
@@ -366,7 +278,7 @@ F 8 "1528-1104-ND" H 6775 3600 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RGB-WS2812B-4SMD LED5
+L wickerlib:LED-RGB-WS2812B-4SMD LED5
 U 1 1 595D1F1E
 P 7925 3950
 F 0 "LED5" H 7975 4325 50  0000 C CNN
@@ -386,7 +298,7 @@ GPIO5
 Text GLabel 4000 2000 0    50   Input ~ 0
 GPIO13
 $Comp
-L TEST_1P J12
+L conn:TEST_1P J12
 U 1 1 596066B1
 P 4000 2000
 F 0 "J12" V 3954 2188 50  0000 L CNN
@@ -403,7 +315,7 @@ GPIO15
 Text GLabel 5100 2200 2    50   Input ~ 0
 GPIO16
 $Comp
-L TEST_1P J14
+L conn:TEST_1P J14
 U 1 1 5961485E
 P 5100 2200
 F 0 "J14" V 5054 2388 50  0000 L CNN
@@ -416,7 +328,7 @@ $EndComp
 Text GLabel 9600 1075 1    50   Input ~ 0
 +3.3V
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5961C5A4
 P 9825 2600
 F 0 "#PWR07" H 9825 2350 50  0001 C CNN
@@ -427,7 +339,7 @@ F 3 "" H 9825 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5961CBB2
 P 6775 1825
 F 0 "#PWR03" H 6775 1575 50  0001 C CNN
@@ -438,7 +350,7 @@ F 3 "" H 6775 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L power:+3.3V #PWR06
 U 1 1 5961E245
 P 7250 2525
 F 0 "#PWR06" H 7250 2375 50  0001 C CNN
@@ -449,7 +361,7 @@ F 3 "" H 7250 2525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG03
 U 1 1 5961E56A
 P 7250 2650
 F 0 "#FLG03" H 7250 2725 50  0001 C CNN
@@ -466,7 +378,7 @@ VCC
 Text GLabel 1585 3940 0    50   Input ~ 0
 +3.3V
 $Comp
-L VCC #PWR05
+L power:VCC #PWR05
 U 1 1 59624A39
 P 6100 2525
 F 0 "#PWR05" H 6100 2375 50  0001 C CNN
@@ -479,7 +391,7 @@ $EndComp
 Text GLabel 6375 2575 1    50   Input ~ 0
 GND
 $Comp
-L CONN_01X02 J1
+L conn:CONN_01X02 J1
 U 1 1 5961A222
 P 9625 2550
 F 0 "J1" H 9625 2825 50  0000 C CNN
@@ -490,7 +402,7 @@ F 3 "" H 9625 2550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 59624869
 P 6100 2650
 F 0 "#FLG02" H 6100 2725 50  0001 C CNN
@@ -503,7 +415,7 @@ $EndComp
 Text GLabel 1885 6390 2    50   Input ~ 0
 GPIO0
 $Comp
-L R R3
+L pspice:R R3
 U 1 1 597DE794
 P 1610 6115
 F 0 "R3" H 1678 6161 50  0000 L CNN
@@ -518,7 +430,7 @@ GND
 Text Label 1610 5790 2    50   ~ 0
 +3.3V
 $Comp
-L CAP C1
+L pspice:CAP C1
 U 1 1 597E693B
 P 6775 1425
 F 0 "C1" H 6450 1500 50  0000 L CNN
@@ -529,7 +441,7 @@ F 3 "" H 6775 1425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP C2
+L pspice:CAP C2
 U 1 1 597E71A3
 P 9050 1425
 F 0 "C2" H 9228 1471 50  0000 L CNN
@@ -540,7 +452,7 @@ F 3 "" H 9050 1425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L pspice:R R2
 U 1 1 597EC094
 P 5910 6115
 F 0 "R2" H 5978 6161 50  0000 L CNN
@@ -551,7 +463,7 @@ F 3 "" H 5910 6115 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D2
+L device:LED D2
 U 1 1 597EC09A
 P 6410 6115
 F 0 "D2" V 6450 5935 50  0000 R CNN
@@ -564,7 +476,7 @@ $EndComp
 Text Label 5560 6115 2    50   ~ 0
 +3.3V
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 597EE12E
 P 6660 6115
 F 0 "#PWR011" H 6660 5865 50  0001 C CNN
@@ -577,7 +489,7 @@ $EndComp
 Text GLabel 4000 2225 0    50   Input ~ 0
 VCC
 $Comp
-L TEST_1P J15
+L conn:TEST_1P J15
 U 1 1 597EFFAB
 P 4000 2225
 F 0 "J15" V 3954 2413 50  0000 L CNN
@@ -590,7 +502,7 @@ $EndComp
 Text GLabel 4760 6390 2    50   Input ~ 0
 CH_PD
 $Comp
-L R R4
+L pspice:R R4
 U 1 1 597F3F98
 P 4485 6115
 F 0 "R4" H 4553 6161 50  0000 L CNN
@@ -604,7 +516,7 @@ Text Label 4485 5790 2    50   ~ 0
 +3.3V
 NoConn ~ 8475 4200
 $Comp
-L ESP-12 U1
+L ESP8266:ESP-12 U1
 U 1 1 597FDE8C
 P 1900 1800
 F 0 "U1" H 1750 2675 50  0000 C CNN
@@ -619,7 +531,7 @@ Text GLabel 1900 900  1    50   Input ~ 0
 Text GLabel 6775 900  1    50   Input ~ 0
 VBAT
 $Comp
-L SPX3819M5-L-1-8-RESCUE-001 U2
+L 001-rescue:SPX3819M5-L-1-8-RESCUE-001 U2
 U 1 1 5980EF98
 P 8150 1275
 F 0 "U2" H 8150 1745 50  0000 C CNN
@@ -635,7 +547,7 @@ F 8 "Exar" H 8150 1275 50  0001 L BNN "MF"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE-SCHOTTKY-40V-1A-MBRA140-SMA D1
+L wickerlib:DIODE-SCHOTTKY-40V-1A-MBRA140-SMA D1
 U 1 1 598120B7
 P 6775 1075
 F 0 "D1" H 6707 1075 50  0000 R CNN
@@ -651,7 +563,7 @@ F 8 "VS-MBRA140TRPBFCT-ND" H 6775 725 50  0001 C CIN "S1_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L pspice:R R5
 U 1 1 59813F83
 P 7050 1425
 F 0 "R5" H 7118 1471 50  0000 L CNN
@@ -663,7 +575,7 @@ F 3 "" H 7050 1425 50  0001 C CNN
 $EndComp
 NoConn ~ 7450 1475
 $Comp
-L CAP C4
+L pspice:CAP C4
 U 1 1 5981D4E1
 P 9600 1425
 F 0 "C4" H 9778 1471 50  0000 L CNN
@@ -674,7 +586,7 @@ F 3 "" H 9600 1425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 59820FE1
 P 7450 1825
 F 0 "#PWR04" H 7450 1575 50  0001 C CNN
@@ -685,7 +597,7 @@ F 3 "" H 7450 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 598213B8
 P 9050 1775
 F 0 "#PWR01" H 9050 1525 50  0001 C CNN
@@ -696,7 +608,7 @@ F 3 "" H 9050 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5982188B
 P 9600 1775
 F 0 "#PWR02" H 9600 1525 50  0001 C CNN
@@ -707,7 +619,7 @@ F 3 "" H 9600 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 2550 6800 2650
+	6800 2550 6800 2625
 Wire Wire Line
 	2525 4200 2425 4200
 Wire Wire Line
@@ -719,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	7325 4200 7475 4200
 Wire Wire Line
-	2450 3940 2450 3475
+	2450 3940 2450 3800
 Wire Wire Line
 	6325 3800 6200 3800
 Wire Wire Line
@@ -753,7 +665,7 @@ Wire Wire Line
 	6375 2625 6800 2625
 Connection ~ 6800 2625
 Wire Wire Line
-	1385 6390 1885 6390
+	1385 6390 1610 6390
 Wire Wire Line
 	6160 6115 6260 6115
 Wire Wire Line
@@ -778,9 +690,9 @@ Wire Wire Line
 Wire Notes Line
 	5750 2950 5750 475 
 Wire Wire Line
-	2450 3475 7475 3475
+	2450 3475 3675 3475
 Wire Wire Line
-	6600 1175 7450 1175
+	6600 1175 6775 1175
 Wire Wire Line
 	7225 1375 7450 1375
 Wire Wire Line
@@ -797,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	6775 1825 6775 1675
 Wire Wire Line
-	8850 1175 9600 1175
+	8850 1175 9050 1175
 Connection ~ 9050 1175
 Wire Wire Line
 	9050 1675 9050 1775
@@ -821,7 +733,7 @@ BUTTONS & LED
 Text GLabel 4000 2425 0    50   Input ~ 0
 GND
 $Comp
-L TEST_1P J16
+L conn:TEST_1P J16
 U 1 1 597F8C82
 P 4000 2425
 F 0 "J16" V 3954 2613 50  0000 L CNN
@@ -834,7 +746,7 @@ $EndComp
 Text GLabel 1365 7520 2    50   Input ~ 0
 GPIO15
 $Comp
-L R R6
+L pspice:R R6
 U 1 1 59827555
 P 1090 7245
 F 0 "R6" H 1158 7291 50  0000 L CNN
@@ -855,7 +767,7 @@ Wire Wire Line
 Text GLabel 3065 7450 2    50   Input ~ 0
 GPIO2
 $Comp
-L R R7
+L pspice:R R7
 U 1 1 59827AAC
 P 2790 7175
 F 0 "R7" H 2858 7221 50  0000 L CNN
@@ -874,14 +786,14 @@ Wire Wire Line
 Wire Wire Line
 	2790 7450 3065 7450
 $Comp
-L SW_Push SW1
+L switches:SW_Push SW1
 U 1 1 59827AA6
 P 1085 6290
 F 0 "SW1" H 1085 6545 50  0000 C CNN
 F 1 "USER/PROG" H 1085 6454 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 1085 5940 50  0001 C CIN
-F 3 "http://www.omron.com/ecb/products/pdf/en-b3fs_4.pdf" H 1085 6290 10  0001 C CNN
-F 4 "SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P" H 1085 5940 50  0001 C CIN "Description"
+F 3 "http://www.farnell.com/datasheets/1685550.pdf?_ga=2.116247558.1484138431.1521495642-1780932867.1514569472&_gac=1.55766361.1520389883.CjwKCAiAlfnUBRBQEiwAWpPA6RWky9XOIytE5-X3cC5bptr23UF3-ICROE-gIlZmVLIabh4DbtqGyRoCi7cQAvD_BwE" H 1085 6290 10  0001 C CNN
+F 4 "B3U-1000P -  Tactile Switch, Ultra Small, Non Illuminated, 12 V, 50 mA, 1.5 N, SMD, B3U Series" H 1085 5940 50  0001 C CIN "Description"
 F 5 "Omron" H 1085 5940 50  0001 C CIN "MF_Name"
 F 6 "B3F-4002P" H 1085 5940 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 1085 5940 50  0001 C CIN "S1_Name"
@@ -898,7 +810,7 @@ Wire Wire Line
 Text GLabel 3705 6385 2    50   Input ~ 0
 REST
 $Comp
-L R R1
+L pspice:R R1
 U 1 1 59829409
 P 3430 6110
 F 0 "R1" H 3498 6156 50  0000 L CNN
@@ -913,28 +825,12 @@ GND
 Text Label 3430 5785 2    50   ~ 0
 +3.3V
 Wire Wire Line
-	3205 6385 3705 6385
+	3205 6385 3430 6385
 Wire Wire Line
 	3430 6360 3430 6385
 Connection ~ 3430 6385
 Wire Wire Line
 	3430 5860 3430 5785
-$Comp
-L SW_Push SW2
-U 1 1 5982941A
-P 2905 6285
-F 0 "SW2" H 2905 6540 50  0000 C CNN
-F 1 "RESET" H 2905 6449 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 2905 5935 50  0001 C CIN
-F 3 "http://www.omron.com/ecb/products/pdf/en-b3fs_4.pdf" H 2905 6285 5   0001 C CNN
-F 4 "SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P" H 2905 5935 50  0001 C CIN "Description"
-F 5 "Omron" H 2905 5935 50  0001 C CIN "MF_Name"
-F 6 "B3F-4002P" H 2905 5935 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 2905 5935 50  0001 C CIN "S1_Name"
-F 8 "SW1278CT-ND" H 2905 5935 50  0001 C CIN "S1_PN"
-	1    2905 6285
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3205 6285 3205 6385
 Wire Wire Line
@@ -942,16 +838,16 @@ Wire Wire Line
 Wire Wire Line
 	2605 6385 2520 6385
 Wire Wire Line
-	1585 3940 2450 3940
+	1585 3940 1740 3940
 Wire Wire Line
 	1740 3940 1740 4015
 Wire Wire Line
-	7975 4660 3025 4660
+	7975 4660 6825 4660
 Connection ~ 6825 4660
 Connection ~ 5550 4660
 Connection ~ 4300 4660
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 59894DC3
 P 1740 4515
 F 0 "#PWR09" H 1740 4265 50  0001 C CNN
@@ -980,7 +876,7 @@ Wire Notes Line
 Text Notes 8400 5365 0    50   ~ 0
 DEEP SLEEP
 $Comp
-L GS2 J17
+L conn:GS2 J17
 U 1 1 59C6C3C4
 P 8625 5810
 F 0 "J17" V 8420 5810 50  0000 C CNN
@@ -1003,7 +899,7 @@ GPIO16
 Text GLabel 5100 1600 2    50   Input ~ 0
 GPIO4
 $Comp
-L CAP C3
+L pspice:CAP C3
 U 1 1 59C7B9C8
 P 1740 4265
 F 0 "C3" H 1905 4275 50  0000 L CNN
@@ -1011,6 +907,50 @@ F 1 "22nF" V 1530 4185 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1740 4265 50  0001 C CNN
 F 3 "" H 1740 4265 50  0001 C CNN
 	1    1740 4265
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3475 7475 3475
+Wire Wire Line
+	4925 3475 6200 3475
+Wire Wire Line
+	3675 3475 4925 3475
+Wire Wire Line
+	6800 2625 6800 2650
+Wire Wire Line
+	1610 6390 1885 6390
+Wire Wire Line
+	6775 1175 7050 1175
+Wire Wire Line
+	9050 1175 9600 1175
+Wire Wire Line
+	7050 1175 7450 1175
+Wire Wire Line
+	3430 6385 3705 6385
+Wire Wire Line
+	6825 4660 5550 4660
+Wire Wire Line
+	5550 4660 4300 4660
+Wire Wire Line
+	4300 4660 3025 4660
+Wire Wire Line
+	2450 3800 2450 3475
+Wire Wire Line
+	1740 3940 2450 3940
+$Comp
+L switches:SW_Push SW2
+U 1 1 5AB0578F
+P 2905 6285
+F 0 "SW2" H 2905 6540 50  0000 C CNN
+F 1 "RESET" H 2905 6449 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 2905 5935 50  0001 C CIN
+F 3 "http://www.farnell.com/datasheets/1685550.pdf?_ga=2.116247558.1484138431.1521495642-1780932867.1514569472&_gac=1.55766361.1520389883.CjwKCAiAlfnUBRBQEiwAWpPA6RWky9XOIytE5-X3cC5bptr23UF3-ICROE-gIlZmVLIabh4DbtqGyRoCi7cQAvD_BwE" H 2905 6285 10  0001 C CNN
+F 4 "B3U-1000P -  Tactile Switch, Ultra Small, Non Illuminated, 12 V, 50 mA, 1.5 N, SMD, B3U Series" H 2905 5935 50  0001 C CIN "Description"
+F 5 "Omron" H 2905 5935 50  0001 C CIN "MF_Name"
+F 6 "B3F-4002P" H 2905 5935 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 2905 5935 50  0001 C CIN "S1_Name"
+F 8 "SW1278CT-ND" H 2905 5935 50  0001 C CIN "S1_PN"
+	1    2905 6285
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

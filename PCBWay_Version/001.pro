@@ -1,4 +1,4 @@
-update=Sun 04 Feb 2018 08:34:47 AM MST
+update=Thu 15 Mar 2018 07:08:01 PM MST
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,16 +25,16 @@ BoardOutlineThickness=0.152400000000
 ModuleOutlineThickness=0.152400000000
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/home/greynaga/Desktop/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
-[eeschema]
-version=1
-LibDir=
