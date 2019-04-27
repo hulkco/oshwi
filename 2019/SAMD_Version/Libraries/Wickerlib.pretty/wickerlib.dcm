@@ -1,0 +1,1816 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5050-RGB-LED-with-Integrated-Chip-Driver
+D 5050 RGB LED with Integrated Chip Driver
+F https://www.adafruit.com/images/product-files/1138/SK6812%20LED%20datasheet%20.pdf
+$ENDCMP
+#
+$CMP ADAFRUIT-CC3000-WIFI-BREAKOUT
+D ADAFRUIT CC3000 WIFI BREAKOUT  V1.1
+F https://www.adafruit.com/product/1469
+$ENDCMP
+#
+$CMP ADAFRUIT-FONA-808-GPS
+D ADAFRUIT FONA 808 + GPS
+F https://www.adafruit.com/products/2542
+$ENDCMP
+#
+$CMP ANT-CALVUS-A10340
+D ANTENNA CALVUS 824-960MHZ SMD
+F http://media.digikey.com/PDF/Data%20Sheets/Antenova/A10340.pdf
+$ENDCMP
+#
+$CMP ARDUINO-UNO-SHIELD
+D ARDUINO UNO SHIELD
+F https://www.adafruit.com/product/94
+$ENDCMP
+#
+$CMP BATT-CR1220-HOLDER-SMT-FLATPIN
+D CR1220 BATTERY HOLDER SMT FLATPIN
+$ENDCMP
+#
+$CMP BATT-CR1220-HOLDER-SMT-TH-PINS
+D CR1220 BATTERY HOLDER SMT TH PINS
+$ENDCMP
+#
+$CMP BATT-LIPO-3.7V-150MAH-JST-2PIN
+D Lithium Ion Polymer Battery - 3.7v 150mAh
+F https://cdn-shop.adafruit.com/product-files/1317/C1515_-_Li-Polymer_402025_150mAh_3.7V_with_PCM.pdf
+$ENDCMP
+#
+$CMP BATT-LIPO-3.7V-500MAH-JST-2PIN
+D Lithium Ion Polymer Battery - 3.7v 500mAh
+F https://cdn-shop.adafruit.com/product-files/1578/C1854+PKCell+Datasheet+Li-Polymer+503035+500mAh+3.7V+with+PCM.pdf
+$ENDCMP
+#
+$CMP BATT-STRAP-CR2032-SMT-POINTYPIN
+D CR2032 BATTERY STRAP SMT PC PINS
+F http://www.memoryprotectiondevices.com/datasheets/BC-2003-datasheet.pdf
+$ENDCMP
+#
+$CMP BJT-NPN-40V-0.2A-MMBT3904
+D TRANS NPN 40V 0.6A SOT23
+F http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF
+$ENDCMP
+#
+$CMP BJT-NPN-40V-0.6A-MMBT2222
+D TRANS NPN 40V 0.6A SOT23
+F http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF
+$ENDCMP
+#
+$CMP BJT-NPN-45V-0.1A-BC547BTA
+D TRANS NPN 45V 0.1A TO-92
+F http://www.fairchildsemi.com/datasheets/BC/BC546.pdf
+$ENDCMP
+#
+$CMP BJT-PNP-60V-0.6A-MMBT2907
+D TRANS PNP 60V 0.6A SOT23-3
+F http://www.diodes.com/_files/datasheets/ds30040.pdf
+$ENDCMP
+#
+$CMP BREAKOUT-ADA-ULTIMATE-GPS-BREAKOUT-V3
+D ADAFRUIT ULTIMATE GPS BREAKOUT V3
+F https://www.adafruit.com/products/746
+$ENDCMP
+#
+$CMP BREAKOUT-ARDU-PRO-MINI-5V-16MHz
+D ARDUINO PRO MINI 328 – 5V/16MHz
+F https://www.sparkfun.com/products/11113
+$ENDCMP
+#
+$CMP BREAKOUT-ARDU-PRO-TRINKET-5V-HACKADAY-VERSION
+D ADAFRUIT PRO TRINKET 5V HACKADAY VERSION
+F https://www.adafruit.com/products/2000
+$ENDCMP
+#
+$CMP BREAKOUT-FT232H
+D Adafruit FT232H USB to GPIO+SPI+I2C
+F https://www.adafruit.com/products/2264
+$ENDCMP
+#
+$CMP BREAKOUT-FTDI-FRIEND-FT232R
+D FTDI Friend FT232R Breakout
+F https://www.sparkfun.com/products/9716
+$ENDCMP
+#
+$CMP BREAKOUT-MAX31855-V2
+D MAX31855 Breakout Board v2
+F https://www.adafruit.com/products/269
+$ENDCMP
+#
+$CMP BREAKOUT-NANITE841-DIP8
+D WATTUINO NANITE841
+F https://github.com/watterott/wattuino
+$ENDCMP
+#
+$CMP BUZZER-4KHZ-SINGLE-TONE-SMT
+D SPEAKER 8 OHM .25W 23MM ROUND
+F http://www.mallory-sonalert.com/specifications/PSR-23F08S-JQ.PDF
+$ENDCMP
+#
+$CMP CAP-CER-0.022UF-50V-X7R-0603
+D CAP CER 0.022UF 50V X7R 0603
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B223KB8SFNC.jsp
+$ENDCMP
+#
+$CMP CAP-CER-0.022UF-50V-X7R-RADIAL
+D CAP CER 0.022UF 50V X7R 0603
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B223KB8SFNC.jsp
+$ENDCMP
+#
+$CMP CAP-CER-0.033UF-50V-C0G-RADIAL
+D CAP CER 0.033UF 50V C0G RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-0.1UF-100V-X7R-0603
+D CAP CER 0.1UF 100V X7R 0603
+F http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf
+$ENDCMP
+#
+$CMP CAP-CER-0.1UF-25V-X7R-0805
+D CAP CER 0.1UF 25V X7R 0805
+F http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL21B104KACNNNC.pdf
+$ENDCMP
+#
+$CMP CAP-CER-0.1UF-35V-X7R-0402
+D CAP CER 0.1UF 35V X7R 0402
+F https://product.tdk.com/info/en/documents/chara_sheet/C1005X7R1V104K050BB.pdf
+$ENDCMP
+#
+$CMP CAP-CER-0.1UF-50V-C0G-RADIAL
+D CAP CER 0.1UF 50V C0G RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-0.33UF-50V-X7R-RADIAL
+D CAP CER 0.33UF 50V X7R RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-0.47UF-100V-X7R-RADIAL
+D CAP CER 0.47UF 100V X7R RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-10000PF-50V-C0G-RADIAL
+D CAP CER 10000PF 50V C0G RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-10000PF-50V-X7R-0603
+D CAP CER 10000PF 50V X7R 0603
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NNNC.jsp
+$ENDCMP
+#
+$CMP CAP-CER-1000PF-50V-X7R-0603
+D CAP CER 1000PF 50V X7R 0603
+F http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H102KA01-01.pdf
+$ENDCMP
+#
+$CMP CAP-CER-100NF-10V-X7R-0402
+D CAP CER 0.1UF 10V X7R 0402
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL05B104KO5NNNC.jsp
+$ENDCMP
+#
+$CMP CAP-CER-100NF-16V-X7R-0402
+D CAP CER 0.1UF 16V X7R 0402
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL05B104KO5NNNC.jsp
+$ENDCMP
+#
+$CMP CAP-CER-100UF-6.3V-X5R-RADIAL
+D CAP CER 100UF 6.3V X5R RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-10NF-100V-X7S-0402
+D CAP CER 10000PF 100V X7S 0402
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-10NF-50V-X7R-0402
+D CAP CER 10000PF 50V X7R 0402
+F http://www.digikey.com/en/ptm/k/kemet/capacitor-basics---typical-uses-for-capacitors?WT.pn_sku=399-3027-1-ND&WT.z_part_id=447601&WT.z_video_source=Part_Detail
+$ENDCMP
+#
+$CMP CAP-CER-10NF-50V-X7R-0603
+D CAP CER 10000PF 100V X7S 0402
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-10PF-50V-NP0-0603
+D CAP CER 10PF 50V NP0 0603
+F http://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10C100JB8NCNC_spec.pdf
+$ENDCMP
+#
+$CMP CAP-CER-10UF-16V-X5R-RADIAL
+D CAP CER 10UF 16V X5R RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-10UF-16V-X7R-0805
+D CAP CER 10UF 16V X7R 0805
+F http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL21B104KACNNNC.pdf
+$ENDCMP
+#
+$CMP CAP-CER-10UF-25V-X7R-1210
+D CAP CER 10UF 25V X7R 1210
+$ENDCMP
+#
+$CMP CAP-CER-10UF-25V-X7R-RADIAL
+D CAP CER 10UF 25V X7R RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-120PF-50V-NP0-0603
+D CAP CER 120PF 50V NP0 0603
+F http://www.kemet.com/docfinder?Partnumber=C0603C121J5GACTU
+$ENDCMP
+#
+$CMP CAP-CER-15000PF-50V-X7R-RADIAL
+D CAP CER 15000PF 50V X7R RADIAL
+F https://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/RDE%20Series.pdf
+$ENDCMP
+#
+$CMP CAP-CER-150PF-50V-NP0-RADIAL
+D CAP CER 150PF 50V NP0 RADIAL
+F http://www.vishay.com/docs/45171/kseries.pdf
+$ENDCMP
+#
+$CMP CAP-CER-16PF-100V-X7S-0402
+D CAP CER 16PF 50V NP0 0402
+F http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H160JA01-01.pdf
+$ENDCMP
+#
+$CMP CAP-CER-18PF-16V-NP0-0603
+D CAP CER 18PF 16V NP0 0603
+F http://www.kemet.com/docfinder?Partnumber=C0603C180J4GACTU
+$ENDCMP
+#
+$CMP CAP-CER-1UF-10V-X7R-0603
+D CAP CER 1UF 10V X7R 0603
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B105KP8NNNC.jsp
+$ENDCMP
+#
+$CMP CAP-CER-1UF-16V-X7R-RADIAL
+D CAP CER 1UF 16V X7R RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-1UF-25V-X7R-0603
+D CAP CER 1UF 25V X7R 0603
+F http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=TMK107B7105KA-T&fileName=TMK107B7105KA-T_SS&mode=specSheetDownload
+$ENDCMP
+#
+$CMP CAP-CER-1UF-25V-X7R-0805
+D CAP CER 1UF 25V X7R 0805
+F http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL21B104KACNNNC.pdf
+$ENDCMP
+#
+$CMP CAP-CER-1UF-35V-X5R-0402
+D CAP CER 1UF 35V X5R 0402
+F https://product.tdk.com/info/en/documents/chara_sheet/C1005X5R1V105K050BC.pdf
+$ENDCMP
+#
+$CMP CAP-CER-1UF-6.3V-X5R-0402
+D CAP CER 1UF 6.3V X5R 0402
+F http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J105KE19-01.pdf
+$ENDCMP
+#
+$CMP CAP-CER-2.2UF-10V-X7R-0603
+D CAP CER 2.2UF 10V X7R 0603
+F http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL%20links/LMK107B7225KA-T.pdf
+$ENDCMP
+#
+$CMP CAP-CER-2.2UF-25V-X7R-0805
+D CAP CER 2.2UF 25V X7R 0805
+$ENDCMP
+#
+$CMP CAP-CER-2200PF-50V-X7R-RADIAL
+D CAP CER 2200PF 50V X7R RADIAL
+F https://product.tdk.com/info/en/documents/spec/leadmlccspec_conventional_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-220UF-50V-ALUM-RADIAL
+D CAP CER 1UF 16V X7R RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-22UF-25V-X7R-1210
+D CAP CER 22UF 25V X7R 1210
+$ENDCMP
+#
+$CMP CAP-CER-33PF-16V-X7R-0603
+D CAP CER 33PF 16V X7R 0603
+F http://catalogs.avx.com/SurfaceMount.pdf
+$ENDCMP
+#
+$CMP CAP-CER-4.7UF-6.3V-X5R-0402
+D CAP CER 4.7UF 6.3V X5R 0402
+F https://product.tdk.com/info/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-4.7UF-6.3V-X7R-0603
+D CAP CER 4.7UF 6.3V X7R 0603
+F http://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B475KQ8NQNC_Spec.pdf
+$ENDCMP
+#
+$CMP CAP-CER-4700PF-50V-C0G-RADIAL
+D CAP CER 4700PF 50V C0G RADIAL
+F https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf
+$ENDCMP
+#
+$CMP CAP-CER-470PF-50V-X7R-0402
+D CAP CER 470PF 50V X7R 0402
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL05B471KB5NNNC.jsp
+$ENDCMP
+#
+$CMP CAP-CER-47UF-25V-X5R-RADIAL
+D CAP CER 47UF 25V X5R RADIAL
+$ENDCMP
+#
+$CMP CAP-CER-560PF-50V-X7R-0402
+D CAP CER 560PF 50V X7R 0402
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL05B561KB5NNNC.jsp
+$ENDCMP
+#
+$CMP CAP-CER-6800PF-50V-X7R-0603
+D CAP CER 6800PF 50V X7R 0603
+F http://www.kemet.com/docfinder?Partnumber=C0603C121J5GACTU
+$ENDCMP
+#
+$CMP CAP-CER-8.2PF-50V-NP0-RADIAL
+D CAP CER 8.2PF 50V NP0 RADIAL
+F http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf
+$ENDCMP
+#
+$CMP CAPSENSE_CIRCLE
+D CAPSENSE PAD CIRCLE
+$ENDCMP
+#
+$CMP CONN-BNC-JACK-R/A-50-OHM-TH
+D CONN BNC JACK R/A 50 OHM PCB
+F http://www.molex.com/pdm_docs/sd/731000105_sd.pdf
+$ENDCMP
+#
+$CMP CONN-HEADER-LIPO-PH-SIDE-2POS-2MM-SMD
+D CONN HEADER PH SIDE 2POS 2MM SMD
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
+$CMP CONN-JACK-STEREO-R/A-3PIN-3.5MM
+D CONN JACK STEREO R/A 3PIN 3.5MM
+F http://www.cui.com/product/resource/digikeypdf/sj1-352xn_series.pdf
+$ENDCMP
+#
+$CMP CONN-MICRO-SD-CARD-HINGED-TYPE
+D CONN MICRO SD CARD HINGED TYPE
+F http://www.molex.com/pdm_docs/sd/5009010801_sd.pdf
+$ENDCMP
+#
+$CMP CONN-MICRO-SD-CARD-PUSH-PULL
+D CONN MICRO SD CARD PUSH-PULL
+$ENDCMP
+#
+$CMP CONN-PWR-JACK-2.0X6.5MM-HIGH-CUR
+D CONN PWR JACK 2.5X5.5MM HIGH CUR
+F http://www.cui.com/product/resource/digikeypdf/pj-202ah.pdf
+$ENDCMP
+#
+$CMP CONN-PWR-JACK-2.5X5.5MM-HIGH-CUR
+D CONN PWR JACK 2.5X5.5MM HIGH CUR
+F http://www.cui.com/product/resource/digikeypdf/pj-202bh.pdf
+$ENDCMP
+#
+$CMP CONN-SD-CARD-PUSH-PULL-R/A-SMD
+D CONN SD CARD PUSH-PULL R/A SMD
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2041021&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP CONN-SIM/SAM-CARD-HINGED-TYPE-C707SIM
+D CONN SIM/SAM CARD HINGED TYPE
+F http://www.amphenol.info/downloads/C707_10M006_500_2.pdf
+$ENDCMP
+#
+$CMP CONN-SMA-JACK-R/A-50-OHM-TH
+D CONN SMA JACK R/A 50 OHM PCB
+F http://drawings.amphenolrf.com/Customer_Outline/C901-143-6RFX.pdf
+$ENDCMP
+#
+$CMP CONN-SMA-JACK-STR-50-OHM-TH
+D CONN SMA JACK STR 50 OHM TH
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814832&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP CONN-TERM-SCREW-GREEN-2.54MM-2POS-TH
+D CONN TERM SCREW GREEN 2.54MM 2POS TH
+F http://www.on-shore.com/sites/default/files/manuals/ostvnxxa150.pdf
+$ENDCMP
+#
+$CMP CONN-TERM-SCREW-GREEN-2.54MM-3POS-TH
+D CONN TERM SCREW GREEN 2.54MM 3POS TH
+F http://www.on-shore.com/sites/default/files/manuals/ostvnxxa150.pdf
+$ENDCMP
+#
+$CMP CONN-UFL-HIROSE-R-SMD
+D CONN UFL JACK STR 50 OHM SMD
+$ENDCMP
+#
+$CMP CONN-USB-A-R/A
+D CONN USB-A R/A
+F http://www.keyelco.com/product-pdf.cfm?p=2859
+$ENDCMP
+#
+$CMP CONN-USB-MICRO-B-10118193
+D USB MICRO-B RECEPTACLE 5PIN SMT R/A STUDS
+F http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf
+$ENDCMP
+#
+$CMP CRYSTAL-16MHZ-18PF-40OHM-CTS-4SMD
+D CRYSTAL 16MHZ 30PPM 18pF 4SMD
+F http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf
+$ENDCMP
+#
+$CMP CRYSTAL-20MHZ-18PF-40OHM-CTS-4SMD
+D CRYSTAL 20MHZ 18pF 4SMD
+F http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf
+$ENDCMP
+#
+$CMP CRYSTAL-25MHZ-18PF-100OHM-TXC-8Y-4SMD
+D CRYSTAL 25MHZ 8pF 100 OHM 4SMD
+F http://www.txccrystal.com/images/pdf/8y.pdf
+$ENDCMP
+#
+$CMP CRYSTAL-25MHZ-18pF-40OHM-CTS-4SMD
+D CRYSTAL 25MHZ 8pF 40 OHM 4SMD
+F http://www.ctscorp.com/wp-content/uploads/2015/11/008-0260-0.pdf
+$ENDCMP
+#
+$CMP CRYSTAL-25MHZ-CB3-3C-CTS-4SMD
+D CRYSTAL 25MHz XO 4SMD
+F http://www.ctscorp.com/wp-content/uploads/2015/11/008-0256-0.pdf
+$ENDCMP
+#
+$CMP CRYSTAL-8MHZ-18PF-140OHM-ABM3-2SMD
+D CRYSTAL 8MHz 140 OHM 2SMD
+F http://www.abracon.com/Resonators/abm3.pdf
+$ENDCMP
+#
+$CMP DIODE-GEN-PURP-50V-1A-1N4001-DO41
+D DIODE GEN PURP 50V 1A 1N4001 DO41
+F http://www.mccsemi.com/up_pdf/1N4001-1N4007(DO-41).pdf
+$ENDCMP
+#
+$CMP DIODE-GEN-PURP-75V-250MA-1N4148WTR-SOD123
+D DIODE GEN PURP 75V 250MA 1N4148WTR SOD123
+$ENDCMP
+#
+$CMP DIODE-GEN-PURP-75V-250MA-BAS16-SOD323
+D DIODE GEN PURP 75V 250MA BAS16 SOD323
+F http://www.vishay.com/docs/85752/bas16ws.pdf
+$ENDCMP
+#
+$CMP DIODE-SCHOTTKY-20V-1A-SS12-SMA
+D DIODE SCHOTTKY 20V 1A SS12 SMA
+F http://www.vishay.com/docs/88746/ss12.pdf
+$ENDCMP
+#
+$CMP DIODE-SCHOTTKY-40V-1A-MBRA140-SMA
+D DIODE SCHOTTKY 40V 1A MBRA140 SMA
+F http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf
+$ENDCMP
+#
+$CMP DIODE-SCHOTTKY-40V-250MA-NSR0240H-SOD323
+D DIODE SCHOTTKY 40V 250MA NSR0240H SOD323
+F http://www.onsemi.com/pub_link/Collateral/NSR0240H-D.PDF
+$ENDCMP
+#
+$CMP DIODE-SCHOTTKY-40V-3A-SSA34-E3-SMA
+D DIODE SCHOTTKY 40V 3A SSA34-E3 SMA
+$ENDCMP
+#
+$CMP DIODE-TVS-CG0603MLC-05E
+D TVS VARISTOR ESD PROTECT USB
+F http://www.bourns.com/docs/Product-Datasheets/MLC.pdf
+$ENDCMP
+#
+$CMP DIODE-TVS-SMAJ14A-13-F-SMA
+D  TVS DIODE 14VWM 23.2VC SMAJ14A-13-F SMA
+F http://www.diodes.com/_files/datasheets/ds19005.pdf
+$ENDCMP
+#
+$CMP DIODE-TVS-TPD3E001-SOT5
+D DIODE TVS TPD3E001  SOT5
+F http://www.ti.com/lit/ds/symlink/tpd3e001.pdf
+$ENDCMP
+#
+$CMP DIODE-ZENER-3.6V-1.5W-1SMA5914BT3G-SMA
+D DIODE ZENER 3.6V 1.5W 1SMA5914BT3G SMA
+F http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF
+$ENDCMP
+#
+$CMP DIODE-ZENER-3.6V-1W-BZX85C3V6-DO41
+D DIODE ZENER 3.6V 1W BZX85C3V6 DO41
+F http://www.fairchildsemi.com/datasheets/BZ/BZX85C10.pdf
+$ENDCMP
+#
+$CMP DIP-SWITCH-8POS
+D SWITCH TOGGLE SPDT 5A 120V
+F https://www.e-switch.com/system/asset/product_line/data_sheet/129/100.pdf
+$ENDCMP
+#
+$CMP EM-506-GPS-RECEIVER
+D EM-506 GPS RECEIVER
+F http://cdn.sparkfun.com/datasheets/GPS/EM506_um.pdf
+$ENDCMP
+#
+$CMP FERRITE-BEAD-220-OHM-0402-1LN
+D FERRITE BEAD 220 OHM 0402 1LN
+F http://cdn.lairdtech.com/home/brandworld/files/Catalog_EMI%20Filtering%20&%20RF%20Inductors.pdf
+$ENDCMP
+#
+$CMP FIXED-IND-10UH-225MA-1.2-OHM-SMD
+D FIXED IND 10UH 225MA 1.2 OHM SMD
+F http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0103LQH2MC_02.pdf
+$ENDCMP
+#
+$CMP FIXED-IND-3.3NH-500MA-150-MOHM
+D FIXED IND 3.3NH 500MA 150 MOHM
+F http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0083LQG18H.pdf
+$ENDCMP
+#
+$CMP FIXED-IND-3.3UH-575MA-300-MOHM
+D FIXED IND 3.3UH 575MA 300 MOHM
+F http://www.bourns.com/docs/Product-Datasheets/78f_series.pdf
+$ENDCMP
+#
+$CMP FIXED-IND-4.7UH-600MA-344.5-MOHM
+D FIXED IND 4.7UH 600MA 344.5 MOHM
+F http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BRC2012T4R7MD&fileName=BRC2012T4R7MD_SS&mode=specSheetDownload
+$ENDCMP
+#
+$CMP FIXED-IND-6.8NH-430MA-250-MOHM
+D FIXED IND 6.8NH 430MA 250 MOHM
+F http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0083LQG18H.pdf
+$ENDCMP
+#
+$CMP FUSE-RESET-1.1A-25V-MF-MSMF
+D RESETTABLE FUSE 1.1A 25V
+F http://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf
+$ENDCMP
+#
+$CMP FUSE-RESET-500MA-15V-MF-MSMF
+D RESETTABLE FUSE 500mA 15V USB
+F http://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-10POS-SMT-2x5-P2MM
+D HEADER FEMALE 10POS 2x5 2MM
+F http://www.sullinscorp.com/images/NPPNxx2FFKx-RC-10485.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-10POS-TH-1x10-P0.1IN
+D HEADER FEMALE 10POS TH 1x10 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-11POS-TH-1x11-P0.1IN
+D HEADER FEMALE 11POS TH 1x11 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-12POS-TH-1x12-P0.1IN
+D HEADER FEMALE 12POS TH 1x12 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-13POS-TH-1x13-P0.1IN
+D HEADER FEMALE 13POS TH 1x13 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-14POS-TH-1x14-P0.1IN
+D HEADER FEMALE 14POS TH 1x14 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-15POS-TH-1x15-P0.1IN
+D HEADER FEMALE 15POS TH 1x15 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-16POS-TH-1x16-P0.1IN
+D HEADER FEMALE 16POS TH 1x16 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-17POS-TH-1x17-P0.1IN
+D HEADER FEMALE 17POS TH 1x17 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-18POS-SMT-2x9-P2MM
+D HEADER FEMALE 18POS 2x9 2MM
+F http://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/NPPNxx2GFNx-RC%2010484(1).pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-18POS-TH-1x18-P0.1IN
+D HEADER FEMALE 18POS TH 1x18 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-19POS-TH-1x19-P0.1IN
+D HEADER FEMALE 19POS TH 1x19 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-20POS-TH-1x20-P0.1IN
+D HEADER FEMALE 20POS TH 1x20 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-20POS-TH-2x20-P0.1IN
+D HEADER FEMALE 20POS TH 2x20 0.1”
+F http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC_10492-H.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-25POS-TH-1x25-P0.1IN
+D HEADER FEMALE 25POS TH 1x25 0.1”
+F http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC_10492-H.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-2POS-TH-1x02-P0.1IN
+D HEADER FEMALE 2POS TH 1x02 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-30POS-SMT-2x15-P0.05IN-KEYED
+D HEADER FEMALE 30POS 2x15 0.05” SMT KEYED
+F http://suddendocs.samtec.com/catalog_english/sfm.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-30POS-TH-2x15-P0.05IN-KEYED
+D HEADER FEMALE 30POS 2x15 0.05” TH KEYED
+F http://suddendocs.samtec.com/catalog_english/sfm.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-34POS-FFC-SMT-1x34-P0.5MM
+D HEADER FEMALE 34POS SMT 1x34 0.5MM
+$ENDCMP
+#
+$CMP HEADER-FEMALE-3POS-TH-1x03-P0.1IN
+D HEADER FEMALE 3POS TH 1x03 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-4POS-TH-1x04-P0.1IN
+D HEADER FEMALE 4POS TH 1x04 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-4POS-TH-2x2-P0.1IN
+D HEADER FEMALE 4POS 2x2 0.1”
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=215079&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP HEADER-FEMALE-50POS-TH-P0.1IN-KEYED
+D HEADER FEMALE 50POS STRAIGHT 0.1”  KEYED
+F http://www.components.omron.com/components/web/pdflib.nsf/0/1D642D622E2FDCF685257201007DD590/$file/XG4_0914.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-5POS-TH-1x05-P0.1IN
+D HEADER FEMALE 5POS TH 1x05 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-6POS-TH-1x06-P0.1IN
+D HEADER FEMALE 6POS TH 1x06 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-6POS-TH-2x3-P0.1IN
+D HEADER FEMALE 6POS 2x3 0.1”
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=215079&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP HEADER-FEMALE-7POS-TH-1x07-P0.1IN
+D HEADER FEMALE 7POS TH 1x07 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-8POS-TH-1x08-P0.1IN
+D HEADER FEMALE 8POS TH 1x08 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-9POS-TH-1x09-P0.1IN
+D HEADER FEMALE 9POS TH 1x09 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-FEMALE-DB9-SERIAL-TH-9PIN
+D CONN FEMALE DB9 SERIAL TH 9PIN
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734354&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP HEADER-MALE-10POS-TH-1x10-P0.1IN
+D HEADER MALE 10POS TH 1x10 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-10POS-TH-2x5-P0.1IN-KEY-SHROUDED-JTAG
+D HEADER MALE SHROUDED 10POS 2x5 0.1” KEY JTAG
+F http://multimedia.3m.com/mws/mediawebserver?6666660Zjcf6lVs6EVs666UdhCOrrrrQ-
+$ENDCMP
+#
+$CMP HEADER-MALE-11POS-TH-1x11-P0.1IN
+D HEADER MALE 11POS TH 1x11 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-12POS-TH-1x12-P0.1IN
+D HEADER MALE 12POS TH 1x12 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-12POS-TH-3x04-P0.1IN-R/A
+D HEADER MALE 12POS TH .100 R/A
+F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-13POS-TH-1x13-P0.1IN
+D HEADER MALE 13POS TH 1x13 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-14POS-TH-1x14-P0.1IN
+D HEADER MALE 14POS TH 1x14 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-15POS-TH-1x15-P0.1IN
+D HEADER MALE 15POS TH 1x15 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-16POS-TH-1x16-P0.1IN
+D HEADER MALE 16POS TH 1x16 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-17POS-TH-1x17-P0.1IN
+D HEADER MALE 17POS TH 1x17 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-18POS-TH-1x18-P0.1IN
+D HEADER MALE 18POS TH 1x18 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-19POS-TH-1x19-P0.1IN
+D HEADER MALE 19POS TH 1x19 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-1POS-TH-1x01
+D HEADER MALE 1POS
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-20POS-SMT-1x20-P2MM
+D HEADER MALE 20POS 1x20 2MM
+F https://cdn.harwin.com/pdfs/M22-251.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-20POS-TH-1x20-P0.1IN
+D HEADER MALE 20POS TH 1x20 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-25POS-TH-1x25-P0.1IN
+D HEADER MALE 25POS TH 1x25 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-2POS-TH-1x02-P0.1IN
+D HEADER MALE 2POS TH 1x02 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-3POS-TH-1x03-P0.1IN
+D HEADER MALE 3POS TH 1x03 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-4POS-TH-1x04-P0.1IN
+D HEADER MALE 4POS TH 1x04 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-5POS-TH-1x05-P0.1IN
+D HEADER MALE 5POS TH 1x05 0.1IN
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-6POS-TH-1x06-P0.1IN
+D HEADER MALE 6POS TH 1x06 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-6POS-TH-2x3-P0.1IN
+D HEADER MALE 6POS 2x3 0.1”
+F http://cdn.harwin.com/pdfs/60page147.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-7POS-TH-1x07-P0.1IN
+D HEADER MALE 7POS TH 1x07 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-8POS-TH-1x08-P0.1IN
+D HEADER MALE 8POS TH 1x08 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-9POS-TH-1x09-P0.1IN
+D HEADER MALE 9POS TH 1x09 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP HEADER-MALE-DB9-SERIAL-TH-9PIN
+D CONN MALE DB9 SERIAL TH 9PIN
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1634580&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP HEADER-MALE-KK100-1x08-0.1IN-SHROUD-TH-ENCODER
+D HEADER MALE 8POS KK100 0.1IN SHROUD TH
+F http://www.molex.com/pdm_docs/sd/022232061_sd.pdf
+$ENDCMP
+#
+$CMP IC-3G-CELL-UC15
+D QUECTEL UC15 3G CELL MODULE
+F http://www.orcam.eu/res/Datablad/quectel_uc15_umtshsdpa_specification_v14.pdf
+$ENDCMP
+#
+$CMP IC-6-AXIS-MPU6000-QFN24
+D GYRO/ACCELEROMETER 6AXIS 24QFN
+F http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+$ENDCMP
+#
+$CMP IC-9-AXIS-IMU-MPU9150-LGA24
+D GYRO/ACCELEROMETER 9-AXIS 24LGA MPU9150
+F http://store.invensense.com/datasheets/invensense/MPU-9150_DataSheet_V4%203.pdf
+$ENDCMP
+#
+$CMP IC-9-AXIS-IMU-MPU9250-QFN24
+D GYRO/ACCEL/MAG 9-AXIS I2C/SPI 24QFN MPU9250
+$ENDCMP
+#
+$CMP IC-ATTINY861V-SOIC20
+D IC MCU 8BIT 8KB FLASH 20SOIC
+F http://www.atmel.com/images/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-DIFF-COMPARE-LM339PWR-TSSOP14
+D IC QUAD DIFF COMPARATOR 14-TSSOP
+F http://www.ti.com/lit/ds/symlink/lm139a.pdf
+$ENDCMP
+#
+$CMP IC-GPS-RECEIVER-MAX2769-QFN28
+D IC GPS RECEIVER 28TQFN
+F http://datasheets.maximintegrated.com/en/ds/MAX2769.pdf
+$ENDCMP
+#
+$CMP IC-HALLSENSE-SS40AF-TO92
+D SENSOR HALL EFFECT BIPOLAR SS40AF TO92
+F http://sensing.honeywell.com/index.php/ci_id/45288/la_id/1/document/1/re_id/0
+$ENDCMP
+#
+$CMP IC-HALLSENSE-SS411P-TO92
+D SENSOR HALL EFFECT BIPOLAR SS411 TO92
+F http://sensing.honeywell.com/index.php/ci_id/45288/la_id/1/document/1/re_id/0
+$ENDCMP
+#
+$CMP IC-IO-EXPANDER-MCP23008-SOIC18
+D IC I/O EXPANDER I2C 8B 18SOIC
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920
+$ENDCMP
+#
+$CMP IC-LEVEL-TRANS-MAX3373-SOT23-8
+D IC TRANSCEIVER CAN HI-SPD 8-SOIC
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011797
+$ENDCMP
+#
+$CMP IC-LEVEL-TRANS-MAX3377-TSSOP14
+D IC LVL XLTR LV 230KBPS 14TSOP
+F https://datasheets.maximintegrated.com/en/ds/MAX3372E-MAX3393E.pdf
+$ENDCMP
+#
+$CMP IC-LI-ION-CONTROLLER-MCP73831-SOT23-5
+D IC CONTROLLR LI-ION 4.2V SOT23-5
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en025112
+$ENDCMP
+#
+$CMP IC-LI-ION-CONTROLLER-MCP73833-MSOP10
+D IC LI-ION/LI-POLY CTRLR 10MSOP
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en027983
+$ENDCMP
+#
+$CMP IC-MAX31855-SOIC8
+D IC CONV THERMOCOUPLE MAX31855 SOIC8
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA1284-TQFP44
+D IC MCU 8BIT 128KB FLASH 44TQFP
+F http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA1284P-TQFP44
+D IC MCU 8BIT 128KB FLASH 44TQFP
+F http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA16U2-MU-VQFN32
+D VQFN32, 16k Flash, 512B SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA2560
+D TQFP100, 256k Flash, 8k SRAM, 4k EEPROM, JTAG
+F http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA2560-CUSTOM1
+D TQFP100, 256k Flash, 8k SRAM, 4k EEPROM, JTAG, CUSTOM1
+F http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA2560-CUSTOM2
+D TQFP100, 256k Flash, 8k SRAM, 4k EEPROM, JTAG, CUSTOM2
+F http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA2560-CUSTOM3
+D TQFP100, 256k Flash, 8k SRAM, 4k EEPROM, JTAG, CUSTOM3
+F http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA2560-CUSTOM4
+D TQFP100, 256k Flash, 8k SRAM, 4k EEPROM, JTAG,CUSTOM4
+F http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA2560-SIMPLE
+D TQFP100, 256k Flash, 8k SRAM, 4k EEPROM, JTAG, CUSTOM1
+F http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA328-PB-AU-20MHz-TQFP32
+D IC MCU 8BIT 20MHz ATMEGA328PB-AU TQFP32
+F http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA328-TQFP32
+D IC MCU 8BIT 32KB FLASH 32TQFP
+F http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA328-TQFP32-CUSTOM1
+D IC MCU 8BIT 32KB FLASH 32TQFP
+F http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA328-TQFP32-CUSTOM2
+D IC MCU 8BIT 32KB FLASH 32TQFP
+F http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA328P-TQFP32
+D IC MCU 8BIT 32KB FLASH 32TQFP
+F http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA32U4-TQFP44
+D  IC MCU 8BIT 32KB FLASH 44TQFP
+K AVR 8bit Microcontroller MegaAVR
+$ENDCMP
+#
+$CMP IC-MCU-ATMEGA32U4-TQFP44-CUSTOM1
+D  IC MCU 8BIT 32KB FLASH 44TQFP
+K AVR 8bit Microcontroller MegaAVR
+$ENDCMP
+#
+$CMP IC-MCU-ATTINY85-10MHZ-SOIC8
+D IC MCU ATTINY85 10MHZ 8BIT 1.8V-5.5V 8KB FLASH 8SOIC
+F http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATTINY85-20MHZ-SOIC8
+D IC MCU ATTINY85 20MHZ 8BIT 8KB FLASH 8SOIC
+F http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATTINY85-DIP8
+D IC MCU 8BIT 8KB FLASH 8PDIP
+F http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATTINY85-SOIC8
+D IC MCU 8BIT 8KB FLASH 8SOIC
+F http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-ATTINY861V-SOIC20
+D IC MCU 8BIT 8KB FLASH 20SOIC
+F http://www.atmel.com/Images/Atmel-2588-8-bit-AVR-Microcontrollers-tinyAVR-ATtiny261-ATtiny461-ATtiny861_Datasheet.pdf
+$ENDCMP
+#
+$CMP IC-MCU-STM32F042-LQFP32
+D IC MCU 32BIT 32KB FLASH 32LQFP
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP IC-MCU-STM32F407-LQFP100
+D IC MCU 32BIT 1MB FLASH 100LQFP
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf
+$ENDCMP
+#
+$CMP IC-MMA7660-DFN10
+D IC ACCELEROMETER 3X3 DGTL 10-DFN
+F http://cache.freescale.com/files/sensors/doc/data_sheet/MMA7660FC.pdf
+$ENDCMP
+#
+$CMP IC-MMA8653-DFN10
+D IC ACCELEROMETER 3X3 DGTL 10-DFN
+F http://cache.freescale.com/files/sensors/doc/data_sheet/MMA7660FC.pdf
+$ENDCMP
+#
+$CMP IC-MOTOR-DRIVER-VNH5019-MULTIPWRSO30
+D IC MOTOR DRIVER PAR 30MULTIPWRSO
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00234623.pdf
+$ENDCMP
+#
+$CMP IC-MUX-CD74HC4067SM96-SSOP24
+D IC MUX/DEMUX CD74HC4067SM96 24SSOP
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP IC-MUX-SN74CB3Q3257-TSSOP16
+D IC QUAD1:2 FET MUX/DEMUX 16TSSOP
+F http://www.ti.com/lit/ds/symlink/sn74cb3q3257.pdf
+$ENDCMP
+#
+$CMP IC-NJM386-DIP8
+D IC AUDIO PWR AMP LOW VOLT 8-DIP
+F http://semicon.njr.co.jp/eng/PDF/NJM386_E.pdf
+$ENDCMP
+#
+$CMP IC-OBD-II-TO-UART-STN1110-QFN28
+D STN1110 OBD-II TO UART IC
+F https://www.scantool.net/development-tools/obd-chips/stn1110/
+$ENDCMP
+#
+$CMP IC-OPAMP-LM358-DIP8
+D IC OPAMP GP 1MHZ DIP8
+F http://www.onsemi.com/pub_link/Collateral/LM358-D.PDF
+$ENDCMP
+#
+$CMP IC-OPAMP-LT1115-DIP8
+D IC OPAMP AUDIO 70MHZ DIP8
+F http://www.linear.com/docs/1612
+$ENDCMP
+#
+$CMP IC-OPAMP-OPA356-SOT23-5
+D IC OPAMP VFB 200MHZ RRO SOT23-5
+F http://www.ti.com/lit/ds/symlink/opa356.pdf
+$ENDCMP
+#
+$CMP IC-OPAMP-TL081CP-DIP8
+D IC OPAMP JFET 3MHZ DIP8
+F http://www.ti.com/lit/ds/symlink/tl081a.pdf
+$ENDCMP
+#
+$CMP IC-REG-12V-3A-LM1085-TO263-4
+D IC REG 12V 3A LM1085 TO263-4
+$ENDCMP
+#
+$CMP IC-REG-BOOST-5V-295MA-XC9140-SOT23-5
+D IC REG BST 5V 295MA SYNC XC9140 SOT-25
+F http://www.torex.co.jp/english/products/dcdc_converters/data/XC9140.pdf
+$ENDCMP
+#
+$CMP IC-REG-BOOST-ADJ-0.5A-AP3012-SOT23-5
+D IC REG BOOST ADJ 0.5A AP3012 SOT25
+F http://www.diodes.com/_files/datasheets/AP3012.pdf
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-0.15A-AAT3221-SOT23-5
+D IC REG LDO 3.3V 0.15A AAT3221 SOT23-5
+F http://www.skyworksinc.com/uploads/documents/AAT3221_AAT3222_202251B.pdf
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353
+D IC REG LDO 3.3V 0.5A BU33SD5WG 5SSOP
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/buxxsd5wg-e.pdf
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-0.15A-TC2185-SOT23-5
+D IC REG LDO 3.3V 0.15A TC2185 SOT23-5
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011649
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-0.25A-MCP1703-SOT23A-3
+D IC REG LDO 3.3V 0.25A MCP1703 SOT23A-3
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en530937
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-0.5A-BU33SD5WG-SSOP5
+D IC REG LDO 3.3V 0.5A BU33SD5WG 5SSOP
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/buxxsd5wg-e.pdf
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-0.8A-LM1117-SOT223
+D IC REG LDO 3.3V 0.8A LM1117 SOT223
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-1A-LD1117-TO220AB
+D IC REG LDO 3.3V 1A LD1117 TO220AB
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00002116.pdf
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-1A-NCP1117-3.3V-DPAK
+D IC REG LDO 3.3V 1A NCP1117 DPAK
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP IC-REG-LDO-3.3V-3A-LD29300-P2PAK-4
+D IC REG LDO 3.3V 3A LD29300 P2PAK-4
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00003208.pdf
+$ENDCMP
+#
+$CMP IC-REG-LDO-5V-1.1A-NCP1117-5V-DPAK
+D IC REG LDO 5V 1.1A NCP1117 DPAK
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP IC-REG-LDO-5V-1A-NCP7805-TO220AB
+D IC REG LDO 5V 1A NCP7805 TO220AB
+F http://www.onsemi.com/pub_link/Collateral/NCP7800-D.PDF
+$ENDCMP
+#
+$CMP IC-REG-LDO-5V-3A-SPX29300-TO-263
+D IC REG LDO 5V 3A SPX29300 TO263-3
+F http://www.exar.com/Common/Content/Document.ashx?id=1328
+$ENDCMP
+#
+$CMP IC-REG-LDO-9V-1A-MC7809-TO220AB
+D IC REG LDO 9V 1A MC7809 TO220AB
+F http://www.onsemi.com/pub_link/Collateral/MC7800-D.PDF
+$ENDCMP
+#
+$CMP IC-REG-LDO-ADJ-0.5A-LM317-DPAK
+D IC REG LDO ADJ 0.5A LM317 DPAK
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000549.pdf
+$ENDCMP
+#
+$CMP IC-SHIFT-REGISTER-74HC595-DIP16
+D IC 8-BIT SHIFT REGISTER 16-DIP
+F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+$ENDCMP
+#
+$CMP IC-SHIFTER-HEX-74HC4050-SOIC16
+D IC SHIFTER HEX HIGH-LOW 16SOIC
+F http://www.nxp.com/documents/data_sheet/74HC4050.pdf
+$ENDCMP
+#
+$CMP IC-SP3485-8SOIC
+D IC TXRX RS485 HALF DUPLEX SP3485 8SOIC
+F https://www.exar.com/content/document.ashx?id=639
+$ENDCMP
+#
+$CMP IC-TEMPSENSE-TMP36-TO92
+D SENSOR TEMP RATIOMETRIC TO92-3
+F http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf
+$ENDCMP
+#
+$CMP IC-TLE2426-DIP8
+D IC VREF GND REF ADJ DIP8
+F http://www.ti.com/lit/ds/symlink/tle2426.pdf
+$ENDCMP
+#
+$CMP IC-TLE2426-TO92
+D IC VREF GND REF ADJ DIP8
+F http://www.ti.com/lit/ds/symlink/tle2426.pdf
+$ENDCMP
+#
+$CMP IC-TRANSCEIVER-CAN-MCP2551-SOIC8
+D IC TRANSCEIVER CAN HI-SPD 8-SOIC
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011797
+$ENDCMP
+#
+$CMP IC-TXRX-USB-PHY-3318-QFN24
+D IC TXRX USB ULPI 13MHZ 24QFN
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en562029
+$ENDCMP
+#
+$CMP IC-USB-TO-UART-BRIDGE-CP2102-VQFN28
+D IC USB-TO-UART BRIDGE 28VQFN
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2102-9.pdf
+$ENDCMP
+#
+$CMP IC-VOLT-LEVEL-TRANSLATOR-TXB0104-SOIC14
+D IC VOLT-LEVEL TRANSLATOR TXB0104 SOIC14
+$ENDCMP
+#
+$CMP IC-VOLT-LEVEL-TRANSLATOR-TXB0104-TSSOP14
+D IC VOLT-LEVEL TRANSLATOR 14TSSOP
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP IC-WAVEFORM-GENERATOR-AD9833-MSOP10
+D IC WAVEFORM GENERTR PROG 10-MSOP
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9833.pdf
+$ENDCMP
+#
+$CMP IOREF
+K POWER, PWR
+$ENDCMP
+#
+$CMP KEYBOARD-MATRIX-3X4-8PIN-ADAFRUIT
+D 3X4 PHONE-STYLE MATRIX KEYBOARD
+F https://www.adafruit.com/products/1824?gclid=CP3SyvWd4ssCFVBffgodT5YP6Q
+$ENDCMP
+#
+$CMP LAMP-NEON-TH-A9A
+D LAMP NEON 6.2MM WIRE TERMINAL
+F http://vcclite.com/_pdf/Neon%20Indicator%20Lamps_7_&_8.pdf
+$ENDCMP
+#
+$CMP LCD-MODULE-16X2-CHARACTER-1602
+D LCD MODULE 16X2 CHARACTER 1602
+$ENDCMP
+#
+$CMP LCD-MODULE-16X2-CHARACTER-1602A
+D LCD MODULE 16X2 CHARACTER 1602A
+F https://www.adafruit.com/datasheets/TC1602A-01T.pdf
+$ENDCMP
+#
+$CMP LCD-MODULE-16X2-CHARACTER-1602A-CUSTOM1
+D LCD MODULE 16X2 CHARACTER 1602A
+F https://www.adafruit.com/datasheets/TC1602A-01T.pdf
+$ENDCMP
+#
+$CMP LCD-MODULE-16X2-CHARACTER-1602B
+D LCD MODULE 16X2 CHARACTER 1602B
+$ENDCMP
+#
+$CMP LED-4x7-SEGMENT-LTC-4727JR
+D LED DISPLAY 4CHAR 7SEGMENT COMMON CATHODE LTC-4727JR
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-193/S_110_C4727JR.pdf
+$ENDCMP
+#
+$CMP LED-AMBER-0603-SMT-L296-Q2R2
+D LED AMBER DIFFUSED 0603 SMD
+F "http://media.digikey.com/pdf/Data%20Sheets/Osram%20PDFs/LSLALOLY_296.pdf
+$ENDCMP
+#
+$CMP LED-BLUE-2PIN-TH-C503B-BCS-CV0Z0461
+D LED BLUE CLEAR 5MM ROUND T/H
+F http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/HB/Data%20Sheets/C503B%20BAS%20BAN%20BCS%20BCN%20GAS%20GAN%20GCS%20GCN%201094.pdf
+$ENDCMP
+#
+$CMP LED-GREEN-0603-SMT-BG1111C
+D LED GREEN DIFFUSED 0603 SMD
+F http://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/BR1111C_Series.pdf
+$ENDCMP
+#
+$CMP LED-GREEN-2PIN-TH-MT2118-G-A
+D LED GRN DIFF 5MM ROUND T/H
+F http://www.marktechopto.com/products/datasheet/MT2118-G-A
+$ENDCMP
+#
+$CMP LED-GREEN-RED-YELLOW-4PLCC-SMT-SMP4-SRGY
+D LED GRN/RED/YLW CLEAR 4PLCC SMD
+F http://www.bivar.com/portals/0/products/SMP4-SRGY.pdf
+$ENDCMP
+#
+$CMP LED-GREEN-YELLOW-0606-SMT-APTB1615SYKCGKC
+D LED GREEN/YLW CLEAR 0606 SMD
+F http://www.kingbrightusa.com/images/catalog/SPEC/APTB1615SYKCGKC-F01.pdf
+$ENDCMP
+#
+$CMP LED-GREEN-YELLOW-1210-SMT-LTST-C155GYKT
+D LED GREEN/YLW CLEAR 1210 SMD
+F http://optoelectronics.liteon.com/upload/download/DS-22-98-0007/S_110_LTST-C155GYKT.pdf
+$ENDCMP
+#
+$CMP LED-GREEN-YELLOW-3PIN-TH-WP115WGYW
+D LED GRN/YLW DIFF 3MM ROUND T/H
+F http://www.kingbrightusa.com/images/catalog/SPEC/WP115WGYW.pdf
+$ENDCMP
+#
+$CMP LED-GREEN-YELLOW-3PIN-TH-XLUGY34M
+D LED GRN/YLW DIFF 3MM ROUND T/H
+F http://www.sunledusa.com/products/spec/XLUGY34M.pdf
+$ENDCMP
+#
+$CMP LED-GREEN-YELLOW-3PIN-TH-XLUGY59M
+D LED YELLOW/GREEN DIFF 5MM ROUND XLUGY59M T/H
+$ENDCMP
+#
+$CMP LED-RED-0603-SMT-150060RS75000
+D LED RED CLEAR 0603 SMD
+F http://katalog.we-online.de/led/datasheet/150060RS75000.pdf
+$ENDCMP
+#
+$CMP LED-RED-0603-SMT-HSMS-C191
+D LED RED DIFFUSED 0603 SMD
+F http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf
+$ENDCMP
+#
+$CMP LED-RED-0603-SMT-L296-P2Q2
+D LED RED DIFFUSED 0603 SMD
+F http://www.osram-os.com/Graphics/XPic5/00077119_0.pdf
+$ENDCMP
+#
+$CMP LED-RED-2PIN-TH-MT4118-HR-A
+D LED RED DIFF 5MM ROUND T/H
+F http://www.marktechopto.com/products/datasheet/MT4118-HR-A
+$ENDCMP
+#
+$CMP LED-RED-GREEN-0606-SMT-LTST-C195KGJRKT
+D LED GREEN/RED CLEAR 0606 SMD
+$ENDCMP
+#
+$CMP LED-RED-GREEN-3PIN-TH-WP59EGC
+D LED GREEN/RED CLEAR ROUND T/H
+F http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGC.pdf
+$ENDCMP
+#
+$CMP LED-RED-GREEN-3PIN-TH-XLUGR59M
+D LED GRN/RED DIFF 5MM ROUND T/H
+F http://www.sunledusa.com/products/spec/XLUGR59M.pdf
+$ENDCMP
+#
+$CMP LED-RED-YELLOW-3PIN-TH-XLUYR59M
+D LED RED/YEL DIFF 5MM ROUND XLUYR59M T/H
+$ENDCMP
+#
+$CMP LED-RGB-0606-SMT-APTF1616L
+D LED RGB 0606 SMD
+$ENDCMP
+#
+$CMP LED-RGB-WS2812B-4SMD
+D LED RGB WS2812B W/DVR 4SMD
+F http://www.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
+$CMP LV-EZ1-RANGEFINDER
+D HEADER FEMALE 7POS TH 1x07 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP MIC-CMA4544
+D MIC COND ANALOG OMNI -44DB
+F http://www.cui.com/product/resource/digikeypdf/cma-4544pf-w.pdf
+$ENDCMP
+#
+$CMP MIC-SR6438
+D RECEIVER 100HZ-9.5KHZ
+F http://www.knowles.com/download/file?p=SR6438NWS-000.pdf
+$ENDCMP
+#
+$CMP MODULE-GPS-FGPMMOPA6H-MTK3339
+D GPS MODULE PA6H MTK3339
+$ENDCMP
+#
+$CMP MOSFET-N-20V-0.9A-FDV305N
+D MOSFET N-CH 20V 0.9A SOT-23
+F http://www.fairchildsemi.com/datasheets/FD/FDV305N.pdf
+$ENDCMP
+#
+$CMP MOSFET-N-20V-3.2A-NTR4501NT1G
+D MOSFET N-CH 20V 3.2A SOT-23
+F http://www.onsemi.com/pub_link/Collateral/NTR4501N-D.PDF
+$ENDCMP
+#
+$CMP MOSFET-N-30V-5A-IRLML6344
+D MOSFET N-CH 30V 5A IRLML6344 SOT-23-3
+$ENDCMP
+#
+$CMP MOSFET-N-50V-220MA-BSS138
+D MOSFET N-CH 50V 220MA SOT-23
+F http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP MOSFET-P-20V-2.6A-IRLML2246
+D MOSFET P-CH 20V 2.6A SOT23
+F http://www.irf.com/product-info/datasheets/data/irlml2246pbf.pdf
+$ENDCMP
+#
+$CMP MOSFET-P-60V-0.9A-ZXMP6A13FTA
+D MOSFET P-CH 60V 0.9A SOT23-3
+F http://www.diodes.com/_files/datasheets/ZXMP6A13F.pdf
+$ENDCMP
+#
+$CMP RES-0.0-JUMPER-1/10W-0603
+D RES SMD 0.0 OHM JUMPER 1/10W 0603
+$ENDCMP
+#
+$CMP RES-0.0-JUMPER-1/8W-0603
+D RES SMD 0.0 OHM JUMPER 1/8W 0603
+F http://www.vishay.com/docs/28705/mcx0x0xpro.pdf
+$ENDCMP
+#
+$CMP RES-0.0-JUMPER-1/8W-0805
+D RES SMD 0.0 OHM JUMPER 1/8W 0805
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW
+$ENDCMP
+#
+$CMP RES-1-5%-1/10W-0603
+D RES SMD 1 OHM 5% 1/10W 0603
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ1R0V+7+WW
+$ENDCMP
+#
+$CMP RES-1.2K-1%-1/10W-0402
+D RES SMD 1.2K OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1201X+7+WW
+$ENDCMP
+#
+$CMP RES-1.5K-1%-1/10W-0402
+D RES SMD 1.5K OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1501X+7+WW
+$ENDCMP
+#
+$CMP RES-1.5K-5%-1/2W-TH
+D RES SMD 1.5K OHM 5% 1/8W 0805
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEYJ152V+7+WW
+$ENDCMP
+#
+$CMP RES-1.5K-5%-1/8W-0805
+D RES SMD 1.5K OHM 5% 1/8W 0805
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEYJ152V+7+WW
+$ENDCMP
+#
+$CMP RES-10-1%-1/10W-0603
+D RES SMD 10 OHM 1% 1/10W 0603
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ3EKF10R0V+7+WW
+$ENDCMP
+#
+$CMP RES-10-5%-1/4W-CF
+D RES 220 OHM 1/4W 5% CARBON FILM
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-100-1%-1/10W-0402
+D RES SMD 100 OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF1000X+7+WW
+$ENDCMP
+#
+$CMP RES-100K-5%-1/4W-CF
+D RES 220 OHM 1/4W 5% CARBON FILM
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-10K-1%-1/10W-0402
+D RES SMD 10K OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW
+$ENDCMP
+#
+$CMP RES-10K-1%-1/8W-0603
+D RES SMD 10K OHM 1% 1/8W 0603
+F http://www.seielect.com/catalog/SEI-RNCP.pdf
+$ENDCMP
+#
+$CMP RES-10K-5%-1/4W-TH-CFMINI
+D RES 10K OHM 1/4W 5% CF MINI
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-10K-5%-1/8W-0805
+D RES SMD 10K OHM 5% 1/8W 0805
+F http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+$ENDCMP
+#
+$CMP RES-10M-5%-1/4W-CF
+D RES 220 OHM 1/4W 5% CARBON FILM
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-150-5%-1/4W-TH-CFMINI
+D RES 150 OHM 1/4W 5% CF MINI
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-16.2K-1%-1/10W-0603
+D RES SMD 16.2K OHM 1% 1/10W 0603
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ3EKF1622V+7+WW
+$ENDCMP
+#
+$CMP RES-18K-5%-1/4W-TH-CFMINI
+D RES 18K OHM 1/4W 5% CF MINI
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-1K-1%-1/10W-0402
+D RES SMD 1K OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW
+$ENDCMP
+#
+$CMP RES-1K-1%-1/10W-0603
+D RES SMD 1K OHM 1% 1/10W 0603
+F http://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf
+$ENDCMP
+#
+$CMP RES-1K-1%-1/8W-0805
+D RES SMD 1K OHM 1% 1/8W 0805
+$ENDCMP
+#
+$CMP RES-1K-5%-1/4W-TH-CFMINI
+D RES 1K OHM 1/4W 5% CF MINI
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-1M-5%-1/4W-CF
+D RES 220 OHM 1/4W 5% CARBON FILM
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-2.2K-5%-1/4W-CF
+D RES 220 OHM 1/4W 5% CARBON FILM
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-200K-5%-1/10W-0603
+D RES SMD 200K OHM 5% 1/10W 0603
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ204V+7+WW
+$ENDCMP
+#
+$CMP RES-205K-1%-1/10W-0603
+D RES SMD 205K OHM 1% 1/10W 0603
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ3EKF2053V+7+WW
+$ENDCMP
+#
+$CMP RES-22-OHM-5%-1/10W-0603
+D RES SMD 22 OHM 5% 1/10W 0603
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf
+$ENDCMP
+#
+$CMP RES-220-5%-1/10W-0402
+D RES SMD 220 OHM 5% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ2GEJ221X+7+WW
+$ENDCMP
+#
+$CMP RES-220-5%-1/10W-0603
+D RES SMD 220 OHM 5% 1/10W 0603
+$ENDCMP
+#
+$CMP RES-220-5%-1/4W-CF
+D RES 220 OHM 1/4W 5% CARBON FILM
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-220-5%-1/4W-TH-CFMINI
+D RES 220 OHM 1/4W 5% CF MINI
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-220K-5%-1/8W-0805
+D RES SMD 220K OHM 5% 1/8W 0805
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEYJ224V+7+WW
+$ENDCMP
+#
+$CMP RES-240-1%-1/10W-0402
+D RES SMD 240 OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF2400X+7+WW
+$ENDCMP
+#
+$CMP RES-27K-1%-1/10W-0402
+D RES SMD 27K OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW
+$ENDCMP
+#
+$CMP RES-2K-1%-1/8W-0603
+D RES SMD 2K OHM 1% 1/8W 0603
+F http://www.seielect.com/catalog/SEI-RNCP.pdf
+$ENDCMP
+#
+$CMP RES-3.3K-5%-1/4W-CF
+D RES 220 OHM 1/4W 5% CARBON FILM
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-31.6K-1%-1/10W-0603
+D RES SMD 31.6K OHM 1% 1/10W 0603
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ3EKF3162V+7+WW
+$ENDCMP
+#
+$CMP RES-33-1%-1/10W-0402
+D RES SMD 33 OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW
+$ENDCMP
+#
+$CMP RES-33-5%-1/2W-TH-CF
+D RES 33 OHM 1/2W 5% AXIAL
+F http://www.yageo.com/documents/recent/Yageo%20LR_CFR_2013.pdf
+$ENDCMP
+#
+$CMP RES-33-5%-1/4W-TH-CF
+D RES 33 OHM 1/4W 5% CARBON FILM
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-330-1%-1/10W-0402
+D RES SMD 330 OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3300X+7+WW
+$ENDCMP
+#
+$CMP RES-374-1%-1/10W-0402
+D RES SMD 374 OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF3740X+7+WW
+$ENDCMP
+#
+$CMP RES-4.7K-1%-1/10W-0402
+D RES SMD 4.7K OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF33R0X+7+WW
+$ENDCMP
+#
+$CMP RES-4.7K-5%-1/4W-TH-CFMINI
+D RES 4.7K OHM 1/4W 5% CF MINI
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-47-OHM-5%-1/10W-0603
+D RES SMD 47 OHM 5% 1/10W 0603
+$ENDCMP
+#
+$CMP RES-470-5%-1/4W-0603
+D RES SMD 470 OHM 5% 1/4W 0603
+F http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr.pdf
+$ENDCMP
+#
+$CMP RES-510-5%-1/2W-2010
+D RES SMD 510 OHM 5% 1/2W 2010
+F http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr.pdf
+$ENDCMP
+#
+$CMP RES-560-5%-1/10W-0603
+D RES SMD 560 OHM 5% 1/10W 0603
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ3EKF10R0V+7+WW
+$ENDCMP
+#
+$CMP RES-62K-1%-1/10W-0402
+D RES SMD 62K OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF6202X+7+WW
+$ENDCMP
+#
+$CMP RES-66.5-1%-1/4W-TH
+D RES 66.5 OHM 1/4W 1% AXIAL
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEYJ152V+7+WW
+$ENDCMP
+#
+$CMP RES-82K-5%-1/4W-TH-CFMINI
+D RES 82K OHM 1/4W 5% CF MINI
+F http://www.seielect.com/catalog/SEI-CF_CFM.pdf
+$ENDCMP
+#
+$CMP RES-866-1%-1/10W-0402
+D RES SMD 866 OHM 1% 1/10W 0402
+F http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ2RKF8660X+7+WW
+$ENDCMP
+#
+$CMP SHUNT-JUMPER-2PIN-P0.1IN
+D SHUNT JUMPER 0.1IN BLACK GOLD
+F http://multimedia.3m.com/mws/mediawebserver?66666UuZjcFSLXTtNxTElXf6EVuQEcuZgVs6EVs6E666666--
+$ENDCMP
+#
+$CMP SPARKFUN-CAN-BUS-SHIELD
+D CAN-BUS SHIELD
+$ENDCMP
+#
+$CMP SPEAKER-8OHM-23MM-ROUND-2PIN
+D SPEAKER 8 OHM .25W 23MM ROUND
+F http://www.mallory-sonalert.com/specifications/PSR-23F08S-JQ.PDF
+$ENDCMP
+#
+$CMP SWITCH-MOMENT-SPDT-SMT-B3FS-4002P
+D SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P
+$ENDCMP
+#
+$CMP SWITCH-MOMENT-SPDT-TH-B3F-1000
+D SWITCH MOMENT SPST-NO 0.05A 24V TH B3F-1000
+$ENDCMP
+#
+$CMP SWITCH-MOMENT-SPDT-TH-B3F-4000
+D SWITCH MOMENT SPST-NO 0.05A 24V TH B3F-4000
+$ENDCMP
+#
+$CMP SWITCH-MOMENT-SPST-NO-0.05A-12V-SMT-B3U-1000P
+D SWITCH TACTILE SPST-NO 0.05A 12V
+F http://www.omron.com/ecb/products/pdf/en-b3u.pdf
+$ENDCMP
+#
+$CMP SWITCH-ROCKER-SPST-10A-125V
+D SWITCH ROCKER SPST 10A 125V
+F https://www.e-switch.com/system/asset/product_line/data_sheet/81/RA1.pdf
+$ENDCMP
+#
+$CMP SWITCH-SLIDE-SPDT-100MA-12V
+D SWITCH SLIDE SPDT 100MA 12V
+F http://www.ck-components.com/14388/os_19jan15.pdf/
+$ENDCMP
+#
+$CMP SWITCH-SLIDE-SPDT-200MA-30V
+D SWITCH SLIDE SPDT 200MA 30V
+F https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf
+$ENDCMP
+#
+$CMP SWITCH-TACTILE-SPST-NO-0.05A-24V-SMT-FSMSMTR
+D SWITCH TACTILE SPST-NO 0.05A 24V
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
+$CMP SWITCH-TOGGLE-SPDT-5A-120V-TH-100SP3
+D SWITCH TOGGLE SPDT 5A 120V 100SP3 ESWITCH
+F https://www.e-switch.com/system/asset/product_line/data_sheet/129/100.pdf
+$ENDCMP
+#
+$CMP TEENSY-LC
+D HEADER FEMALE 11POS TH 1x11 0.1”
+F https://cdn.harwin.com/pdfs/60page140.pdf
+$ENDCMP
+#
+$CMP TEENSY2.0-16MHZ
+D TEENSY 2.0 8BIT  16MHZ
+F https://www.pjrc.com/teensy/
+$ENDCMP
+#
+$CMP TEENSY3.1-72MHZ
+D TEENSY 3.1 32BIT 72MHZ
+F https://www.pjrc.com/teensy/
+$ENDCMP
+#
+$CMP TEENSY3.2-72MHz
+D TEENSY 3.2 32BIT 72MHZ
+F https://www.pjrc.com/teensy/
+$ENDCMP
+#
+$CMP TEENSY3.2-72MHz-SIMPLE
+D TEENSY 3.2 32BIT 72MHZ
+F https://www.pjrc.com/teensy/
+$ENDCMP
+#
+$CMP TEENSY3.2-LEAFBOARD-ADAPTER
+D TEENSY 3.2 32BIT 72MHZ
+F https://www.pjrc.com/teensy/
+$ENDCMP
+#
+$CMP TEST_1P
+D Test Point Std Pin Hole
+K Test Point
+$ENDCMP
+#
+$CMP TRIMPOT-10K-3PIN-SMT-0.1W-TC33X
+D TRIMMER 10K OHM 0.1W TC33X SMD
+F http://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+$ENDCMP
+#
+$CMP TRIMPOT-10K-3PIN-TH-0.20W-P160KN
+D POT 10K OHM 1/5W PLASTIC LINEAR
+F http://www.bitechnologies.com/pdfs/p160.pdf
+$ENDCMP
+#
+$CMP TRIMPOT-10K-3PIN-TH-3362-Series
+D TRIMMER 10K OHM 0.1W SMD
+F http://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+$ENDCMP
+#
+$CMP TRIMPOT-10K-3PIN-TH-3368P-1-103TLF
+D TRIMMER 10K OHM 0.1W SMD
+F http://www.bourns.com/docs/Product-Datasheets/TC33.pdf
+$ENDCMP
+#
+$CMP VADJ
+K POWER, PWR
+$ENDCMP
+#
+$CMP VBAT
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC
+K POWER, PWR
+$ENDCMP
+#
+$CMP VIN
+K POWER, PWR
+$ENDCMP
+#
+$CMP VUSB
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Adafruit Feather M0 Express")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit Feather M0 Express.pretty")(options "")(descr ""))
+)
