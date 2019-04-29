@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "OSHwi")(type "KiCad")(uri "${KIPRJMOD}/OSHwi.pretty")(options "")(descr ""))
+  (lib (name "Oshwi_M0")(type "KiCad")(uri "${KIPRJMOD}/Oshwi_M0.pretty")(options "")(descr ""))
+)

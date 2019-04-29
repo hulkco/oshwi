@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "OSHwi")(type "KiCad")(uri "${KIPRJMOD}/OSHwi.pretty")(options "")(descr ""))
-  (lib (name "Adafruit Feather M0 Express")(type "KiCad")(uri "${KIPRJMOD}/Adafruit Feather M0 Express.pretty")(options "")(descr ""))
-)

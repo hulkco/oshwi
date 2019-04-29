@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/greynaga/Github/oshwi/2019/Oshwi_M0/001.sch</source>
+    <date>sáb 27 abr 2019 15:17:33 CDT</date>
+    <tool>Eeschema 5.1.0-unknown-69cdb4a~86~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OSHWI </title>
+        <company>GSReynaga</company>
+        <rev>1</rev>
+        <date>2019-04-26</date>
+        <source>001.sch</source>
+        <comment number="1" value="OSHWDEM 2019 BADGE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D44B93C6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0603_NO-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>226ECD07</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10µF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>48336B3A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2.2K</value>
+      <footprint>OSHwi:R_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A059BC4A</tstamp>
+    </comp>
+    <comp ref="X3">
+      <value>microUSB</value>
+      <footprint>Oshwi_M0:4UCONN_20329_V2</footprint>
+      <libsource lib="001-rescue" part="USB_MICRO_20329_V2-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3992BDB4</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>HEADER-1X16ROUND</value>
+      <footprint>Oshwi_M0:1X16_ROUND</footprint>
+      <libsource lib="001-rescue" part="HEADER-1X16ROUND-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCCC11E</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>JSTPH</value>
+      <footprint>Oshwi_M0:JSTPH2</footprint>
+      <libsource lib="001-rescue" part="CON_JST_PH_2PIN-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>72B9A5F2</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>HEADER-1X12</value>
+      <footprint>Oshwi_M0:1X12_ROUND</footprint>
+      <libsource lib="001-rescue" part="HEADER-1X12-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ACD8E5B6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP73831T-2ACI/OT</value>
+      <footprint>OSHwi:SOT-23-5_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="MCP73831_2-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8FB534EA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>OSHwi:R_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8A7CCFCE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10µF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>20C94E77</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>OSHwi:R_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>867544B0</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>OSHwi:R_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55AD3E27</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0603_NO-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>BA02A0BA</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22pF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0603_NO-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FCCC165D</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0603_NO-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>BD8B3D1F</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>32.768</value>
+      <footprint>Oshwi_M0:XTAL3215</footprint>
+      <libsource lib="001-rescue" part="XTAL-3.2X1.5-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4BBFE116</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>09CD1EDC</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TESTPOINTROUND1.5MM</value>
+      <footprint>Oshwi_M0:TESTPOINT_ROUND_1.5MM</footprint>
+      <libsource lib="001-rescue" part="TESTPOINTROUND1.5MM-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E5F42BB8</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TESTPOINTROUND1.5MM</value>
+      <footprint>Oshwi_M0:TESTPOINT_ROUND_1.5MM</footprint>
+      <libsource lib="001-rescue" part="TESTPOINTROUND1.5MM-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>93FB0C53</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>OSHwi:R_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2C54ECFF</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>WS2812B3535</value>
+      <footprint>OSHwi:WS2812B</footprint>
+      <libsource lib="001-rescue" part="WS2812B3535-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D5D4A691</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>2MB Flash</value>
+      <footprint>Oshwi_M0:SOIC8_208MIL</footprint>
+      <libsource lib="001-rescue" part="SPIFLASH_SOIC8208MIL-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FF91EB94</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>OSHwi:R_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>F256FF88</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>OSHwi:R_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>B3EC19A1</tstamp>
+    </comp>
+    <comp ref="U$1">
+      <value>ATSAMD21G18_QFN</value>
+      <footprint>Oshwi_M0:TQFN48_7MM</footprint>
+      <libsource lib="001-rescue" part="ATSAMD21G_QFN-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6D737454</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>OSHwi:C_0805_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="CAP_CERAMIC0603_NO-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E5A05DC2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP2112-3.3</value>
+      <footprint>OSHwi:SOT-23-5_HandSoldering</footprint>
+      <libsource lib="001-rescue" part="VREG_SOT23-5-Adafruit_Feather_M0_Express-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1677694D</tstamp>
+    </comp>
+    <comp ref="CHG1">
+      <value>ORANGE</value>
+      <footprint>OSHwi:LED_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCC697A</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>RED</value>
+      <footprint>OSHwi:LED_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCCC16E</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MBRA120</value>
+      <footprint>OSHwi:D_SOD-123</footprint>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY MBRA120 SMA</field>
+      </fields>
+      <libsource lib="wickerlib" part="DIODE-SCHOTTKY-40V-1A-MBRA140-SMA" description="DIODE SCHOTTKY 40V 1A MBRA140 SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC4156E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>OSHwi:SW_SPST_B3U-1000P</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC54900</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>HEADER-1X11</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:1X11_ROUND</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="HEADER-1X11" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2F430EF2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:0603-NO</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>B4E26408</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:0603-NO</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67C12E9C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT2222</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:SOT23-WIDE</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="TRANSISTOR_NPNWIDE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8B44827F</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>22</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:0603-NO</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>22BA1982</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74HC4050D</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:SOIC16</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="74HC4050D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E770509E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:0805-NO</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DAA3AADF</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>MICROSD</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:MICROSD</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="MICROSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>F1A938B3</tstamp>
+    </comp>
+    <comp ref="U$2">
+      <value>DISP_LCD_0.9IN_160X80</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:TFT_0.96IN_160X80</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="DISP_LCD_0.9IN_160X80" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCCC118</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:0603-NO</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>748ED202</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>APX803</value>
+      <footprint>Adafruit 0.96in 160x80 TFT Display:SOT23</footprint>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="AXP083-SAG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2CE9AD43</tstamp>
+    </comp>
+    <comp ref="PTC1">
+      <value>500mA</value>
+      <libsource lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="500mA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC53312</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="001-rescue" part="ATSAMD21G_QFN-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Value">ATSAMD21G_QFN-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00/EINT0/SERCOM1.0" type="BiDi"/>
+        <pin num="2" name="PA01/EINT1/SERCOM1.1" type="BiDi"/>
+        <pin num="3" name="PA02/EINT2/AIN0/Y0/VOUT" type="BiDi"/>
+        <pin num="4" name="PA03/EINT3/VREFA/AIN1" type="BiDi"/>
+        <pin num="5" name="GNDA" type="power_in"/>
+        <pin num="6" name="VDDA" type="power_in"/>
+        <pin num="7" name="PB08/I8/AIN2/SERCOM4.0" type="BiDi"/>
+        <pin num="8" name="PB09/I9/AIN3/SERCOM4.1" type="BiDi"/>
+        <pin num="9" name="PA04/EINT4/VREFB/AIN4/SERCOM0.0" type="BiDi"/>
+        <pin num="10" name="PA05/EINT5/AIN5/SERCOM0.1" type="BiDi"/>
+        <pin num="11" name="PA06/EINT6/AIN6/SERCOM0.2" type="BiDi"/>
+        <pin num="12" name="PA07/I7/AIN7/SERCOM0.3/I2SD0" type="BiDi"/>
+        <pin num="13" name="PA08/I2C/AIN16/SERCOM0+2.0/I2SD1" type="BiDi"/>
+        <pin num="14" name="PA09/I2C/I9/AIN17/SERCOM0+2.1/I2SMC" type="BiDi"/>
+        <pin num="15" name="PA10/I10/AIN18/SERCOM0+2.2/I2SCK" type="BiDi"/>
+        <pin num="16" name="PA11/I11/AIN19/SERCOM0+2.3/I2SF0" type="BiDi"/>
+        <pin num="17" name="VDDIO" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="PB10/I10/SERCOM4.2/I2SMC" type="BiDi"/>
+        <pin num="20" name="PB11/I11/SERCOM4.3/I2SCL" type="BiDi"/>
+        <pin num="21" name="PA12/I12/I2C/SERCOM2+4.0" type="BiDi"/>
+        <pin num="22" name="PA13/I13/I2C/SERCOM2+4.1" type="BiDi"/>
+        <pin num="23" name="PA14/I14/SERCOM2+4.2" type="BiDi"/>
+        <pin num="24" name="PA15/I15/SERCOM2+4.3" type="BiDi"/>
+        <pin num="25" name="PA16/I2C/I0/SERCOM1+3.0" type="BiDi"/>
+        <pin num="26" name="PA17/I2C/I1/SERCOM1+3.1" type="BiDi"/>
+        <pin num="27" name="PA18/I2/SERCOM1+3.2" type="BiDi"/>
+        <pin num="28" name="PA19/I3/SERCOM1+3.3/I2SD0" type="BiDi"/>
+        <pin num="29" name="PA20/I4/SERCOM3+5.2/I2SSC" type="BiDi"/>
+        <pin num="30" name="PA21/I5/SERCOM3+5.3/I2SFS0" type="BiDi"/>
+        <pin num="31" name="PA22/I2C/I6/SERCOM3+5.0" type="BiDi"/>
+        <pin num="32" name="PA23/I2C/I7/SERCOM3+5.1/SOF" type="BiDi"/>
+        <pin num="33" name="PA24/I12/SERCOM3+5.2/D-" type="BiDi"/>
+        <pin num="34" name="PA25/I13/SERCOM3+5.3/D+" type="BiDi"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="VDDIO" type="power_in"/>
+        <pin num="37" name="PB22/I6/SERCOM5.2" type="BiDi"/>
+        <pin num="38" name="PB23/I7/SERCOM5.3" type="BiDi"/>
+        <pin num="39" name="PA27/I15" type="BiDi"/>
+        <pin num="40" name="/RESET" type="BiDi"/>
+        <pin num="41" name="PA28/I8" type="BiDi"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="VDDCORE" type="power_in"/>
+        <pin num="44" name="VDDIN" type="power_in"/>
+        <pin num="45" name="PA30/I10/SECOM1.2/SWCLK" type="BiDi"/>
+        <pin num="46" name="PA31/I11/SECOM1.3/SWDIO" type="BiDi"/>
+        <pin num="47" name="PB02/I2/AIN10/SERCOM5.0" type="BiDi"/>
+        <pin num="48" name="PB03/I3/AIN11/SERCOM5.1" type="BiDi"/>
+        <pin num="THERMAL" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="CAP_CERAMIC0603_NO-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_CERAMIC0603_NO-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_CERAMIC0805-NOOUTLINE-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="CON_JST_PH_2PIN-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CON_JST_PH_2PIN-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="HEADER-1X12-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">HEADER-1X12-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="HEADER-1X16ROUND-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">HEADER-1X16ROUND-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="MCP73831_2-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831_2-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="SPIFLASH_SOIC8208MIL-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPIFLASH_SOIC8208MIL-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SSEL" type="BiDi"/>
+        <pin num="2" name="MISO" type="BiDi"/>
+        <pin num="3" name="WP#/IO2" type="BiDi"/>
+        <pin num="4" name="VSS" type="BiDi"/>
+        <pin num="5" name="MOSI" type="BiDi"/>
+        <pin num="6" name="SCK" type="BiDi"/>
+        <pin num="7" name="HOLD#/IO3" type="BiDi"/>
+        <pin num="8" name="VCC" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="TESTPOINTROUND1.5MM-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TESTPOINTROUND1.5MM-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="P$1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="USB_MICRO_20329_V2-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">USB_MICRO_20329_V2-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="BASE@1" name="GND" type="power_in"/>
+        <pin num="BASE@2" name="GND" type="power_in"/>
+        <pin num="D+" name="D+" type="BiDi"/>
+        <pin num="D-" name="D-" type="BiDi"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="ID" name="ID" type="BiDi"/>
+        <pin num="SPRT@1" name="GND" type="power_in"/>
+        <pin num="SPRT@2" name="GND" type="power_in"/>
+        <pin num="SPRT@3" name="GND" type="power_in"/>
+        <pin num="SPRT@4" name="GND" type="power_in"/>
+        <pin num="VBUS" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="VREG_SOT23-5-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VREG_SOT23-5-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="P4" type="BiDi"/>
+        <pin num="5" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="WS2812B3535-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">WS2812B3535-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DI" type="input"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="DO" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="001-rescue" part="XTAL-3.2X1.5-Adafruit_Feather_M0_Express-eagle-import">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">XTAL-3.2X1.5-Adafruit_Feather_M0_Express-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="P$1" type="BiDi"/>
+        <pin num="P$2" name="P$2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="500mA">
+      <footprints>
+        <fp>*PTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PTC</field>
+        <field name="Value">500mA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="74HC4050D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC4050D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="BiDi"/>
+        <pin num="2" name="1Y" type="BiDi"/>
+        <pin num="3" name="1A" type="BiDi"/>
+        <pin num="4" name="2Y" type="BiDi"/>
+        <pin num="5" name="2A" type="BiDi"/>
+        <pin num="6" name="3Y" type="BiDi"/>
+        <pin num="7" name="3A" type="BiDi"/>
+        <pin num="8" name="GND" type="BiDi"/>
+        <pin num="9" name="4A" type="BiDi"/>
+        <pin num="10" name="4Y" type="BiDi"/>
+        <pin num="11" name="5A" type="BiDi"/>
+        <pin num="12" name="5Y" type="BiDi"/>
+        <pin num="14" name="6A" type="BiDi"/>
+        <pin num="15" name="6Y" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="AXP083-SAG">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AXP083-SAG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="/RESET" type="output"/>
+        <pin num="3" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_CERAMIC0805-NOOUTLINE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="DISP_LCD_0.9IN_160X80">
+      <fields>
+        <field name="Value">DISP_LCD_0.9IN_160X80</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="LEDA" type="input"/>
+        <pin num="3" name="LEDK" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="RESET" type="input"/>
+        <pin num="7" name="RS/DC" type="input"/>
+        <pin num="8" name="DATA" type="BiDi"/>
+        <pin num="9" name="CLOCK" type="input"/>
+        <pin num="10" name="VDDIO" type="power_in"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="CS" type="input"/>
+        <pin num="13" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="HEADER-1X11">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">HEADER-1X11</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="MICROSD">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MICROSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="CS" type="input"/>
+        <pin num="3" name="DATA_IN" type="input"/>
+        <pin num="4" name="SD_VDD" type="power_in"/>
+        <pin num="5" name="SCLK" type="input"/>
+        <pin num="6" name="GND@3" type="power_in"/>
+        <pin num="7" name="DATA_OUT" type="output"/>
+        <pin num="8" name="DAT1" type="BiDi"/>
+        <pin num="CD1" name="CARD_DETECT" type="passive"/>
+        <pin num="CD2" name="CARD_DETECT1" type="passive"/>
+        <pin num="MT1" name="GND@2" type="power_in"/>
+        <pin num="MT2" name="GND@1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="RESISTOR_0603_NOOUT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR_0603_NOOUT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_0.96in_160x80_TFT_Display-eagle-import" part="TRANSISTOR_NPNWIDE">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TRANSISTOR_NPNWIDE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wickerlib" part="DIODE-SCHOTTKY-40V-1A-MBRA140-SMA">
+      <description>DIODE SCHOTTKY 40V 1A MBRA140 SMA</description>
+      <docs>http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-SCHOTTKY-40V-1A-MBRA140-SMA</field>
+        <field name="Footprint">Wickerlib:DIODE-SMA</field>
+        <field name="Datasheet">http://www.vishay.com/docs/94301/vs-mbra140trpbf.pdf</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A MBRA140 SMA</field>
+        <field name="MF_Name">Vishay</field>
+        <field name="MF_PN">VS-MBRA140TRPBF</field>
+        <field name="S1_Name">Digikey</field>
+        <field name="S1_PN">VS-MBRA140TRPBFCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="001-rescue">
+      <uri>/home/greynaga/Github/oshwi/2019/Oshwi_M0/001-rescue.lib</uri>
+    </library>
+    <library logical="Adafruit_0.96in_160x80_TFT_Display-eagle-import">
+      <uri>/home/greynaga/Github/oshwi/2019/Oshwi_M0/Libraries/Adafruit_0.96in_160x80_TFT_Display-eagle-import.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/home/greynaga/Escritorio/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="wickerlib">
+      <uri>/home/greynaga/Github/oshwi/2019/Oshwi_M0/Libraries/wickerlib.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="CN1" pin="4"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="U$2" pin="10"/>
+      <node ref="U$2" pin="11"/>
+      <node ref="U$2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U$1" pin="6"/>
+      <node ref="U$1" pin="36"/>
+      <node ref="U$1" pin="17"/>
+      <node ref="U$1" pin="44"/>
+      <node ref="JP2" pin="15"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="3"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="2" name="Net-(CN1-Pad1)">
+      <node ref="CN1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(CN1-Pad8)">
+      <node ref="CN1" pin="8"/>
+    </net>
+    <net code="4" name="Net-(CN1-PadCD2)">
+      <node ref="CN1" pin="CD2"/>
+    </net>
+    <net code="5" name="Net-(CN1-PadCD1)">
+      <node ref="CN1" pin="CD1"/>
+    </net>
+    <net code="6" name="VBUS">
+      <node ref="PTC1" pin="2"/>
+      <node ref="X3" pin="VBUS"/>
+      <node ref="CHG1" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="PTC1" pin="1"/>
+    </net>
+    <net code="8" name="/VIN">
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="9" name="/+3.3V">
+      <node ref="JP3" pin="2"/>
+    </net>
+    <net code="10" name="/SCK">
+      <node ref="JP3" pin="4"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U$1" pin="20"/>
+      <node ref="JP2" pin="6"/>
+    </net>
+    <net code="11" name="/MISO_3V">
+      <node ref="JP3" pin="5"/>
+      <node ref="CN1" pin="7"/>
+    </net>
+    <net code="12" name="/MOSI">
+      <node ref="JP3" pin="6"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U$1" pin="19"/>
+      <node ref="JP2" pin="5"/>
+    </net>
+    <net code="13" name="/TFTCS">
+      <node ref="JP3" pin="7"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="14" name="/~TFTRST">
+      <node ref="JP3" pin="8"/>
+      <node ref="U5" pin="11"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="15" name="/BACKLIGHT">
+      <node ref="JP3" pin="11"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="IC1" pin="1"/>
+      <node ref="CN1" pin="6"/>
+      <node ref="CN1" pin="MT2"/>
+      <node ref="CN1" pin="MT1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="U$2" pin="1"/>
+      <node ref="U$2" pin="5"/>
+      <node ref="U$2" pin="13"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U$1" pin="THERMAL"/>
+      <node ref="U$1" pin="42"/>
+      <node ref="U$1" pin="35"/>
+      <node ref="U$1" pin="18"/>
+      <node ref="U$1" pin="5"/>
+      <node ref="U3" pin="4"/>
+      <node ref="LED1" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="X1" pin="1"/>
+      <node ref="JP2" pin="13"/>
+      <node ref="X3" pin="SPRT@3"/>
+      <node ref="X3" pin="SPRT@4"/>
+      <node ref="X3" pin="SPRT@2"/>
+      <node ref="X3" pin="SPRT@1"/>
+      <node ref="X3" pin="GND"/>
+      <node ref="X3" pin="BASE@2"/>
+      <node ref="X3" pin="BASE@1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="17" name="/TFTCS_3V">
+      <node ref="U$2" pin="12"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="18" name="/DC">
+      <node ref="U5" pin="14"/>
+      <node ref="JP3" pin="9"/>
+    </net>
+    <net code="19" name="/SCK_3V">
+      <node ref="CN1" pin="5"/>
+      <node ref="U$2" pin="9"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="20" name="/~TFTRST_3V">
+      <node ref="U$2" pin="6"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="21" name="/DC_3V">
+      <node ref="U5" pin="15"/>
+      <node ref="U$2" pin="7"/>
+    </net>
+    <net code="22" name="/LED_K">
+      <node ref="U$2" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="23" name="/MOSI_3V">
+      <node ref="CN1" pin="3"/>
+      <node ref="U$2" pin="8"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="24" name="/SDCS_3V">
+      <node ref="CN1" pin="2"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="25" name="Net-(Q1-Pad3)">
+      <node ref="R10" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(Q1-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="27" name="/~RESET">
+      <node ref="SW1" pin="1"/>
+      <node ref="U$1" pin="40"/>
+      <node ref="JP2" pin="16"/>
+    </net>
+    <net code="28" name="VBAT">
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U$1" pin="43"/>
+    </net>
+    <net code="30" name="/A0">
+      <node ref="U$1" pin="3"/>
+      <node ref="JP2" pin="12"/>
+    </net>
+    <net code="31" name="/AREF">
+      <node ref="C5" pin="1"/>
+      <node ref="JP2" pin="14"/>
+      <node ref="U$1" pin="4"/>
+    </net>
+    <net code="32" name="/D8_NEOPIX">
+      <node ref="LED1" pin="1"/>
+      <node ref="U$1" pin="11"/>
+    </net>
+    <net code="33" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="34" name="/A3">
+      <node ref="U$1" pin="9"/>
+      <node ref="JP2" pin="9"/>
+    </net>
+    <net code="35" name="/RXLED">
+      <node ref="U$1" pin="48"/>
+    </net>
+    <net code="36" name="/A5">
+      <node ref="U$1" pin="47"/>
+      <node ref="JP2" pin="7"/>
+    </net>
+    <net code="37" name="/SWCLK">
+      <node ref="U$1" pin="45"/>
+      <node ref="TP1" pin="P$1"/>
+    </net>
+    <net code="38" name="Net-(U$1-Pad41)">
+      <node ref="U$1" pin="41"/>
+    </net>
+    <net code="39" name="/TXLED">
+      <node ref="U$1" pin="39"/>
+    </net>
+    <net code="40" name="/D+">
+      <node ref="U$1" pin="34"/>
+      <node ref="X3" pin="D+"/>
+    </net>
+    <net code="41" name="/D-">
+      <node ref="U$1" pin="33"/>
+      <node ref="X3" pin="D-"/>
+    </net>
+    <net code="42" name="/SCL">
+      <node ref="U$1" pin="32"/>
+      <node ref="JP1" pin="11"/>
+    </net>
+    <net code="43" name="/SDA">
+      <node ref="U$1" pin="31"/>
+      <node ref="JP1" pin="12"/>
+    </net>
+    <net code="44" name="/D6">
+      <node ref="U$1" pin="29"/>
+      <node ref="JP1" pin="9"/>
+    </net>
+    <net code="45" name="/D12">
+      <node ref="U$1" pin="28"/>
+      <node ref="JP1" pin="5"/>
+    </net>
+    <net code="46" name="/D10">
+      <node ref="U$1" pin="27"/>
+      <node ref="JP1" pin="7"/>
+    </net>
+    <net code="47" name="/D11">
+      <node ref="U$1" pin="25"/>
+      <node ref="JP1" pin="6"/>
+    </net>
+    <net code="48" name="/FLASH_CS">
+      <node ref="U$1" pin="22"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="49" name="Net-(C8-Pad1)">
+      <node ref="U$1" pin="2"/>
+      <node ref="X2" pin="P$2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="50" name="/D0">
+      <node ref="U$1" pin="16"/>
+      <node ref="JP2" pin="3"/>
+    </net>
+    <net code="51" name="/D1">
+      <node ref="U$1" pin="15"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="52" name="Net-(U$1-Pad37)">
+      <node ref="U$1" pin="37"/>
+    </net>
+    <net code="53" name="/D9">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="JP1" pin="8"/>
+      <node ref="U$1" pin="12"/>
+    </net>
+    <net code="54" name="Net-(C7-Pad1)">
+      <node ref="U$1" pin="1"/>
+      <node ref="X2" pin="P$1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="55" name="/D4_FLASHMOSI">
+      <node ref="U3" pin="5"/>
+      <node ref="U$1" pin="13"/>
+    </net>
+    <net code="56" name="/SDCS">
+      <node ref="JP3" pin="10"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="57" name="/D2_FLASHMISO">
+      <node ref="U3" pin="2"/>
+      <node ref="U$1" pin="23"/>
+    </net>
+    <net code="58" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="59" name="/D7">
+      <node ref="U$1" pin="30"/>
+    </net>
+    <net code="60" name="/A4">
+      <node ref="U$1" pin="10"/>
+      <node ref="JP2" pin="8"/>
+    </net>
+    <net code="61" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="62" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="63" name="Net-(CHG1-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="CHG1" pin="1"/>
+    </net>
+    <net code="64" name="/D13">
+      <node ref="JP1" pin="4"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U$1" pin="26"/>
+    </net>
+    <net code="65" name="/D5">
+      <node ref="JP1" pin="10"/>
+      <node ref="U$1" pin="24"/>
+    </net>
+    <net code="66" name="/MISO">
+      <node ref="JP2" pin="4"/>
+      <node ref="U$1" pin="21"/>
+    </net>
+    <net code="67" name="/A1">
+      <node ref="JP2" pin="11"/>
+      <node ref="U$1" pin="7"/>
+    </net>
+    <net code="68" name="/A2">
+      <node ref="JP2" pin="10"/>
+      <node ref="U$1" pin="8"/>
+    </net>
+    <net code="69" name="Net-(X3-PadID)">
+      <node ref="X3" pin="ID"/>
+    </net>
+    <net code="70" name="/D3_FLASHSCK">
+      <node ref="U$1" pin="14"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="71" name="/SWDIO">
+      <node ref="U$1" pin="46"/>
+      <node ref="TP2" pin="P$1"/>
+    </net>
+    <net code="72" name="Net-(LED1-Pad3)">
+      <node ref="LED1" pin="3"/>
+    </net>
+    <net code="73" name="Net-(U$1-Pad38)">
+      <node ref="U$1" pin="38"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="75" name="/EN">
+      <node ref="JP1" pin="2"/>
+    </net>
+  </nets>
+</export>

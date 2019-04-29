@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "Adafruit_Feather_M0_Express-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/Adafruit_Feather_M0_Express-eagle-import.lib")(options "")(descr ""))
-)
