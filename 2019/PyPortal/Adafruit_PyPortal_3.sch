@@ -1,0 +1,832 @@
+EESchema Schematic File Version 5
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7500 6500 7500 6600
+Text GLabel 7500 6500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3700 5600 3500 5600
+Wire Wire Line
+	3500 5600 3500 5700
+Wire Wire Line
+	3500 5700 3700 5700
+Wire Wire Line
+	3500 5700 3500 5800
+Connection ~ 3500 5700
+Text GLabel 3700 5600 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4700 5500 5000 5500
+Wire Wire Line
+	5000 5500 5000 5800
+Text GLabel 4700 5500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7300 2100 7300 2000
+Text GLabel 7300 2100 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8500 1800 7700 1800
+Text GLabel 7700 1800 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	6800 1800 6000 1800
+Text GLabel 6000 1800 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	5000 2200 4700 2200
+Wire Wire Line
+	4700 2200 4400 2200
+Wire Wire Line
+	4700 2300 4700 2200
+Wire Wire Line
+	4700 1800 4700 2200
+Text GLabel 4400 2200 2    70   BiDi ~ 0
+GND
+Connection ~ 4700 2200
+Wire Wire Line
+	8900 5400 8900 5500
+Text GLabel 8900 5400 0    10   BiDi ~ 0
+3.3V
+Wire Wire Line
+	6500 5500 6500 5300
+Text GLabel 6500 5500 0    10   BiDi ~ 0
+3.3V
+Wire Wire Line
+	4700 5400 4900 5400
+Wire Wire Line
+	4900 5400 4900 5300
+Text GLabel 4700 5400 0    10   BiDi ~ 0
+3.3V
+Wire Wire Line
+	4200 1500 4000 1500
+Text GLabel 4200 1500 0    10   BiDi ~ 0
+3.3V
+Wire Wire Line
+	6500 6400 7000 6400
+Wire Wire Line
+	6500 6400 6500 6300
+Connection ~ 6500 6400
+Text GLabel 6750 6400 2    70   BiDi ~ 0
+LIGHT
+Wire Wire Line
+	7500 6100 7500 6200
+Wire Wire Line
+	7500 5700 7500 5500
+Text GLabel 7500 5500 1    70   BiDi ~ 0
+D13
+Wire Wire Line
+	8200 6200 7700 6200
+Text GLabel 7800 6200 2    70   BiDi ~ 0
+NEOPIX
+Wire Wire Line
+	3700 5400 2800 5400
+Wire Wire Line
+	2800 5400 2800 5300
+Text GLabel 3000 5400 2    70   BiDi ~ 0
+SCL
+Wire Wire Line
+	5000 1900 4400 1900
+Text GLabel 4400 1900 2    70   BiDi ~ 0
+SCL
+Wire Wire Line
+	2500 5500 3700 5500
+Wire Wire Line
+	2500 5500 2500 5300
+Text GLabel 3000 5500 2    70   BiDi ~ 0
+SDA
+Wire Wire Line
+	5000 2000 4400 2000
+Text GLabel 4400 2000 2    70   BiDi ~ 0
+SDA
+Wire Wire Line
+	4300 3900 3000 3900
+Text GLabel 4300 3900 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	4400 1500 4700 1500
+Text GLabel 4400 1500 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	3600 3400 2900 3400
+Text GLabel 3250 3400 0    70   BiDi ~ 0
+AUDIO_OUT
+Wire Wire Line
+	4300 3700 3600 3700
+Text GLabel 3700 3700 2    70   BiDi ~ 0
+SPK_SD
+Wire Wire Line
+	5300 3400 5300 3300
+Wire Wire Line
+	5300 3300 6100 3300
+Wire Wire Line
+	6100 3300 6100 3400
+Wire Wire Line
+	6100 3300 6500 3300
+Connection ~ 6100 3300
+Wire Wire Line
+	5300 3700 6100 3700
+Wire Wire Line
+	6100 3700 7000 3700
+Wire Wire Line
+	6100 3700 6100 3500
+Connection ~ 6100 3700
+Wire Wire Line
+	4300 1700 4300 1600
+Text Label 4300 1700 0    10   ~ 0
+VCC
+Wire Wire Line
+	5000 2100 4300 2100
+Text Label 5000 2100 0    10   ~ 0
+VCC
+Wire Wire Line
+	7500 1900 8500 1900
+Wire Wire Line
+	7500 1900 7500 1600
+Text Label 7700 1900 0    70   ~ 0
+VCC
+Wire Wire Line
+	7300 1700 7300 1600
+Text Label 7300 1700 0    10   ~ 0
+VCC
+Wire Wire Line
+	5600 1900 6800 1900
+Wire Wire Line
+	5600 1900 5600 1800
+Text Label 6000 1900 0    70   ~ 0
+VCC
+Wire Wire Line
+	6200 2000 6000 2000
+Wire Wire Line
+	6200 2000 6200 2100
+Text GLabel 6000 2000 2    70   BiDi ~ 0
+D4_UNSAFE
+Connection ~ 6200 2000
+Wire Wire Line
+	7900 2000 7700 2000
+Wire Wire Line
+	7900 2100 7900 2000
+Text GLabel 7700 2000 2    70   BiDi ~ 0
+D3_UNSAFE
+Connection ~ 7900 2000
+Wire Wire Line
+	6800 2000 6600 2000
+Wire Wire Line
+	8500 2000 8300 2000
+Wire Wire Line
+	6900 3300 7000 3300
+$Comp
+L Adafruit_PyPortal-eagle-import:PHOTOTRANSISTOR_PT26-21C U4
+U 1 1 67F2D3CB
+P 6400 5900
+AR Path="/67F2D3CB" Ref="U4"  Part="1" 
+AR Path="/5CC73DD6/67F2D3CB" Ref="U4"  Part="1" 
+F 0 "U4" V 6750 6100 59  0000 R TNN
+F 1 "ALS-PT21" V 5700 6100 59  0000 R TNN
+F 2 "Adafruit PyPortal:ALS-PT26-21C" H 6400 5900 50  0001 C CNN
+F 3 "" H 6400 5900 50  0001 C CNN
+	1    6400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:RESISTOR_0603_NOOUT R8
+U 1 1 B4E26408
+P 6500 6600
+AR Path="/B4E26408" Ref="R8"  Part="1" 
+AR Path="/5CC73DD6/B4E26408" Ref="R8"  Part="1" 
+F 0 "R8" H 6500 6700 50  0000 C CNN
+F 1 "10K" H 6500 6600 40  0000 C CNB
+F 2 "Adafruit PyPortal:0603-NO" H 6500 6600 50  0001 C CNN
+F 3 "" H 6500 6600 50  0001 C CNN
+	1    6500 6600
+	0    1    -1   0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND24
+U 1 1 664B2FAE
+P 6500 6900
+AR Path="/664B2FAE" Ref="#GND24"  Part="1" 
+AR Path="/5CC73DD6/664B2FAE" Ref="#GND024"  Part="1" 
+F 0 "#GND024" H 6500 6900 50  0001 C CNN
+F 1 "GND" H 6400 6800 59  0000 L BNN
+F 2 "" H 6500 6900 50  0001 C CNN
+F 3 "" H 6500 6900 50  0001 C CNN
+	1    6500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:LED0805_NOOUTLINE L
+U 1 1 591592A1
+P 7500 6400
+AR Path="/591592A1" Ref="L"  Part="1" 
+AR Path="/5CC73DD6/591592A1" Ref="L1"  Part="1" 
+F 0 "L1" H 7450 6575 42  0000 C CNN
+F 1 "RED" H 7450 6290 42  0000 C CNN
+F 2 "Adafruit PyPortal:CHIPLED_0805_NOOUTLINE" H 7500 6400 50  0001 C CNN
+F 3 "" H 7500 6400 50  0001 C CNN
+	1    7500 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:RESISTOR_0603_NOOUT R10
+U 1 1 01C676F9
+P 7500 5900
+AR Path="/01C676F9" Ref="R10"  Part="1" 
+AR Path="/5CC73DD6/01C676F9" Ref="R10"  Part="1" 
+F 0 "R10" H 7500 6000 50  0000 C CNN
+F 1 "1K" H 7500 5900 40  0000 C CNB
+F 2 "Adafruit PyPortal:0603-NO" H 7500 5900 50  0001 C CNN
+F 3 "" H 7500 5900 50  0001 C CNN
+	1    7500 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND10
+U 1 1 845C69E3
+P 7500 6700
+AR Path="/845C69E3" Ref="#GND10"  Part="1" 
+AR Path="/5CC73DD6/845C69E3" Ref="#GND010"  Part="1" 
+F 0 "#GND010" H 7500 6700 50  0001 C CNN
+F 1 "GND" H 7400 6600 59  0000 L BNN
+F 2 "" H 7500 6700 50  0001 C CNN
+F 3 "" H 7500 6700 50  0001 C CNN
+	1    7500 6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:WS2812B3535 LED1
+U 1 1 D5D4A691
+P 8700 6100
+AR Path="/D5D4A691" Ref="LED1"  Part="1" 
+AR Path="/5CC73DD6/D5D4A691" Ref="LED1"  Part="1" 
+F 0 "LED1" H 8700 6100 50  0001 C CNN
+F 1 "WS2812B3535" H 8700 6100 50  0001 C CNN
+F 2 "Adafruit PyPortal:LED3535" H 8700 6100 50  0001 C CNN
+F 3 "" H 8700 6100 50  0001 C CNN
+	1    8700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND15
+U 1 1 257B06B4
+P 8700 6600
+AR Path="/257B06B4" Ref="#GND15"  Part="1" 
+AR Path="/5CC73DD6/257B06B4" Ref="#GND015"  Part="1" 
+F 0 "#GND015" H 8700 6600 50  0001 C CNN
+F 1 "GND" H 8600 6500 59  0000 L BNN
+F 2 "" H 8700 6600 50  0001 C CNN
+F 3 "" H 8700 6600 50  0001 C CNN
+	1    8700 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:3.3V #U$34
+U 1 1 5ECB812F
+P 8900 5300
+AR Path="/5ECB812F" Ref="#U$34"  Part="1" 
+AR Path="/5CC73DD6/5ECB812F" Ref="#U$034"  Part="1" 
+F 0 "#U$034" H 8900 5300 50  0001 C CNN
+F 1 "3.3V" H 8840 5340 42  0000 L BNN
+F 2 "" H 8900 5300 50  0001 C CNN
+F 3 "" H 8900 5300 50  0001 C CNN
+	1    8900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:3.3V #U$35
+U 1 1 B6DE689A
+P 6500 5200
+AR Path="/B6DE689A" Ref="#U$35"  Part="1" 
+AR Path="/5CC73DD6/B6DE689A" Ref="#U$035"  Part="1" 
+F 0 "#U$035" H 6500 5200 50  0001 C CNN
+F 1 "3.3V" H 6440 5240 42  0000 L BNN
+F 2 "" H 6500 5200 50  0001 C CNN
+F 3 "" H 6500 5200 50  0001 C CNN
+	1    6500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:TEMP_ADT7410 U3
+U 1 1 5842D0D2
+P 4200 5600
+AR Path="/5842D0D2" Ref="U3"  Part="1" 
+AR Path="/5CC73DD6/5842D0D2" Ref="U3"  Part="1" 
+F 0 "U3" H 3800 5950 42  0000 L BNN
+F 1 "ADT7410" H 3800 5300 42  0000 L BNN
+F 2 "Adafruit PyPortal:SOIC8_150MIL" H 4200 5600 50  0001 C CNN
+F 3 "" H 4200 5600 50  0001 C CNN
+	1    4200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND3
+U 1 1 7679BDCC
+P 3500 5900
+AR Path="/7679BDCC" Ref="#GND3"  Part="1" 
+AR Path="/5CC73DD6/7679BDCC" Ref="#GND03"  Part="1" 
+F 0 "#GND03" H 3500 5900 50  0001 C CNN
+F 1 "GND" H 3400 5800 59  0000 L BNN
+F 2 "" H 3500 5900 50  0001 C CNN
+F 3 "" H 3500 5900 50  0001 C CNN
+	1    3500 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:3.3V #U$45
+U 1 1 DFC81F40
+P 4900 5200
+AR Path="/DFC81F40" Ref="#U$45"  Part="1" 
+AR Path="/5CC73DD6/DFC81F40" Ref="#U$045"  Part="1" 
+F 0 "#U$045" H 4900 5200 50  0001 C CNN
+F 1 "3.3V" H 4840 5240 42  0000 L BNN
+F 2 "" H 4900 5200 50  0001 C CNN
+F 3 "" H 4900 5200 50  0001 C CNN
+	1    4900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND4
+U 1 1 D896219B
+P 5000 5900
+AR Path="/D896219B" Ref="#GND4"  Part="1" 
+AR Path="/5CC73DD6/D896219B" Ref="#GND04"  Part="1" 
+F 0 "#GND04" H 5000 5900 50  0001 C CNN
+F 1 "GND" H 4900 5800 59  0000 L BNN
+F 2 "" H 5000 5900 50  0001 C CNN
+F 3 "" H 5000 5900 50  0001 C CNN
+	1    5000 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:RESISTOR_0603_NOOUT R16
+U 1 1 20979D20
+P 2800 5100
+AR Path="/20979D20" Ref="R16"  Part="1" 
+AR Path="/5CC73DD6/20979D20" Ref="R16"  Part="1" 
+F 0 "R16" H 2800 5200 50  0000 C CNN
+F 1 "10K" H 2800 5100 40  0000 C CNB
+F 2 "Adafruit PyPortal:0603-NO" H 2800 5100 50  0001 C CNN
+F 3 "" H 2800 5100 50  0001 C CNN
+	1    2800 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:RESISTOR_0603_NOOUT R17
+U 1 1 2E4BAFF1
+P 2500 5100
+AR Path="/2E4BAFF1" Ref="R17"  Part="1" 
+AR Path="/5CC73DD6/2E4BAFF1" Ref="R17"  Part="1" 
+F 0 "R17" H 2500 5200 50  0000 C CNN
+F 1 "10K" H 2500 5100 40  0000 C CNB
+F 2 "Adafruit PyPortal:0603-NO" H 2500 5100 50  0001 C CNN
+F 3 "" H 2500 5100 50  0001 C CNN
+	1    2500 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:3.3V #U$46
+U 1 1 2F9BBE74
+P 2500 4800
+AR Path="/2F9BBE74" Ref="#U$46"  Part="1" 
+AR Path="/5CC73DD6/2F9BBE74" Ref="#U$046"  Part="1" 
+F 0 "#U$046" H 2500 4800 50  0001 C CNN
+F 1 "3.3V" H 2440 4840 42  0000 L BNN
+F 2 "" H 2500 4800 50  0001 C CNN
+F 3 "" H 2500 4800 50  0001 C CNN
+	1    2500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:3.3V #U$47
+U 1 1 57EA3968
+P 2800 4800
+AR Path="/57EA3968" Ref="#U$47"  Part="1" 
+AR Path="/5CC73DD6/57EA3968" Ref="#U$047"  Part="1" 
+F 0 "#U$047" H 2800 4800 50  0001 C CNN
+F 1 "3.3V" H 2740 4840 42  0000 L BNN
+F 2 "" H 2800 4800 50  0001 C CNN
+F 3 "" H 2800 4800 50  0001 C CNN
+	1    2800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:SPEAKER_7.5MM SP1
+U 1 1 9123FB9F
+P 7000 3500
+AR Path="/9123FB9F" Ref="SP1"  Part="1" 
+AR Path="/5CC73DD6/9123FB9F" Ref="SP1"  Part="1" 
+F 0 "SP1" H 6850 3750 59  0000 L BNN
+F 1 "7.5mm SPK" H 6850 3375 59  0000 L BNN
+F 2 "Adafruit PyPortal:BUZZER_SMT_7.5MM" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:CAP_CERAMIC0603_NO C19
+U 1 1 8DCD6BD8
+P 3800 3400
+AR Path="/8DCD6BD8" Ref="C19"  Part="1" 
+AR Path="/5CC73DD6/8DCD6BD8" Ref="C19"  Part="1" 
+F 0 "C19" V 3709 3450 50  0000 C CNN
+F 1 "0.1uF" V 3890 3450 50  0000 C CNN
+F 2 "Adafruit PyPortal:0603-NO" H 3800 3400 50  0001 C CNN
+F 3 "" H 3800 3400 50  0001 C CNN
+	1    3800 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:PAM8301 IC2
+U 1 1 541775CA
+P 4800 3500
+AR Path="/541775CA" Ref="IC2"  Part="1" 
+AR Path="/5CC73DD6/541775CA" Ref="IC2"  Part="1" 
+F 0 "IC2" H 4400 4200 42  0000 L BNN
+F 1 "PAM8301" H 4400 2600 42  0000 L BNN
+F 2 "Adafruit PyPortal:SOT23-6" H 4800 3500 50  0001 C CNN
+F 3 "" H 4800 3500 50  0001 C CNN
+	1    4800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND8
+U 1 1 DF24F9E8
+P 4300 4100
+AR Path="/DF24F9E8" Ref="#GND8"  Part="1" 
+AR Path="/5CC73DD6/DF24F9E8" Ref="#GND08"  Part="1" 
+F 0 "#GND08" H 4300 4100 50  0001 C CNN
+F 1 "GND" H 4200 4000 59  0000 L BNN
+F 2 "" H 4300 4100 50  0001 C CNN
+F 3 "" H 4300 4100 50  0001 C CNN
+	1    4300 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:RESISTOR_0603_NOOUT R21
+U 1 1 4FFBDE80
+P 4100 3400
+AR Path="/4FFBDE80" Ref="R21"  Part="1" 
+AR Path="/5CC73DD6/4FFBDE80" Ref="R21"  Part="1" 
+F 0 "R21" H 4100 3500 50  0000 C CNN
+F 1 "47K" H 4100 3400 40  0000 C CNB
+F 2 "Adafruit PyPortal:0603-NO" H 4100 3400 50  0001 C CNN
+F 3 "" H 4100 3400 50  0001 C CNN
+	1    4100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:+5V #SUPPLY9
+U 1 1 7F737C64
+P 3000 3800
+AR Path="/7F737C64" Ref="#SUPPLY9"  Part="1" 
+AR Path="/5CC73DD6/7F737C64" Ref="#SUPPLY09"  Part="1" 
+F 0 "#SUPPLY09" H 3000 3800 50  0001 C CNN
+F 1 "+5V" V 2925 3925 59  0000 L BNN
+F 2 "" H 3000 3800 50  0001 C CNN
+F 3 "" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:CON_MOLEX_2P CON1
+U 1 1 98085B15
+P 6300 3500
+AR Path="/98085B15" Ref="CON1"  Part="1" 
+AR Path="/5CC73DD6/98085B15" Ref="CON1"  Part="1" 
+F 0 "CON1" H 6200 3800 42  0001 L BNN
+F 1 "CON_MOLEX_2P" H 6200 3300 42  0001 L BNN
+F 2 "Adafruit PyPortal:53398-0271" H 6300 3500 50  0001 C CNN
+F 3 "" H 6300 3500 50  0001 C CNN
+	1    6300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:RESISTOR_0603_NOOUT R22
+U 1 1 9B0FDFC6
+P 3400 3700
+AR Path="/9B0FDFC6" Ref="R22"  Part="1" 
+AR Path="/5CC73DD6/9B0FDFC6" Ref="R22"  Part="1" 
+F 0 "R22" H 3400 3800 50  0000 C CNN
+F 1 "47K" H 3400 3700 40  0000 C CNB
+F 2 "Adafruit PyPortal:0603-NO" H 3400 3700 50  0001 C CNN
+F 3 "" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:3.3V #U$53
+U 1 1 CBF1CD49
+P 3200 3600
+AR Path="/CBF1CD49" Ref="#U$53"  Part="1" 
+AR Path="/5CC73DD6/CBF1CD49" Ref="#U$053"  Part="1" 
+F 0 "#U$053" H 3200 3600 50  0001 C CNN
+F 1 "3.3V" H 3140 3640 42  0000 L BNN
+F 2 "" H 3200 3600 50  0001 C CNN
+F 3 "" H 3200 3600 50  0001 C CNN
+	1    3200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:CAP_CERAMIC0805-NOOUTLINE C7
+U 1 1 493D4CA5
+P 7300 1900
+AR Path="/493D4CA5" Ref="C7"  Part="1" 
+AR Path="/5CC73DD6/493D4CA5" Ref="C7"  Part="1" 
+F 0 "C7" V 7209 1949 50  0000 C CNN
+F 1 "10uF" V 7390 1949 50  0000 C CNN
+F 2 "Adafruit PyPortal:0805-NO" H 7300 1900 50  0001 C CNN
+F 3 "" H 7300 1900 50  0001 C CNN
+	1    7300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND16
+U 1 1 99D4D269
+P 7300 2200
+AR Path="/99D4D269" Ref="#GND16"  Part="1" 
+AR Path="/5CC73DD6/99D4D269" Ref="#GND016"  Part="1" 
+F 0 "#GND016" H 7300 2200 50  0001 C CNN
+F 1 "GND" H 7200 2100 59  0000 L BNN
+F 2 "" H 7300 2200 50  0001 C CNN
+F 3 "" H 7300 2200 50  0001 C CNN
+	1    7300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:CON_JST_PH_3PIN SENSE
+U 1 1 F13FABE8
+P 8600 1900
+AR Path="/F13FABE8" Ref="SENSE"  Part="1" 
+AR Path="/5CC73DD6/F13FABE8" Ref="SENSE1"  Part="1" 
+F 0 "SENSE1" H 8350 2125 59  0000 L BNN
+F 1 "JST PH 3" H 8350 1600 59  0000 L BNN
+F 2 "Adafruit PyPortal:JSTPH3" H 8600 1900 50  0001 C CNN
+F 3 "" H 8600 1900 50  0001 C CNN
+	1    8600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:CON_JST_PH_3PIN NEOPIX
+U 1 1 73F91EA9
+P 6900 1900
+AR Path="/73F91EA9" Ref="NEOPIX"  Part="1" 
+AR Path="/5CC73DD6/73F91EA9" Ref="NEOPIX1"  Part="1" 
+F 0 "NEOPIX1" H 6650 2125 59  0000 L BNN
+F 1 "JST PH 3" H 6650 1600 59  0000 L BNN
+F 2 "Adafruit PyPortal:JSTPH3" H 6900 1900 50  0001 C CNN
+F 3 "" H 6900 1900 50  0001 C CNN
+	1    6900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:STEMMA_I2C_RASMT I2C
+U 1 1 45699962
+P 5000 2000
+AR Path="/45699962" Ref="I2C"  Part="1" 
+AR Path="/5CC73DD6/45699962" Ref="I2C1"  Part="1" 
+F 0 "I2C1" H 4850 2325 59  0001 L BNN
+F 1 "JST PH 4" H 4850 1700 59  0001 L BNN
+F 2 "Adafruit PyPortal:JSTPH4" H 5000 2000 50  0001 C CNN
+F 3 "" H 5000 2000 50  0001 C CNN
+	1    5000 2000
+	1    0    0    1   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:STEMMA_I2C_RASMT I2C
+U 2 1 4569996E
+P 4700 1800
+AR Path="/4569996E" Ref="I2C"  Part="2" 
+AR Path="/5CC73DD6/4569996E" Ref="I2C1"  Part="2" 
+F 0 "I2C1" H 4550 2125 59  0001 L BNN
+F 1 "JST PH 4" H 4550 1500 59  0001 L BNN
+F 2 "Adafruit PyPortal:JSTPH4" H 4700 1800 50  0001 C CNN
+F 3 "" H 4700 1800 50  0001 C CNN
+	2    4700 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:STEMMA_I2C_RASMT I2C
+U 3 1 4569996A
+P 4700 2300
+AR Path="/4569996A" Ref="I2C"  Part="3" 
+AR Path="/5CC73DD6/4569996A" Ref="I2C1"  Part="3" 
+F 0 "I2C1" H 4550 2625 59  0001 L BNN
+F 1 "JST PH 4" H 4550 2000 59  0001 L BNN
+F 2 "Adafruit PyPortal:JSTPH4" H 4700 2300 50  0001 C CNN
+F 3 "" H 4700 2300 50  0001 C CNN
+	3    4700 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:SOLDERJUMPER_2WAY SJ1
+U 1 1 44DD8191
+P 4300 1500
+AR Path="/44DD8191" Ref="SJ1"  Part="1" 
+AR Path="/5CC73DD6/44DD8191" Ref="SJ1"  Part="1" 
+F 0 "SJ1" H 4100 1350 59  0000 L BNN
+F 1 "SOLDERJUMPER_2WAY" H 4100 1250 59  0000 L BNN
+F 2 "Adafruit PyPortal:SOLDERJUMPER_2WAY_OPEN_NOPASTE" H 4300 1500 50  0001 C CNN
+F 3 "" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:VCC #SUPPLY1
+U 1 1 E46721A6
+P 7500 1500
+AR Path="/E46721A6" Ref="#SUPPLY1"  Part="1" 
+AR Path="/5CC73DD6/E46721A6" Ref="#SUPPLY01"  Part="1" 
+F 0 "#SUPPLY01" H 7500 1500 50  0001 C CNN
+F 1 "VCC" H 7425 1625 59  0000 L BNN
+F 2 "" H 7500 1500 50  0001 C CNN
+F 3 "" H 7500 1500 50  0001 C CNN
+	1    7500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:VCC #SUPPLY3
+U 1 1 D5692080
+P 4200 2100
+AR Path="/D5692080" Ref="#SUPPLY3"  Part="1" 
+AR Path="/5CC73DD6/D5692080" Ref="#SUPPLY03"  Part="1" 
+F 0 "#SUPPLY03" H 4200 2100 50  0001 C CNN
+F 1 "VCC" H 4125 2225 59  0000 L BNN
+F 2 "" H 4200 2100 50  0001 C CNN
+F 3 "" H 4200 2100 50  0001 C CNN
+	1    4200 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:VCC #SUPPLY4
+U 1 1 6DF68C43
+P 4200 1700
+AR Path="/6DF68C43" Ref="#SUPPLY4"  Part="1" 
+AR Path="/5CC73DD6/6DF68C43" Ref="#SUPPLY04"  Part="1" 
+F 0 "#SUPPLY04" H 4200 1700 50  0001 C CNN
+F 1 "VCC" H 4125 1825 59  0000 L BNN
+F 2 "" H 4200 1700 50  0001 C CNN
+F 3 "" H 4200 1700 50  0001 C CNN
+	1    4200 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:VCC #SUPPLY6
+U 1 1 C21E2EB3
+P 7300 1500
+AR Path="/C21E2EB3" Ref="#SUPPLY6"  Part="1" 
+AR Path="/5CC73DD6/C21E2EB3" Ref="#SUPPLY06"  Part="1" 
+F 0 "#SUPPLY06" H 7300 1500 50  0001 C CNN
+F 1 "VCC" H 7225 1625 59  0000 L BNN
+F 2 "" H 7300 1500 50  0001 C CNN
+F 3 "" H 7300 1500 50  0001 C CNN
+	1    7300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:RESISTOR_0603_NOOUT R11
+U 1 1 B7E4369A
+P 6400 2000
+AR Path="/B7E4369A" Ref="R11"  Part="1" 
+AR Path="/5CC73DD6/B7E4369A" Ref="R11"  Part="1" 
+F 0 "R11" H 6400 2100 50  0000 C CNN
+F 1 "1K" H 6400 2000 40  0000 C CNB
+F 2 "Adafruit PyPortal:0603-NO" H 6400 2000 50  0001 C CNN
+F 3 "" H 6400 2000 50  0001 C CNN
+	1    6400 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:RESISTOR_0603_NOOUT R12
+U 1 1 054D07B2
+P 8100 2000
+AR Path="/054D07B2" Ref="R12"  Part="1" 
+AR Path="/5CC73DD6/054D07B2" Ref="R12"  Part="1" 
+F 0 "R12" H 8100 2100 50  0000 C CNN
+F 1 "1K" H 8100 2000 40  0000 C CNB
+F 2 "Adafruit PyPortal:0603-NO" H 8100 2000 50  0001 C CNN
+F 3 "" H 8100 2000 50  0001 C CNN
+	1    8100 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:DIODE-ZENERSOD323 D1
+U 1 1 E676B0EC
+P 6200 2200
+AR Path="/E676B0EC" Ref="D1"  Part="1" 
+AR Path="/5CC73DD6/E676B0EC" Ref="D1"  Part="1" 
+F 0 "D1" H 6100 2319 42  0000 L BNN
+F 1 "3.6V" H 6100 2009 42  0000 L BNN
+F 2 "Adafruit PyPortal:SOD-323" H 6200 2200 50  0001 C CNN
+F 3 "" H 6200 2200 50  0001 C CNN
+	1    6200 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:DIODE-ZENERSOD323 D2
+U 1 1 4B2520AB
+P 7900 2200
+AR Path="/4B2520AB" Ref="D2"  Part="1" 
+AR Path="/5CC73DD6/4B2520AB" Ref="D2"  Part="1" 
+F 0 "D2" H 7800 2319 42  0000 L BNN
+F 1 "3.6V" H 7800 2009 42  0000 L BNN
+F 2 "Adafruit PyPortal:SOD-323" H 7900 2200 50  0001 C CNN
+F 3 "" H 7900 2200 50  0001 C CNN
+	1    7900 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND17
+U 1 1 0A5A0AC8
+P 6200 2400
+AR Path="/0A5A0AC8" Ref="#GND17"  Part="1" 
+AR Path="/5CC73DD6/0A5A0AC8" Ref="#GND017"  Part="1" 
+F 0 "#GND017" H 6200 2400 50  0001 C CNN
+F 1 "GND" H 6100 2300 59  0000 L BNN
+F 2 "" H 6200 2400 50  0001 C CNN
+F 3 "" H 6200 2400 50  0001 C CNN
+	1    6200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:GND #GND19
+U 1 1 48B3EBD8
+P 7900 2400
+AR Path="/48B3EBD8" Ref="#GND19"  Part="1" 
+AR Path="/5CC73DD6/48B3EBD8" Ref="#GND019"  Part="1" 
+F 0 "#GND019" H 7900 2400 50  0001 C CNN
+F 1 "GND" H 7800 2300 59  0000 L BNN
+F 2 "" H 7900 2400 50  0001 C CNN
+F 3 "" H 7900 2400 50  0001 C CNN
+	1    7900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:3.3V #U$33
+U 1 1 930AC143
+P 4000 1400
+AR Path="/930AC143" Ref="#U$33"  Part="1" 
+AR Path="/5CC73DD6/930AC143" Ref="#U$033"  Part="1" 
+F 0 "#U$033" H 4000 1400 50  0001 C CNN
+F 1 "3.3V" H 3940 1440 42  0000 L BNN
+F 2 "" H 4000 1400 50  0001 C CNN
+F 3 "" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:+5V #SUPPLY7
+U 1 1 70B0FDB1
+P 4700 1400
+AR Path="/70B0FDB1" Ref="#SUPPLY7"  Part="1" 
+AR Path="/5CC73DD6/70B0FDB1" Ref="#SUPPLY07"  Part="1" 
+F 0 "#SUPPLY07" H 4700 1400 50  0001 C CNN
+F 1 "+5V" V 4625 1525 59  0000 L BNN
+F 2 "" H 4700 1400 50  0001 C CNN
+F 3 "" H 4700 1400 50  0001 C CNN
+	1    4700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:VCC #SUPPLY8
+U 1 1 CC52D7E0
+P 5600 1700
+AR Path="/CC52D7E0" Ref="#SUPPLY8"  Part="1" 
+AR Path="/5CC73DD6/CC52D7E0" Ref="#SUPPLY08"  Part="1" 
+F 0 "#SUPPLY08" H 5600 1700 50  0001 C CNN
+F 1 "VCC" H 5525 1825 59  0000 L BNN
+F 2 "" H 5600 1700 50  0001 C CNN
+F 3 "" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PyPortal-eagle-import:SOLDERJUMPERCLOSED SJ4
+U 1 1 FF662D92
+P 6700 3300
+AR Path="/FF662D92" Ref="SJ4"  Part="1" 
+AR Path="/5CC73DD6/FF662D92" Ref="SJ4"  Part="1" 
+F 0 "SJ4" H 6600 3400 42  0000 L BNN
+F 1 "SOLDERJUMPERCLOSED" H 6600 3150 42  0000 L BNN
+F 2 "Adafruit PyPortal:SOLDERJUMPER_CLOSEDWIRE" H 6700 3300 50  0001 C CNN
+F 3 "" H 6700 3300 50  0001 C CNN
+	1    6700 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 7200 5300 0    59   ~ 0
+RED LED
+Text Notes 5600 1400 0    170  ~ 0
+JST Ports
+$EndSCHEMATC

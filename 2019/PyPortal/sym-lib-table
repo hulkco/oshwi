@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Adafruit_PyPortal-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/Adafruit_PyPortal-eagle-import.lib")(options "")(descr ""))
+)

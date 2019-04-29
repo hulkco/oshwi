@@ -1,0 +1,15 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"BOM";
+"1";"";"HEADER-1X11";"1X11_ROUND";"JP1";"";"";
+"1";"";"MICROSD";"MICROSD";"CN1";"MicroSD/Transflash Card Holder with SPI pinout";"";
+"1";"0.1uF";"CAP_CERAMIC0805-NOOUTLINE";"0805-NO";"C3";"Ceramic Capacitors";"";
+"2";"10K";"RESISTOR_0603_NOOUT";"0603-NO";"R2, R8";"Resistors";"";
+"2";"10µF";"CAP_CERAMIC0805-NOOUTLINE";"0805-NO";"C1, C2";"Ceramic Capacitors";"";
+"1";"1K";"RESISTOR_0603_NOOUT";"0603-NO";"R7";"Resistors";"";
+"1";"22";"RESISTOR_0603_NOOUT";"0603-NO";"R5";"Resistors";"";
+"1";"74HC4050D";"74HC4050D";"SOIC16";"U3";"6-channel level shifter";"";
+"1";"APX803";"AXP083-SAG";"SOT23";"IC5";"";"";
+"1";"DISP_LCD_0.9IN_160X80";"DISP_LCD_0.9IN_160X80";"TFT_0.96IN_160X80";"U$2";"";"";
+"2";"FIDUCIAL_1MM";"FIDUCIAL_1MM";"FIDUCIAL_1MM";"FID1, FID2";"Fiducial Alignment Points";"EXCLUDE";
+"1";"MIC5225-3.3";"VREG_SOT23-5";"SOT23-5";"U2";"SOT23-5 Fixed Voltage Regulators";"";
+"1";"MMBT2222";"TRANSISTOR_NPNWIDE";"SOT23-WIDE";"Q1";"NPN Transistor";"";
+"2";"MOUNTINGHOLE2.5";"MOUNTINGHOLE2.5";"MOUNTINGHOLE_2.5_PLATED";"U$9, U$10";"Mounting Hole";"EXCLUDE";

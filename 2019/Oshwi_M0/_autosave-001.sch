@@ -31,10 +31,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 5275 10250 5375
 Wire Wire Line
-	9800 6475 10200 6475
-Wire Wire Line
-	10400 6600 10400 6700
-Wire Wire Line
 	3450 2275 3450 1975
 Wire Wire Line
 	8350 1975 8350 2175
@@ -634,17 +630,6 @@ F 2 "" H 6350 4175 50  0001 C CNN
 F 3 "" H 6350 4175 50  0001 C CNN
 	1    6350 4175
 	0    -1   -1   0   
-$EndComp
-$Comp
-L 001-rescue:HEADER-1X16ROUND-Adafruit_Feather_M0_Express-eagle-import JP2
-U 1 1 5CCCC11E
-P 9125 7275
-F 0 "JP2" H 8875 8100 59  0000 L BNN
-F 1 "HEADER-1X16ROUND" H 8875 6275 59  0000 L BNN
-F 2 "Oshwi_M0:1X16_ROUND" H 9125 7275 50  0001 C CNN
-F 3 "" H 9125 7275 50  0001 C CNN
-	1    9125 7275
-	-1   0    0    1   
 $EndComp
 $Comp
 L 001-rescue:CON_JST_PH_2PIN-Adafruit_Feather_M0_Express-eagle-import X1
@@ -1288,7 +1273,7 @@ F 3 "~" H 1000 4200 50  0001 C CNN
 $EndComp
 Connection ~ 1000 4200
 $Comp
-L Device:LED CHG1
+L 001-rescue:LED-Device CHG1
 U 1 1 5CCC697A
 P 6150 1525
 F 0 "CHG1" H 6250 1400 50  0000 R CNN
@@ -1299,7 +1284,7 @@ F 3 "~" H 6150 1525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED L1
+L 001-rescue:LED-Device L1
 U 1 1 5CCCC16E
 P 10250 5125
 F 0 "L1" V 10289 5007 50  0000 R CNN
@@ -1326,7 +1311,7 @@ F 8 "" H 1050 925 50  0001 C CIN "S1_PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L 001-rescue:SW_Push-Switch SW1
 U 1 1 5CC54900
 P 5450 1375
 F 0 "SW1" H 5450 1660 50  0000 C CNN
@@ -1882,7 +1867,7 @@ F 3 "" H 11650 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J1
+L 001-rescue:Conn_01x01_Female-Connector J1
 U 1 1 5CC4E09B
 P 7350 4175
 F 0 "J1" H 7375 4225 39  0000 L CNN
@@ -1893,7 +1878,7 @@ F 3 "~" H 7350 4175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J2
+L 001-rescue:Conn_01x01_Female-Connector J2
 U 1 1 5CC50EE1
 P 7350 4275
 F 0 "J2" H 7375 4325 39  0000 L CNN
@@ -1904,7 +1889,7 @@ F 3 "~" H 7350 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J3
+L 001-rescue:Conn_01x01_Female-Connector J3
 U 1 1 5CC51194
 P 7350 4375
 F 0 "J3" H 7375 4425 39  0000 L CNN
@@ -1915,7 +1900,7 @@ F 3 "~" H 7350 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J4
+L 001-rescue:Conn_01x01_Female-Connector J4
 U 1 1 5CC5239F
 P 7350 4475
 F 0 "J4" H 7375 4525 39  0000 L CNN
@@ -1926,7 +1911,7 @@ F 3 "~" H 7350 4475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J5
+L 001-rescue:Conn_01x01_Female-Connector J5
 U 1 1 5CC523AA
 P 7350 4575
 F 0 "J5" H 7375 4625 39  0000 L CNN
@@ -1937,7 +1922,7 @@ F 3 "~" H 7350 4575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J6
+L 001-rescue:Conn_01x01_Female-Connector J6
 U 1 1 5CC523B5
 P 7350 4675
 F 0 "J6" H 7375 4725 39  0000 L CNN
@@ -1948,7 +1933,7 @@ F 3 "~" H 7350 4675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J7
+L 001-rescue:Conn_01x01_Female-Connector J7
 U 1 1 5CC54BD1
 P 7350 4775
 F 0 "J7" H 7375 4825 39  0000 L CNN
@@ -1959,7 +1944,7 @@ F 3 "~" H 7350 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J8
+L 001-rescue:Conn_01x01_Female-Connector J8
 U 1 1 5CC54BDC
 P 7350 4875
 F 0 "J8" H 7375 4925 39  0000 L CNN
@@ -1970,7 +1955,7 @@ F 3 "~" H 7350 4875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J9
+L 001-rescue:Conn_01x01_Female-Connector J9
 U 1 1 5CC54BE7
 P 7350 4975
 F 0 "J9" H 7375 5025 39  0000 L CNN
@@ -1981,7 +1966,7 @@ F 3 "~" H 7350 4975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J10
+L 001-rescue:Conn_01x01_Female-Connector J10
 U 1 1 5CC54BF2
 P 7350 5075
 F 0 "J10" H 7375 5125 39  0000 L CNN
@@ -1992,7 +1977,7 @@ F 3 "~" H 7350 5075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J11
+L 001-rescue:Conn_01x01_Female-Connector J11
 U 1 1 5CC54BFD
 P 7350 5175
 F 0 "J11" H 7375 5225 39  0000 L CNN
@@ -2003,7 +1988,7 @@ F 3 "~" H 7350 5175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J12
+L 001-rescue:Conn_01x01_Female-Connector J12
 U 1 1 5CC54C08
 P 7350 5275
 F 0 "J12" H 7375 5325 39  0000 L CNN
@@ -2014,7 +1999,7 @@ F 3 "~" H 7350 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B3C7
 P 9150 4175
 F 0 "J?" H 9175 4225 39  0000 L CNN
@@ -2025,7 +2010,7 @@ F 3 "~" H 9150 4175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B3D2
 P 9150 4275
 F 0 "J?" H 9175 4325 39  0000 L CNN
@@ -2036,7 +2021,7 @@ F 3 "~" H 9150 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B3DD
 P 9150 4400
 F 0 "J?" H 9175 4450 39  0000 L CNN
@@ -2047,7 +2032,7 @@ F 3 "~" H 9150 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B3F3
 P 9150 4600
 F 0 "J?" H 9175 4650 39  0000 L CNN
@@ -2058,7 +2043,7 @@ F 3 "~" H 9150 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B3FE
 P 9150 4700
 F 0 "J?" H 9175 4750 39  0000 L CNN
@@ -2069,7 +2054,7 @@ F 3 "~" H 9150 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B409
 P 9150 4800
 F 0 "J?" H 9175 4850 39  0000 L CNN
@@ -2080,7 +2065,7 @@ F 3 "~" H 9150 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B414
 P 9150 4900
 F 0 "J?" H 9175 4950 39  0000 L CNN
@@ -2091,7 +2076,7 @@ F 3 "~" H 9150 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B41F
 P 9150 5000
 F 0 "J?" H 9175 5050 39  0000 L CNN
@@ -2102,7 +2087,7 @@ F 3 "~" H 9150 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B42A
 P 9150 5100
 F 0 "J?" H 9175 5150 39  0000 L CNN
@@ -2113,7 +2098,7 @@ F 3 "~" H 9150 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B435
 P 9150 5200
 F 0 "J?" H 9175 5250 39  0000 L CNN
@@ -2124,7 +2109,7 @@ F 3 "~" H 9150 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC5B440
 P 9150 5300
 F 0 "J?" H 9175 5350 39  0000 L CNN
@@ -2135,7 +2120,7 @@ F 3 "~" H 9150 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC62A14
 P 9150 5400
 F 0 "J?" H 9175 5450 39  0000 L CNN
@@ -2146,7 +2131,7 @@ F 3 "~" H 9150 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC62A1F
 P 9150 5500
 F 0 "J?" H 9175 5550 39  0000 L CNN
@@ -2157,7 +2142,7 @@ F 3 "~" H 9150 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC62A2A
 P 9150 5600
 F 0 "J?" H 9175 5650 39  0000 L CNN
@@ -2168,7 +2153,7 @@ F 3 "~" H 9150 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC64120
 P 9150 5700
 F 0 "J?" H 9175 5750 39  0000 L CNN
@@ -2181,7 +2166,7 @@ $EndComp
 Wire Wire Line
 	8350 4400 8950 4400
 $Comp
-L Connector:Conn_01x01_Female J?
+L 001-rescue:Conn_01x01_Female-Connector J?
 U 1 1 5CC71CF1
 P 9150 4500
 F 0 "J?" H 9175 4550 39  0000 L CNN
