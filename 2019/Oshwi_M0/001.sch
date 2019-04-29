@@ -31,10 +31,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 5275 10250 5375
 Wire Wire Line
-	9800 6475 10200 6475
-Wire Wire Line
-	10400 6600 10400 6700
-Wire Wire Line
 	3450 2275 3450 1975
 Wire Wire Line
 	8350 1975 8350 2175
@@ -634,17 +630,6 @@ F 2 "" H 6350 4175 50  0001 C CNN
 F 3 "" H 6350 4175 50  0001 C CNN
 	1    6350 4175
 	0    -1   -1   0   
-$EndComp
-$Comp
-L 001-rescue:HEADER-1X16ROUND-Adafruit_Feather_M0_Express-eagle-import JP2
-U 1 1 5CCCC11E
-P 9125 7275
-F 0 "JP2" H 8875 8100 59  0000 L BNN
-F 1 "HEADER-1X16ROUND" H 8875 6275 59  0000 L BNN
-F 2 "Oshwi_M0:1X16_ROUND" H 9125 7275 50  0001 C CNN
-F 3 "" H 9125 7275 50  0001 C CNN
-	1    9125 7275
-	-1   0    0    1   
 $EndComp
 $Comp
 L 001-rescue:CON_JST_PH_2PIN-Adafruit_Feather_M0_Express-eagle-import X1
