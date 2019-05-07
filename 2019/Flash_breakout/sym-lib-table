@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "jst_ph_smd_2pin")(type "Legacy")(uri "${KIPRJMOD}/lib/jst_ph_smd_2pin.lib")(options "")(descr ""))
+  (lib (name "spiflash_soic8208mil")(type "Legacy")(uri "${KIPRJMOD}/lib/spiflash_soic8208mil.lib")(options "")(descr ""))
+  (lib (name "usb_micro_20329_v2")(type "Legacy")(uri "${KIPRJMOD}/lib/usb_micro_20329_v2.lib")(options "")(descr ""))
+  (lib (name "Flash_breakout-rescue")(type "Legacy")(uri "${KIPRJMOD}/Flash_breakout-rescue.lib")(options "")(descr ""))
+)

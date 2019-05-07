@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "jdt1800-bob")(type "KiCad")(uri "$(KIPRJMOD)/jdt1800-bob.pretty")(options "")(descr ""))
+  (lib (name "TFT_1.8")(type "KiCad")(uri "${KIPRJMOD}/TFT_1.8.pretty")(options "")(descr ""))
+)

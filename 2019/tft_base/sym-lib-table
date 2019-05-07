@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "Adafruit_0.96in_160x80_TFT_Display-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/Adafruit_0.96in_160x80_TFT_Display-eagle-import.lib")(options "")(descr ""))
+  (lib (name "lcd_0.9in_160x80")(type "Legacy")(uri "/home/greynaga/Github/oshwi/2019/TFT_0.96_Breakout/lib/lcd_0.9in_160x80.lib")(options "")(descr ""))
 )

@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Adafruit_Feather_M0_Express-eagle-import_CON_JST_PH_2PIN
+#
+DEF Adafruit_Feather_M0_Express-eagle-import_CON_JST_PH_2PIN X 0 40 Y Y 1 L N
+F0 "X" -250 225 59 H V L BNN
+F1 "Adafruit_Feather_M0_Express-eagle-import_CON_JST_PH_2PIN" -250 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -100 50 -100 N
+P 2 1 0 0 -250 200 -250 -100 N
+P 2 1 0 0 50 -100 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 1 -100 100 100 R 50 0 1 0 P I
+X 2 2 -100 0 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "jdt1800-bob-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/jdt1800-bob-eagle-import.lib")(options "")(descr ""))
+  (lib (name "jd-t1800")(type "Legacy")(uri "/home/greynaga/Github/oshwi/2019/Oshwi_M0/Libraries/jd-t1800.lib")(options "")(descr ""))
+)

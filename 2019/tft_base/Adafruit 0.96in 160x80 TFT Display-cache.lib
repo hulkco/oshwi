@@ -124,8 +124,8 @@ F1 "Adafruit_0.96in_160x80_TFT_Display-eagle-import_DISP_LCD_0.9IN_160X80" 0 0 5
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-T 0 -300 100 85 0 1 0 Generic Normal 0 L B
-T 0 -300 -200 85 0 1 0 "SPI TFT" Normal 0 L B
+T 0 -25 125 85 0 1 0 Generic Normal 0 L B
+T 0 0 -225 85 0 1 0 "SPI TFT" Normal 0 L B
 P 2 1 0 0 -900 -600 -900 600 N
 P 2 1 0 0 -900 600 500 600 N
 P 2 1 0 0 -500 -500 -500 500 N

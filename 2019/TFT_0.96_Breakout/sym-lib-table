@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "TFT_0.96_Breakout-cache")(type "Legacy")(uri "${KIPRJMOD}/TFT_0.96_Breakout-cache.lib")(options "")(descr ""))
+  (lib (name "TFT_0.96_Breakout")(type "Legacy")(uri "${KIPRJMOD}/lib/TFT_0.96_Breakout.lib")(options "")(descr ""))
+)
