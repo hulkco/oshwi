@@ -166,8 +166,6 @@ Wire Wire Line
 	4250 1775 4250 1475
 Wire Wire Line
 	8650 2775 8650 3075
-Text Label 8650 2775 0    10   ~ 0
-+3V3
 Wire Wire Line
 	7450 3475 7150 3475
 Wire Wire Line
@@ -1088,8 +1086,6 @@ Text Notes 6750 5675 0    59   ~ 0
 BREAKOUTS
 Text Notes 9950 4075 0    59   ~ 0
 RED LED
-Text Notes 6550 2775 0    59   ~ 0
-Internal SPI on SERCOM 2
 Wire Notes Line
 	750  2575 5850 2575
 NoConn ~ 2450 1775
@@ -2092,4 +2088,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 5700 8950 5700
 Connection ~ 8150 5700
+Text Notes 7350 2700 0    59   ~ 0
+Flash Memory \nInternal SPI on SERCOM 2
 $EndSCHEMATC
