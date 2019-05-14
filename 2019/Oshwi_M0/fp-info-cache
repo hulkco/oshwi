@@ -1,4 +1,4 @@
-14387232420275224
+14390347989796645
 Battery
 9VFemale
 
@@ -59947,6 +59947,20 @@ Shielding{space}Cabinet
 0
 48
 1
+SamacSys_Parts
+NE555DR
+D{space}(R-PDSO-G8)
+Integrated{space}Circuit
+0
+8
+8
+SamacSys_Parts
+QFP50P900X900X120-48N
+TQFP{space}48_1
+Integrated{space}Circuit
+0
+48
+48
 Sensor_Audio
 ST_HLGA-6_3.76x4.72mm_P1.65mm
 http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/27/62/48/98/44/54/4d/36/DM00303211/files/DM00303211.pdf/jcr:content/translations/en.DM00303211.pdf
