@@ -1,0 +1,25 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Verified: No
+# Finished: No
+
+(module BATT-HOLDER-CR1220-BK-917 (layer F.Cu) (tedit 587524A8)
+  (fp_text reference J1 (at 0 0) (layer F.Fab)
+    (effects (font (size 2 2) (thickness 0.254)))
+  )
+  (fp_text value CR2032 (at 0 2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at -12.827 -4.191) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 7.65 0) (size 2.5 5.1) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -7.65 0) (size 2.5 5.1) (layers F.Cu F.Paste F.Mask))
+  (pad GND smd circle (at 0 0) (size 10.2 10.2) (layers F.Cu F.Paste F.Mask))
+)

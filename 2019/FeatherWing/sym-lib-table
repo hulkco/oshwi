@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Adafruit_3.5in_480x320_FeatherWing-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_3.5in_480x320_FeatherWing-eagle-import.lib)(options "")(descr ""))
+)
