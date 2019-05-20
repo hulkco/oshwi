@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name OSHwi)(type KiCad)(uri ${KIPRJMOD}/OSHwi.pretty)(options "")(descr ""))
+  (lib (name Oshwi_M0)(type KiCad)(uri ${KIPRJMOD}/Oshwi_M0.pretty)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/Libraries/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name Oshwi_Shield)(type KiCad)(uri ${KIPRJMOD}/Oshwi_Shield.pretty)(options "")(descr ""))
+)

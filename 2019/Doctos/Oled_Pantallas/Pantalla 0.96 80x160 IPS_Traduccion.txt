@@ -1,0 +1,37 @@
+中景园电子0.96寸80x160 IPS显示屏模块原理图
+淘宝地址:http://shop73023976.taobao.com
+
+接口类型:SPI接口
+
+1.GND=电源地
+2.VCC=电源正3.3V
+3.SCL=SPI时钟线
+4.SDA=SPI数据线
+5.RES=复位管脚
+6.DC=数据/命令控制管脚
+7.CS=SPI片选
+8.BLK=显示屏背光控制开关
+默认背光打开,低电平关闭
+
+背光控制开关;BLK默认被拉高背光打开;
+当BLK为低电平时背光关闭,也可以通过
+pwm控制BLK开关时间来控制屏的亮度
+
+Zhongjingyuan Electronics Módulo de pantalla de 0,96 pulgadas 80x160 IPS
+Dirección de Taobao: http://shop73023976.taobao.com
+
+Tipo de interfaz: interfaz SPI
+
+1.GND = Tierra de energía
+2.VCC = La fuente de alimentación es 3.3V
+3.SCL = línea de reloj SPI
+4.SDA = línea de datos SPI
+5.RES = Restablecer pin
+6.DC = Pin de control de datos / comando
+7.CS = SPI Chip Select
+8.BLK = Interruptor de control de retroiluminación de la pantalla
+La luz de fondo predeterminada está encendida, la luz baja está apagada
+
+Interruptor de control de retroiluminación; BLK está activado de forma predeterminada;
+Cuando BLK está bajo, la luz de fondo está apagada, y también puede pasar
+Pwm controla el tiempo de conmutación de BLK para controlar el brillo de la pantalla
