@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Adafruit_Circuit_Playground_Express-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_Circuit_Playground_Express-eagle-import.lib)(options "")(descr ""))
+)
