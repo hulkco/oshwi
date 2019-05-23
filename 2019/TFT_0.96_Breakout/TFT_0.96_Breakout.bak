@@ -207,4 +207,26 @@ F 3 "" H 4175 4200 50  0001 C CNN
 	1    4175 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Transistor_BJT:PN2222A Q?
+U 1 1 5CCE6CED
+P 7025 5375
+F 0 "Q?" H 7215 5421 50  0000 L CNN
+F 1 "PN2222A" H 7215 5330 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7225 5300 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 7025 5375 50  0001 L CNN
+	1    7025 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Reference_Voltage:ISL21070CIH325Z-TK U?
+U 1 1 5CCE9112
+P 5475 5600
+F 0 "U?" H 5246 5646 50  0000 R CNN
+F 1 "ISL21070CIH325Z-TK" H 5246 5555 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5975 5350 50  0001 C CIN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf" H 5475 5600 50  0001 C CIN
+	1    5475 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

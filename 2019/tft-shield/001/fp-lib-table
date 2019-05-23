@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name tft-shield)(type KiCad)(uri ${KIPRJMOD}/tft-shield.pretty)(options "")(descr ""))
+)
