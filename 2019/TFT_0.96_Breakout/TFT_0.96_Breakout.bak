@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:TFT_0.96_Breakout-cache
 EELAYER 29 0
 EELAYER END
@@ -97,7 +97,7 @@ RES
 Text Label 7275 3700 2    50   ~ 0
 CS
 $Comp
-L Connector:Conn_01x11_Female J?
+L TFT_0.96_Breakout-rescue:Conn_01x11_Female-Connector J?
 U 1 1 5CCE5396
 P 6875 3600
 F 0 "J?" H 6767 4285 50  0000 C CNN
@@ -208,7 +208,7 @@ F 3 "" H 4175 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:PN2222A Q?
+L TFT_0.96_Breakout-rescue:PN2222A-Transistor_BJT Q?
 U 1 1 5CCE6CED
 P 7025 5375
 F 0 "Q?" H 7215 5421 50  0000 L CNN
@@ -219,7 +219,7 @@ F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 7025 5375 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reference_Voltage:ISL21070CIH325Z-TK U?
+L TFT_0.96_Breakout-rescue:ISL21070CIH325Z-TK-Reference_Voltage U?
 U 1 1 5CCE9112
 P 5475 5600
 F 0 "U?" H 5246 5646 50  0000 R CNN

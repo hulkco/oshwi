@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:001-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -19,7 +20,7 @@ U 1 1 5CE71487
 P 5875 3750
 F 0 "U1" H 5825 4650 50  0000 L CNN
 F 1 "TFT_0.9680*160" H 5550 4525 50  0000 L CNN
-F 2 "" H 5875 3750 50  0001 C CNN
+F 2 "tft-shield:TFT_0.96_SPI" H 5875 3750 50  0001 C CNN
 F 3 "" H 5875 3750 50  0001 C CNN
 	1    5875 3750
 	1    0    0    -1  
@@ -73,7 +74,7 @@ U 1 1 5CE7D6CD
 P 8150 3675
 F 0 "Q1" H 8340 3721 50  0000 L CNN
 F 1 "S8050" H 8340 3630 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 8350 3600 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8350 3600 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 8150 3675 50  0001 L CNN
 	1    8150 3675
 	1    0    0    -1  
@@ -198,17 +199,6 @@ Text Label 4700 3750 2    50   ~ 0
 CS
 Wire Wire Line
 	4150 3850 4825 3850
-$Comp
-L power:GND #PWR02
-U 1 1 5CE90EB8
-P 4150 3900
-F 0 "#PWR02" H 4150 3650 50  0001 C CNN
-F 1 "GND" H 4000 3825 50  0000 C CNN
-F 2 "" H 4150 3900 50  0001 C CNN
-F 3 "" H 4150 3900 50  0001 C CNN
-	1    4150 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4150 3850 4150 3900
 Text Label 4700 4150 2    50   ~ 0
@@ -232,17 +222,17 @@ F 3 "" H 3550 4050 50  0001 C CNN
 $EndComp
 Text Label 3550 3950 0    50   ~ 0
 VCC
-Text Label 3550 3850 0    50   ~ 0
+Text Label 3550 3450 0    50   ~ 0
 SCL
-Text Label 3550 3750 0    50   ~ 0
+Text Label 3550 3350 0    50   ~ 0
 SDA
 Text Label 3550 3650 0    50   ~ 0
 RES
 Text Label 3550 3550 0    50   ~ 0
 DC
-Text Label 3550 3450 0    50   ~ 0
+Text Label 3550 3750 0    50   ~ 0
 CS
-Text Label 3550 3350 0    50   ~ 0
+Text Label 3550 3850 0    50   ~ 0
 BLK
 $Comp
 L power:GND #PWR06
@@ -306,4 +296,15 @@ $EndComp
 Connection ~ 4675 4050
 Wire Wire Line
 	4675 4050 4825 4050
+$Comp
+L power:GND #PWR0101
+U 1 1 5CEF97E8
+P 4150 3900
+F 0 "#PWR0101" H 4150 3650 50  0001 C CNN
+F 1 "GND" H 4000 3800 50  0000 C CNN
+F 2 "" H 4150 3900 50  0001 C CNN
+F 3 "" H 4150 3900 50  0001 C CNN
+	1    4150 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

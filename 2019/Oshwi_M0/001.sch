@@ -3097,7 +3097,7 @@ F 3 "" H 6850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L oshwi_M0:Memory_Flash U2
+L 001-rescue:Memory_Flash-oshwi_M0 U2
 U 1 1 5CEAEE20
 P 8400 3750
 F 0 "U2" H 8050 4100 50  0000 C CNN
@@ -3108,7 +3108,7 @@ F 3 "" H 8400 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L oshwi_M0:USB_MICRO J24
+L 001-rescue:USB_MICRO-oshwi_M0 J24
 U 1 1 5CF4E9B6
 P 6925 1650
 F 0 "J24" H 6982 2117 50  0000 C CNN
