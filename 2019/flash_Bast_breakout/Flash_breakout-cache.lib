@@ -1,0 +1,116 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Flash_breakout-rescue_Conn_01x05_Female-Connector
+#
+DEF Flash_breakout-rescue_Conn_01x05_Female-Connector J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Flash_breakout-rescue_Conn_01x05_Female-Connector" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Flash_breakout-rescue_R-device
+#
+DEF Flash_breakout-rescue_R-device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Flash_breakout-rescue_R-device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# spiflash_soic8208mil_SPIFLASH_SOIC8208MIL
+#
+DEF spiflash_soic8208mil_SPIFLASH_SOIC8208MIL U 0 40 Y Y 1 F N
+F0 "U" -500 500 59 H V L BNN
+F1 "spiflash_soic8208mil_SPIFLASH_SOIC8208MIL" -500 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -500 -300 -500 400 N
+P 2 1 0 0 -500 400 500 400 N
+P 2 1 0 0 500 -300 -500 -300 N
+P 2 1 0 0 500 400 500 -300 N
+X SSEL 1 -600 0 100 R 50 50 1 0 B
+X MISO 2 -600 100 100 R 50 50 1 0 B
+X WP#/IO2 3 -600 -100 100 R 50 50 1 0 B
+X VSS 4 600 -200 100 L 50 50 1 0 B
+X MOSI 5 -600 200 100 R 50 50 1 0 B
+X SCK 6 -600 300 100 R 50 50 1 0 B
+X HOLD#/IO3 7 -600 -200 100 R 50 50 1 0 B
+X VCC 8 600 300 100 L 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library
