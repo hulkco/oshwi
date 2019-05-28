@@ -355,17 +355,6 @@ F 3 "" H 12925 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_0.96in_160x80_TFT_Display-eagle-import:MICROSD CN1
-U 1 1 F1A938B3
-P 13925 7850
-F 0 "CN1" H 13850 8775 42  0000 L BNN
-F 1 "MICROSD" H 13775 8675 42  0000 L BNN
-F 2 "Adafruit 0.96in 160x80 TFT Display:MICROSD" H 13925 7850 50  0001 C CNN
-F 3 "" H 13925 7850 50  0001 C CNN
-	1    13925 7850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Adafruit_0.96in_160x80_TFT_Display-eagle-import:DISP_LCD_0.9IN_160X80 U5
 U 1 1 5CCCC118
 P 12725 3875
@@ -1912,33 +1901,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS4
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16825 13025 16825 13125
-Text Label 16825 13025 0    10   ~ 0
-GND
-Wire Wire Line
-	18525 12725 18525 12825
-Text Label 18525 12725 0    10   ~ 0
-GND
-Wire Wire Line
-	18925 12725 18925 12825
-Text Label 18925 12725 0    10   ~ 0
-GND
-Wire Wire Line
-	20825 14225 20525 14225
-Wire Wire Line
-	20525 14225 20325 14225
-Wire Wire Line
-	20325 14225 20025 14225
-Wire Wire Line
-	20025 14225 19725 14225
-Wire Wire Line
-	20325 14325 20325 14225
-Connection ~ 20325 14225
-Connection ~ 20025 14225
-Connection ~ 20525 14225
-Text Label 20825 14225 0    10   ~ 0
-GND
-Wire Wire Line
 	-3675 3500 -3875 3500
 Text Label -3675 3500 0    10   ~ 0
 GND
@@ -1950,104 +1912,22 @@ Connection ~ 2100 11850
 Text Label 2100 11750 0    10   ~ 0
 GND
 Wire Wire Line
-	18125 14225 18225 14225
-Wire Wire Line
-	18125 14225 18125 14325
-Text Label 18125 14225 0    10   ~ 0
-GND
-Wire Wire Line
-	16225 14125 16425 14125
-Wire Wire Line
-	16425 14125 16425 14325
-Text Label 16225 14125 0    10   ~ 0
-GND
-Wire Wire Line
-	19825 12525 19825 12425
-Text Label 19825 12525 0    10   ~ 0
-GND
-Wire Wire Line
-	19525 12525 19525 12425
-Text Label 19525 12525 0    10   ~ 0
-GND
-Wire Wire Line
-	20125 12525 20125 12425
-Text Label 20125 12525 0    10   ~ 0
-GND
-Wire Wire Line
 	-3875 3100 -3675 3100
 Text Label -3875 3100 0    10   ~ 0
 GND
 Wire Wire Line
-	17325 12625 17225 12625
-Wire Wire Line
-	17225 12525 17225 12625
-Wire Wire Line
-	16825 12625 17225 12625
-Connection ~ 17225 12625
-Wire Wire Line
 	-4275 3500 -4175 3500
-Wire Wire Line
-	16825 12725 17125 12725
-Text Label 16925 12725 0    70   ~ 0
-D+
-Wire Wire Line
-	18125 14025 18125 13725
-Wire Wire Line
-	18125 14025 18225 14025
-Wire Wire Line
-	18225 14125 18225 14025
-Connection ~ 18225 14025
-Text Label 18125 14025 0    10   ~ 0
-VCC
-Wire Wire Line
-	18025 13225 18025 12325
-Wire Wire Line
-	18025 13225 17925 13225
-Text Label 18025 13225 0    10   ~ 0
-VCC
-Wire Wire Line
-	18525 12325 18525 12425
-Text Label 18525 12325 0    10   ~ 0
-VCC
-Wire Wire Line
-	18925 12425 18925 12325
-Text Label 18925 12425 0    10   ~ 0
-VCC
-Wire Wire Line
-	20325 12425 20325 12625
-Text Label 20325 12425 0    10   ~ 0
-VCC
 Wire Wire Line
 	-825 4650 -825 4850
 Text Label -825 4650 0    10   ~ 0
 VCC
 Wire Wire Line
-	16225 14025 16725 14025
-Wire Wire Line
 	-4675 3100 -4975 3100
 Text Label -4975 3100 0    70   ~ 0
 D13_LED
 Wire Wire Line
-	19125 13725 19125 14025
-Wire Wire Line
-	19125 14025 19025 14025
-Text Label 19125 13725 0    10   ~ 0
-3.3V
-Wire Wire Line
-	20825 13825 20825 13925
-Text Label 20825 13825 0    10   ~ 0
-3.3V
-Wire Wire Line
-	19725 13825 19725 13925
-Text Label 19725 13825 0    10   ~ 0
-3.3V
-Wire Wire Line
 	-4675 3500 -4875 3500
 Text Label -4675 3500 0    10   ~ 0
-3.3V
-Wire Wire Line
-	20625 12625 20625 12425
-Text Label 20625 12625 0    10   ~ 0
 3.3V
 Wire Wire Line
 	-3050 5450 -3050 5550
@@ -2064,18 +1944,6 @@ Connection ~ -4450 5550
 Text Label -4450 5450 0    10   ~ 0
 3.3V
 Wire Wire Line
-	20825 12625 20825 12425
-Text Label 20825 12625 0    10   ~ 0
-3.3V
-Wire Wire Line
-	20025 13825 20025 13925
-Text Label 20025 13825 0    10   ~ 0
-3.3V
-Wire Wire Line
-	20525 13825 20525 13925
-Text Label 20525 13825 0    10   ~ 0
-3.3V
-Wire Wire Line
 	-3450 5450 -3450 5550
 Wire Wire Line
 	-3450 5550 -4050 5550
@@ -2090,10 +1958,6 @@ Wire Wire Line
 	-4625 9175 -4625 8875
 Text Label -3625 9175 0    70   ~ 0
 D12_A0_SPEAKER
-Wire Wire Line
-	16825 12825 17125 12825
-Text Label 16925 12825 0    70   ~ 0
-D-
 Wire Wire Line
 	-3225 9075 -4425 9075
 Wire Wire Line
@@ -2119,13 +1983,6 @@ Wire Wire Line
 Text Label 3200 11850 2    70   ~ 0
 ~RESET
 Connection ~ 2500 11850
-Wire Wire Line
-	16925 14025 17525 14025
-Wire Wire Line
-	17525 12625 17525 13225
-Wire Wire Line
-	17525 13225 17525 14025
-Connection ~ 17525 13225
 Wire Wire Line
 	-1425 5450 -2325 5450
 Text Label -2325 5450 0    70   ~ 0
@@ -2166,28 +2023,6 @@ Wire Wire Line
 	-4025 8875 -3225 8875
 Text Label -3625 8875 0    70   ~ 0
 D10_A3
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND015
-U 1 1 DB8695AC
-P 16825 13225
-F 0 "#GND015" H 16825 13225 50  0001 C CNN
-F 1 "GND" H 16725 13125 42  0000 L BNN
-F 2 "" H 16825 13225 50  0001 C CNN
-F 3 "" H 16825 13225 50  0001 C CNN
-	1    16825 13225
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import C8
-U 1 1 D8933479
-P 18525 12625
-F 0 "C8" V 18434 12674 50  0000 C CNN
-F 1 "10uF" V 18615 12674 50  0000 C CNN
-F 2 "Adafruit Circuit Playground Express:0805-NO" H 18525 12625 50  0001 C CNN
-F 3 "" H 18525 12625 50  0001 C CNN
-	1    18525 12625
-	1    0    0    -1  
-$EndComp
 $Comp
 L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND04
 U 1 1 928DF91D
@@ -2255,17 +2090,6 @@ F 3 "" H 2300 11750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 001-rescue:CAP_CERAMIC0603_NO-Adafruit_Circuit_Playground_Express-eagle-import C15
-U 1 1 65EADBD0
-P 20825 14125
-F 0 "C15" V 20734 14174 50  0000 C CNN
-F 1 "1uF" V 20915 14174 50  0000 C CNN
-F 2 "Adafruit Circuit Playground Express:0603-NO" H 20825 14125 50  0001 C CNN
-F 3 "" H 20825 14125 50  0001 C CNN
-	1    20825 14125
-	1    0    0    -1  
-$EndComp
-$Comp
 L 001-rescue:RESISTOR_0603_NOOUT-Adafruit_Circuit_Playground_Express-eagle-import R4
 U 1 1 0CA4E244
 P -4475 3100
@@ -2286,138 +2110,6 @@ F 2 "" H -3575 3100 50  0001 C CNN
 F 3 "" H -3575 3100 50  0001 C CNN
 	1    -3575 3100
 	0    -1   1    0   
-$EndComp
-$Comp
-L 001-rescue:USB_MICRO_20329_V2-Adafruit_Circuit_Playground_Express-eagle-import CN2
-U 1 1 86396439
-P 16425 12825
-F 0 "CN2" H 16025 13165 42  0000 L BNN
-F 1 "MicroB USB" H 16025 12425 42  0000 L BNN
-F 2 "Adafruit Circuit Playground Express:4UCONN_20329_V2" H 16425 12825 50  0001 C CNN
-F 3 "" H 16425 12825 50  0001 C CNN
-	1    16425 12825
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:CON_JST_PH_2PIN-Adafruit_Circuit_Playground_Express-eagle-import BATT1
-U 1 1 66943810
-P 16125 14025
-F 0 "BATT1" H 15875 14250 59  0000 L BNN
-F 1 "3-6VDC" H 15875 13825 59  0000 L BNN
-F 2 "Adafruit Circuit Playground Express:JSTPH2" H 16125 14025 50  0001 C CNN
-F 3 "" H 16125 14025 50  0001 C CNN
-	1    16125 14025
-	-1   0    0    1   
-$EndComp
-$Comp
-L 001-rescue:DIODESOD-123-Adafruit_Circuit_Playground_Express-eagle-import D5
-U 1 1 7B86CF2C
-P 17425 12625
-F 0 "D5" H 17425 12725 42  0000 C CNN
-F 1 "MBR120" H 17425 12526 42  0000 C CNN
-F 2 "Adafruit Circuit Playground Express:SOD-123" H 17425 12625 50  0001 C CNN
-F 3 "" H 17425 12625 50  0001 C CNN
-	1    17425 12625
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND014
-U 1 1 19DA8D48
-P 16425 14425
-F 0 "#GND014" H 16425 14425 50  0001 C CNN
-F 1 "GND" H 16325 14325 42  0000 L BNN
-F 2 "" H 16425 14425 50  0001 C CNN
-F 3 "" H 16425 14425 50  0001 C CNN
-	1    16425 14425
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:DIODESOD-123-Adafruit_Circuit_Playground_Express-eagle-import D4
-U 1 1 D6D55F6B
-P 16825 14025
-F 0 "D4" H 16825 14125 42  0000 C CNN
-F 1 "MBR120" H 16825 13926 42  0000 C CNN
-F 2 "Adafruit Circuit Playground Express:SOD-123" H 16825 14025 50  0001 C CNN
-F 3 "" H 16825 14025 50  0001 C CNN
-	1    16825 14025
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:VCC-Adafruit_Circuit_Playground_Express-eagle-import #P+03
-U 1 1 33ACA7EC
-P 18125 13625
-F 0 "#P+03" H 18125 13625 50  0001 C CNN
-F 1 "VCC" V 18025 13525 59  0000 L BNN
-F 2 "" H 18125 13625 50  0001 C CNN
-F 3 "" H 18125 13625 50  0001 C CNN
-	1    18125 13625
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:VCC-Adafruit_Circuit_Playground_Express-eagle-import #P+02
-U 1 1 B0F39303
-P 18025 12225
-F 0 "#P+02" H 18025 12225 50  0001 C CNN
-F 1 "VCC" V 17925 12125 59  0000 L BNN
-F 2 "" H 18025 12225 50  0001 C CNN
-F 3 "" H 18025 12225 50  0001 C CNN
-	1    18025 12225
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:+5V-Adafruit_Circuit_Playground_Express-eagle-import #V01
-U 1 1 D47A89D4
-P 17225 12425
-F 0 "#V01" H 17225 12425 50  0001 C CNN
-F 1 "+5V" H 17150 12550 59  0000 L BNN
-F 2 "" H 17225 12425 50  0001 C CNN
-F 3 "" H 17225 12425 50  0001 C CNN
-	1    17225 12425
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:CAP_CERAMIC0603_NO-Adafruit_Circuit_Playground_Express-eagle-import C11
-U 1 1 629E9F7E
-P 18925 12625
-F 0 "C11" V 18834 12674 50  0000 C CNN
-F 1 "1uF" V 19015 12674 50  0000 C CNN
-F 2 "Adafruit Circuit Playground Express:0603-NO" H 18925 12625 50  0001 C CNN
-F 3 "" H 18925 12625 50  0001 C CNN
-	1    18925 12625
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:CAP_CERAMIC0805-NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import C12
-U 1 1 92C1A28E
-P 19725 14125
-F 0 "C12" V 19634 14174 50  0000 C CNN
-F 1 "10uF" V 19815 14174 50  0000 C CNN
-F 2 "Adafruit Circuit Playground Express:0805-NO" H 19725 14125 50  0001 C CNN
-F 3 "" H 19725 14125 50  0001 C CNN
-	1    19725 14125
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import 3V3TAP1
-U 1 1 9C0CA80D
-P 20825 12425
-F 0 "3V3TAP1" H 20825 12425 50  0000 L BNN
-F 1 "SEWTAP-ALLIGATOR" H 20825 12425 50  0001 C CNN
-F 2 "Adafruit Circuit Playground Express:SEWALLI" H 20825 12425 50  0001 C CNN
-F 3 "" H 20825 12425 50  0001 C CNN
-	1    20825 12425
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 001-rescue:SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import VCC1
-U 1 1 33D3FBA4
-P 20325 12425
-F 0 "VCC1" H 20325 12425 50  0000 L BNN
-F 1 "SEWTAP-ALLIGATOR" H 20325 12425 50  0001 C CNN
-F 2 "Adafruit Circuit Playground Express:SEWALLI" H 20325 12425 50  0001 C CNN
-F 3 "" H 20325 12425 50  0001 C CNN
-	1    20325 12425
-	0    -1   -1   0   
 $EndComp
 $Comp
 L 001-rescue:SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import SCL1
@@ -2464,17 +2156,6 @@ F 3 "" H -1125 9075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 001-rescue:VCC-Adafruit_Circuit_Playground_Express-eagle-import #P+06
-U 1 1 339DE9D3
-P 20325 12725
-F 0 "#P+06" H 20325 12725 50  0001 C CNN
-F 1 "VCC" V 20225 12625 59  0000 L BNN
-F 2 "" H 20325 12725 50  0001 C CNN
-F 3 "" H 20325 12725 50  0001 C CNN
-	1    20325 12725
-	-1   0    0    1   
-$EndComp
-$Comp
 L 001-rescue:SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import IO2
 U 1 1 30718D2F
 P -3225 8975
@@ -2508,61 +2189,6 @@ F 3 "" H -3225 9175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 001-rescue:SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import GND3TAP1
-U 1 1 6D837D43
-P 20125 12425
-F 0 "GND3TAP1" H 20125 12425 50  0000 L BNN
-F 1 "SEWTAP-ALLIGATOR" H 20125 12425 50  0001 C CNN
-F 2 "Adafruit Circuit Playground Express:SEWALLI" H 20125 12425 50  0001 C CNN
-F 3 "" H 20125 12425 50  0001 C CNN
-	1    20125 12425
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 001-rescue:SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import GNDTAP1
-U 1 1 78CA5F99
-P 19525 12425
-F 0 "GNDTAP1" H 19525 12425 50  0000 L BNN
-F 1 "SEWTAP-ALLIGATOR" H 19525 12425 50  0001 C CNN
-F 2 "Adafruit Circuit Playground Express:SEWALLI" H 19525 12425 50  0001 C CNN
-F 3 "" H 19525 12425 50  0001 C CNN
-	1    19525 12425
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 001-rescue:SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import 3.3VTAP1
-U 1 1 DF4BCC9C
-P 20625 12425
-F 0 "3.3VTAP1" H 20625 12425 50  0000 L BNN
-F 1 "SEWTAP-ALLIGATOR" H 20625 12425 50  0001 C CNN
-F 2 "Adafruit Circuit Playground Express:SEWALLI" H 20625 12425 50  0001 C CNN
-F 3 "" H 20625 12425 50  0001 C CNN
-	1    20625 12425
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND020
-U 1 1 109F320A
-P 19825 12625
-F 0 "#GND020" H 19825 12625 50  0001 C CNN
-F 1 "GND" H 19725 12525 42  0000 L BNN
-F 2 "" H 19825 12625 50  0001 C CNN
-F 3 "" H 19825 12625 50  0001 C CNN
-	1    19825 12625
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import GNDTAP2
-U 1 1 C5753E53
-P 19825 12425
-F 0 "GNDTAP2" H 19825 12425 50  0000 L BNN
-F 1 "SEWTAP-ALLIGATOR" H 19825 12425 50  0001 C CNN
-F 2 "Adafruit Circuit Playground Express:SEWALLI" H 19825 12425 50  0001 C CNN
-F 3 "" H 19825 12425 50  0001 C CNN
-	1    19825 12425
-	0    -1   -1   0   
-$EndComp
-$Comp
 L 001-rescue:DPDT-EG1390-Adafruit_Circuit_Playground_Express-eagle-import SWITCH1
 U 1 1 2D676721
 P -3925 1050
@@ -2583,50 +2209,6 @@ F 2 "Adafruit Circuit Playground Express:EG1390" H -5025 1050 50  0001 C CNN
 F 3 "" H -5025 1050 50  0001 C CNN
 	2    -5025 1050
 	0    -1   1    0   
-$EndComp
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND019
-U 1 1 CF593DC2
-P 19525 12625
-F 0 "#GND019" H 19525 12625 50  0001 C CNN
-F 1 "GND" H 19425 12525 42  0000 L BNN
-F 2 "" H 19525 12625 50  0001 C CNN
-F 3 "" H 19525 12625 50  0001 C CNN
-	1    19525 12625
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND021
-U 1 1 9E3D6951
-P 20125 12625
-F 0 "#GND021" H 20125 12625 50  0001 C CNN
-F 1 "GND" H 20025 12525 42  0000 L BNN
-F 2 "" H 20125 12625 50  0001 C CNN
-F 3 "" H 20125 12625 50  0001 C CNN
-	1    20125 12625
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND022
-U 1 1 FB1CD9CF
-P 20325 14425
-F 0 "#GND022" H 20325 14425 50  0001 C CNN
-F 1 "GND" H 20225 14325 42  0000 L BNN
-F 2 "" H 20325 14425 50  0001 C CNN
-F 3 "" H 20325 14425 50  0001 C CNN
-	1    20325 14425
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND017
-U 1 1 C7080FD3
-P 18525 12925
-F 0 "#GND017" H 18525 12925 50  0001 C CNN
-F 1 "GND" H 18425 12825 42  0000 L BNN
-F 2 "" H 18525 12925 50  0001 C CNN
-F 3 "" H 18525 12925 50  0001 C CNN
-	1    18525 12925
-	-1   0    0    -1  
 $EndComp
 $Comp
 L 001-rescue:SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_Circuit_Playground_Express-eagle-import SW3
@@ -2651,17 +2233,6 @@ F 3 "" H -4650 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$023
-U 1 1 D0458224
-P 19125 13625
-F 0 "#U$023" H 19125 13625 50  0001 C CNN
-F 1 "3.3V" H 19065 13665 42  0000 L BNN
-F 2 "" H 19125 13625 50  0001 C CNN
-F 3 "" H 19125 13625 50  0001 C CNN
-	1    19125 13625
-	1    0    0    -1  
-$EndComp
-$Comp
 L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$01
 U 1 1 73AD1A2B
 P -4975 3500
@@ -2671,17 +2242,6 @@ F 2 "" H -4975 3500 50  0001 C CNN
 F 3 "" H -4975 3500 50  0001 C CNN
 	1    -4975 3500
 	0    -1   -1   0   
-$EndComp
-$Comp
-L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$027
-U 1 1 2E06033A
-P 20625 12725
-F 0 "#U$027" H 20625 12725 50  0001 C CNN
-F 1 "3.3V" H 20565 12765 42  0000 L BNN
-F 2 "" H 20625 12725 50  0001 C CNN
-F 3 "" H 20625 12725 50  0001 C CNN
-	1    20625 12725
-	-1   0    0    1   
 $EndComp
 $Comp
 L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$018
@@ -2726,149 +2286,6 @@ F 2 "" H -5225 1250 50  0001 C CNN
 F 3 "" H -5225 1250 50  0001 C CNN
 	1    -5225 1250
 	-1   0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$029
-U 1 1 CB8F9854
-P 20825 13725
-F 0 "#U$029" H 20825 13725 50  0001 C CNN
-F 1 "3.3V" H 20765 13765 42  0000 L BNN
-F 2 "" H 20825 13725 50  0001 C CNN
-F 3 "" H 20825 13725 50  0001 C CNN
-	1    20825 13725
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$024
-U 1 1 708AA1F2
-P 19725 13725
-F 0 "#U$024" H 19725 13725 50  0001 C CNN
-F 1 "3.3V" H 19665 13765 42  0000 L BNN
-F 2 "" H 19725 13725 50  0001 C CNN
-F 3 "" H 19725 13725 50  0001 C CNN
-	1    19725 13725
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:VREG_SOT23-5-Adafruit_Circuit_Playground_Express-eagle-import U6
-U 1 1 F60CFD22
-P 18625 14125
-F 0 "U6" H 18325 14365 42  0000 L BNN
-F 1 "AP2112K-3.3" H 18325 13825 42  0000 L BNN
-F 2 "Adafruit Circuit Playground Express:SOT23-5" H 18625 14125 50  0001 C CNN
-F 3 "" H 18625 14125 50  0001 C CNN
-	1    18625 14125
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND016
-U 1 1 D896219B
-P 18125 14425
-F 0 "#GND016" H 18125 14425 50  0001 C CNN
-F 1 "GND" H 18025 14325 42  0000 L BNN
-F 2 "" H 18125 14425 50  0001 C CNN
-F 3 "" H 18125 14425 50  0001 C CNN
-	1    18125 14425
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$028
-U 1 1 481D817E
-P 20825 12725
-F 0 "#U$028" H 20825 12725 50  0001 C CNN
-F 1 "3.3V" H 20765 12765 42  0000 L BNN
-F 2 "" H 20825 12725 50  0001 C CNN
-F 3 "" H 20825 12725 50  0001 C CNN
-	1    20825 12725
-	-1   0    0    1   
-$EndComp
-$Comp
-L 001-rescue:GND-Adafruit_Circuit_Playground_Express-eagle-import #GND018
-U 1 1 0FD0C583
-P 18925 12925
-F 0 "#GND018" H 18925 12925 50  0001 C CNN
-F 1 "GND" H 18825 12825 42  0000 L BNN
-F 2 "" H 18925 12925 50  0001 C CNN
-F 3 "" H 18925 12925 50  0001 C CNN
-	1    18925 12925
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:VCC-Adafruit_Circuit_Playground_Express-eagle-import #P+04
-U 1 1 BCDF72C5
-P 18525 12225
-F 0 "#P+04" H 18525 12225 50  0001 C CNN
-F 1 "VCC" V 18425 12125 59  0000 L BNN
-F 2 "" H 18525 12225 50  0001 C CNN
-F 3 "" H 18525 12225 50  0001 C CNN
-	1    18525 12225
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:VCC-Adafruit_Circuit_Playground_Express-eagle-import #P+05
-U 1 1 00F05DF6
-P 18925 12225
-F 0 "#P+05" H 18925 12225 50  0001 C CNN
-F 1 "VCC" V 18825 12125 59  0000 L BNN
-F 2 "" H 18925 12225 50  0001 C CNN
-F 3 "" H 18925 12225 50  0001 C CNN
-	1    18925 12225
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:CAP_CERAMIC0603_NO-Adafruit_Circuit_Playground_Express-eagle-import C13
-U 1 1 F2879E99
-P 20025 14125
-F 0 "C13" V 19934 14174 50  0000 C CNN
-F 1 "1uF" V 20115 14174 50  0000 C CNN
-F 2 "Adafruit Circuit Playground Express:0603-NO" H 20025 14125 50  0001 C CNN
-F 3 "" H 20025 14125 50  0001 C CNN
-	1    20025 14125
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$025
-U 1 1 35628252
-P 20025 13725
-F 0 "#U$025" H 20025 13725 50  0001 C CNN
-F 1 "3.3V" H 19965 13765 42  0000 L BNN
-F 2 "" H 20025 13725 50  0001 C CNN
-F 3 "" H 20025 13725 50  0001 C CNN
-	1    20025 13725
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:CAP_CERAMIC0603_NO-Adafruit_Circuit_Playground_Express-eagle-import C14
-U 1 1 91680661
-P 20525 14125
-F 0 "C14" V 20434 14174 50  0000 C CNN
-F 1 "1uF" V 20615 14174 50  0000 C CNN
-F 2 "Adafruit Circuit Playground Express:0603-NO" H 20525 14125 50  0001 C CNN
-F 3 "" H 20525 14125 50  0001 C CNN
-	1    20525 14125
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:3.3V-Adafruit_Circuit_Playground_Express-eagle-import #U$026
-U 1 1 A1A7B7FC
-P 20525 13725
-F 0 "#U$026" H 20525 13725 50  0001 C CNN
-F 1 "3.3V" H 20465 13765 42  0000 L BNN
-F 2 "" H 20525 13725 50  0001 C CNN
-F 3 "" H 20525 13725 50  0001 C CNN
-	1    20525 13725
-	1    0    0    -1  
-$EndComp
-$Comp
-L 001-rescue:PTCFUSE-1206-Adafruit_Circuit_Playground_Express-eagle-import F1
-U 1 1 3BA8D213
-P 17725 13325
-F 0 "F1" H 17575 13525 59  0000 L BNN
-F 1 "6V+ 500mA" H 17575 13275 59  0000 L BNN
-F 2 "Adafruit Circuit Playground Express:R1206" H 17725 13325 50  0001 C CNN
-F 3 "" H 17725 13325 50  0001 C CNN
-	1    17725 13325
-	1    0    0    -1  
 $EndComp
 $Comp
 L 001-rescue:LED1206_NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import D3
@@ -2925,14 +2342,6 @@ F 3 "" H -825 5750 50  0001 C CNN
 	1    -825 5750
 	1    0    0    -1  
 $EndComp
-Text Notes 16025 12225 0    85   ~ 0
-USB Power/Data
-Text Notes 16025 13725 0    85   ~ 0
-JST Battery In
-Text Notes 18325 13625 0    85   ~ 0
-3.3V Reg
-Text Notes 17325 11925 0    170  ~ 0
-POWER SUPPLY
 Text Notes -5325 450  0    127  ~ 0
 Slide Switch
 Text Notes -4550 5150 0    127  ~ 0
@@ -2999,17 +2408,6 @@ Text Label 2125 7025 2    50   ~ 0
 D4_LEFTBUTTON
 Wire Wire Line
 	1600 7125 2250 7125
-$Comp
-L 001-rescue:Micro_SD_Card_Det-conn J26
-U 1 1 5D44CFBF
-P 18325 10150
-F 0 "J26" H 18275 10967 50  0000 C CNN
-F 1 "Micro_SD_Card_Det" H 18275 10876 50  0000 C CNN
-F 2 "" H 20375 10850 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 18325 10250 50  0001 C CNN
-	1    18325 10150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8900 3550 9025 3550
 Wire Wire Line
@@ -3097,7 +2495,7 @@ F 3 "" H 6850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L oshwi_M0:Memory_Flash U2
+L 001-rescue:Memory_Flash-oshwi_M0 U2
 U 1 1 5CEAEE20
 P 8400 3750
 F 0 "U2" H 8050 4100 50  0000 C CNN
@@ -3108,7 +2506,7 @@ F 3 "" H 8400 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L oshwi_M0:USB_MICRO J24
+L 001-rescue:USB_MICRO-oshwi_M0 J24
 U 1 1 5CF4E9B6
 P 6925 1650
 F 0 "J24" H 6982 2117 50  0000 C CNN
@@ -3154,7 +2552,7 @@ Connection ~ 7350 1450
 Wire Wire Line
 	7350 1450 7475 1450
 $Comp
-L device:Polyfuse_Small F2
+L 001-rescue:Polyfuse_Small-device F2
 U 1 1 5D004E89
 P 7575 1450
 F 0 "F2" V 7370 1450 50  0000 C CNN
@@ -3187,7 +2585,7 @@ NoConn ~ 6825 2050
 Text Notes 6800 2150 0    50   ~ 0
 ID
 $Comp
-L device:R_Small R2
+L 001-rescue:R_Small-device R2
 U 1 1 5D1270F4
 P 9150 1400
 F 0 "R2" H 9209 1446 50  0000 L CNN
@@ -3198,7 +2596,7 @@ F 3 "" H 9150 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R6
+L 001-rescue:R_Small-device R6
 U 1 1 5D1285CB
 P 9150 1750
 F 0 "R6" H 9209 1796 50  0000 L CNN
@@ -3288,7 +2686,7 @@ F 3 "" H 775 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L regul:AP2127K-3.3 U?
+L 001-rescue:AP2127K-3.3-regul U?
 U 1 1 5D25FFE5
 P 1775 1800
 F 0 "U?" H 1775 2142 50  0000 C CNN
@@ -3317,7 +2715,7 @@ $EndComp
 Wire Wire Line
 	1475 1700 1200 1700
 $Comp
-L device:R_Small R?
+L 001-rescue:R_Small-device R?
 U 1 1 5D285C3B
 P 1200 1850
 F 0 "R?" H 1075 1850 50  0000 L CNN
@@ -3350,7 +2748,7 @@ Wire Wire Line
 Wire Wire Line
 	775  1700 775  1300
 $Comp
-L device:C_Small C?
+L 001-rescue:C_Small-device C?
 U 1 1 5D3A5319
 P 1000 2000
 F 0 "C?" H 775 2050 50  0000 L CNN
@@ -3398,7 +2796,7 @@ F 3 "" H 2225 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L 001-rescue:C_Small-device C?
 U 1 1 5D444CA2
 P 2225 2000
 F 0 "C?" H 2000 2050 50  0000 L CNN
@@ -3409,7 +2807,7 @@ F 3 "" H 2225 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L 001-rescue:C_Small-device C?
 U 1 1 5D44597D
 P 2625 2000
 F 0 "C?" H 2400 2050 50  0000 L CNN
@@ -3444,7 +2842,7 @@ F 3 "" H 2625 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 J?
+L 001-rescue:CONN_01X02-conn J?
 U 1 1 5D5038D8
 P 3100 1700
 F 0 "J?" H 3017 1425 50  0000 C CNN
@@ -3494,4 +2892,15 @@ Wire Wire Line
 	2225 2100 2225 2225
 Wire Wire Line
 	2625 2100 2625 2225
+$Comp
+L oshwi_M0:MICROSD X?
+U 1 1 5D08C51E
+P 13925 7850
+F 0 "X?" H 13875 8850 42  0000 L CNN
+F 1 "MICROSD" H 13775 8725 42  0000 L CNN
+F 2 "" H 13925 7850 50  0001 C CNN
+F 3 "" H 13925 7850 50  0001 C CNN
+	1    13925 7850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
