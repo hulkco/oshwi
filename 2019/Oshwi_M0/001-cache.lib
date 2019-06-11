@@ -15,20 +15,6 @@ X +3V3 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
-# 001-rescue_3.3V-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_3.3V-Adafruit_Circuit_Playground_Express-eagle-import ~ 0 40 Y Y 1 L P
-F0 "" 0 0 50 H I C CNN
-F1 "001-rescue_3.3V-Adafruit_Circuit_Playground_Express-eagle-import" -60 40 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -50 -50 0 0 N
-P 2 1 0 0 0 0 50 -50 N
-X 3.3V 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
 # 001-rescue_AP2127K-3.3-regul
 #
 DEF 001-rescue_AP2127K-3.3-regul U 0 10 Y Y 1 F N
@@ -186,23 +172,6 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 001-rescue_Conn_01x01_Female-Connector
-#
-DEF 001-rescue_Conn_01x01_Female-Connector J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "001-rescue_Conn_01x01_Female-Connector" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 001-rescue_Crystal-device
 #
 DEF 001-rescue_Crystal-device Y 0 40 N N 1 F N
@@ -221,139 +190,6 @@ P 2 0 1 20 75 -50 75 50 N
 P 2 0 1 0 100 0 75 0 N
 X 1 1 -150 0 50 R 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_DPDT-EG1390-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_DPDT-EG1390-Adafruit_Circuit_Playground_Express-eagle-import SW 0 40 Y Y 2 L N
-F0 "SW" -325 -75 59 V V L BNN
-F1 "001-rescue_DPDT-EG1390-Adafruit_Circuit_Playground_Express-eagle-import" -225 100 59 V V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -250 -75 -200 -75 N
-P 2 1 0 0 -250 0 -250 -75 N
-P 2 1 0 0 -250 0 -175 0 N
-P 2 1 0 0 -250 75 -250 0 N
-P 2 1 0 0 -250 75 -200 75 N
-P 2 1 0 0 -125 0 -150 0 N
-P 2 1 0 0 -100 100 -100 125 N
-P 2 1 0 0 -100 100 -50 100 N
-P 2 1 0 0 -75 0 -100 0 N
-P 2 1 0 0 -35 0 -50 0 N
-P 2 1 0 0 0 -125 0 -100 N
-P 2 1 0 0 0 -100 -75 125 N
-P 2 1 0 0 50 100 100 100 N
-P 2 1 0 0 100 100 100 125 N
-P 2 2 0 0 -250 -75 -200 -75 N
-P 2 2 0 0 -250 0 -250 -75 N
-P 2 2 0 0 -250 0 -175 0 N
-P 2 2 0 0 -250 75 -250 0 N
-P 2 2 0 0 -250 75 -200 75 N
-P 2 2 0 0 -125 0 -150 0 N
-P 2 2 0 0 -100 100 -100 125 N
-P 2 2 0 0 -100 100 -50 100 N
-P 2 2 0 0 -75 0 -100 0 N
-P 2 2 0 0 -35 0 -50 0 N
-P 2 2 0 0 0 -125 0 -100 N
-P 2 2 0 0 0 -100 -75 125 N
-P 2 2 0 0 50 100 100 100 N
-P 2 2 0 0 100 100 100 125 N
-X O O1 -100 200 100 D 50 0 1 0 P
-X P P1 0 -200 100 U 50 0 1 0 P
-X S S1 100 200 100 D 50 0 1 0 P
-X O O2 -100 200 100 D 50 0 2 0 P
-X P P2 0 -200 100 U 50 0 2 0 P
-X S S2 100 200 100 D 50 0 2 0 P
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_GND-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_GND-Adafruit_Circuit_Playground_Express-eagle-import ~ 0 40 Y Y 1 L P
-F0 "" 0 0 50 H I C CNN
-F1 "001-rescue_GND-Adafruit_Circuit_Playground_Express-eagle-import" -60 -100 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -50 0 50 0 N
-X GND 1 0 100 100 D 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_LED-Device
-#
-DEF 001-rescue_LED-Device D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "001-rescue_LED-Device" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_LED0805_NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_LED0805_NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import D 0 40 Y Y 1 L N
-F0 "D" -50 175 42 H V C CNN
-F1 "001-rescue_LED0805_NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import" -50 -110 42 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -50 0 0 N
-P 2 1 0 0 -100 50 -100 -50 N
-P 2 1 0 0 -75 50 -25 100 N
-P 2 1 0 0 -37 112 -12 87 N
-P 2 1 0 0 -25 50 25 100 N
-P 2 1 0 0 -12 87 0 125 N
-P 2 1 0 0 0 0 -100 50 N
-P 2 1 0 0 0 0 0 -50 N
-P 2 1 0 0 0 50 0 0 N
-P 2 1 0 0 0 125 -37 112 N
-P 2 1 0 0 12 112 37 87 N
-P 2 1 0 0 37 87 50 125 N
-P 2 1 0 0 50 125 12 112 N
-X A A -200 0 100 R 0 0 1 0 P
-X C C 100 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_LED1206_NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_LED1206_NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import D 0 40 Y Y 1 L N
-F0 "D" -50 175 42 H V C CNN
-F1 "001-rescue_LED1206_NOOUTLINE-Adafruit_Circuit_Playground_Express-eagle-import" -50 -110 42 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -50 0 0 N
-P 2 1 0 0 -100 50 -100 -50 N
-P 2 1 0 0 -75 50 -25 100 N
-P 2 1 0 0 -37 112 -12 87 N
-P 2 1 0 0 -25 50 25 100 N
-P 2 1 0 0 -12 87 0 125 N
-P 2 1 0 0 0 0 -100 50 N
-P 2 1 0 0 0 0 0 -50 N
-P 2 1 0 0 0 50 0 0 N
-P 2 1 0 0 0 125 -37 112 N
-P 2 1 0 0 12 112 37 87 N
-P 2 1 0 0 37 87 50 125 N
-P 2 1 0 0 50 125 12 112 N
-X A A -200 0 100 R 0 0 1 0 P
-X C C 100 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
@@ -400,40 +236,6 @@ X ~ 2 0 -100 25 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 001-rescue_RESISTOR_0603_NOOUT-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_RESISTOR_0603_NOOUT-Adafruit_Circuit_Playground_Express-eagle-import R 0 40 Y Y 1 L N
-F0 "R" 0 100 50 H V C CNN
-F1 "001-rescue_RESISTOR_0603_NOOUT-Adafruit_Circuit_Playground_Express-eagle-import" 0 0 40 H V C CNB
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -50 -100 50 N
-P 2 1 0 0 -100 50 100 50 N
-P 2 1 0 0 100 -50 -100 -50 N
-P 2 1 0 0 100 50 100 -50 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import
-#
-DEF 001-rescue_RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import R 0 40 Y Y 1 L N
-F0 "R" 0 100 50 H V C CNN
-F1 "001-rescue_RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import" 0 0 40 H V C CNB
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -50 -100 50 N
-P 2 1 0 0 -100 50 100 50 N
-P 2 1 0 0 100 -50 -100 -50 N
-P 2 1 0 0 100 50 100 -50 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # 001-rescue_R_Small-Device
 #
 DEF 001-rescue_R_Small-Device R 0 10 N N 1 F N
@@ -468,74 +270,6 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 001-rescue_SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import TP 0 40 Y Y 1 L N
-F0 "TP" 0 0 50 H V L BNN
-F1 "001-rescue_SEWTAP-ALLIGATOR-Adafruit_Circuit_Playground_Express-eagle-import" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-X SEW P$1 0 0 200 R 0 0 1 0 B
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_SWITCH_TACT_SMT4.6X2.8-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_SWITCH_TACT_SMT4.6X2.8-Adafruit_Circuit_Playground_Express-eagle-import SW 0 40 Y Y 1 L N
-F0 "SW" -100 250 42 H V L BNN
-F1 "001-rescue_SWITCH_TACT_SMT4.6X2.8-Adafruit_Circuit_Playground_Express-eagle-import" -100 -200 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -100 0 5 1 0 16 N
-C 100 0 5 1 0 16 N
-P 2 1 0 0 -100 -100 -100 0 N
-P 2 1 0 0 -100 0 75 50 N
-P 2 1 0 0 -75 175 -75 125 N
-P 2 1 0 0 0 50 0 25 N
-P 2 1 0 0 0 100 0 75 N
-P 2 1 0 0 0 175 -75 175 N
-P 2 1 0 0 0 175 0 125 N
-P 2 1 0 0 75 0 100 0 N
-P 2 1 0 0 75 175 0 175 N
-P 2 1 0 0 75 175 75 125 N
-P 2 1 0 0 100 -100 100 0 N
-X P A -200 0 100 R 0 0 1 0 P
-X P1 A' -200 -100 100 R 0 0 1 0 P
-X S B 200 0 100 L 0 0 1 0 P
-X S1 B' 200 -100 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_Circuit_Playground_Express-eagle-import SW 0 40 Y Y 1 L N
-F0 "SW" -100 250 42 H V L BNN
-F1 "001-rescue_SWITCH_TACT_SMT_EVQQ2_SMALL-Adafruit_Circuit_Playground_Express-eagle-import" -100 -200 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -100 0 5 1 0 16 N
-C 100 0 5 1 0 16 N
-P 2 1 0 0 -100 -100 -100 0 N
-P 2 1 0 0 -100 0 75 50 N
-P 2 1 0 0 -75 175 -75 125 N
-P 2 1 0 0 0 50 0 25 N
-P 2 1 0 0 0 100 0 75 N
-P 2 1 0 0 0 175 -75 175 N
-P 2 1 0 0 0 175 0 125 N
-P 2 1 0 0 75 0 100 0 N
-P 2 1 0 0 75 175 0 175 N
-P 2 1 0 0 75 175 75 125 N
-P 2 1 0 0 100 -100 100 0 N
-X P A -200 0 100 R 0 0 1 0 P
-X P1 A' -200 -100 100 R 0 0 1 0 P
-X S B 200 0 100 L 0 0 1 0 P
-X S1 B' 200 -100 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # 001-rescue_SW_Push-Switch
 #
 DEF 001-rescue_SW_Push-Switch SW 0 40 N N 1 F N
@@ -566,31 +300,6 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 001-rescue_TRANSISTOR_NPN-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_TRANSISTOR_NPN-Adafruit_Circuit_Playground_Express-eagle-import Q 0 40 Y Y 1 L N
-F0 "Q" 50 25 42 H V L BNN
-F1 "001-rescue_TRANSISTOR_NPN-Adafruit_Circuit_Playground_Express-eagle-import" 50 -50 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -110 -100 -80 100 1 0 0 F
-P 2 1 0 0 -50 -100 -30 -60 N
-P 2 1 0 0 -40 -95 -10 -95 N
-P 2 1 0 0 -40 -90 -25 -90 N
-P 2 1 0 0 -39 -80 -87 -56 N
-P 2 1 0 0 -30 -70 -40 -90 N
-P 2 1 0 0 -30 -60 0 -100 N
-P 2 1 0 0 -25 -90 -30 -80 N
-P 2 1 0 0 -10 -95 -30 -70 N
-P 2 1 0 0 0 -100 -50 -100 N
-P 2 1 0 0 0 100 -80 60 N
-X B 1 -200 0 100 R 0 0 1 0 P
-X E 2 0 -200 100 U 0 0 1 0 P
-X C 3 0 200 100 D 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # 001-rescue_VBUS-Adafruit_Feather_M0_Express-eagle-import
 #
 DEF 001-rescue_VBUS-Adafruit_Feather_M0_Express-eagle-import ~ 0 40 Y Y 1 L P
@@ -602,20 +311,6 @@ DRAW
 P 2 1 0 0 -50 -50 0 0 N
 P 2 1 0 0 0 0 50 -50 N
 X VBUS 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# 001-rescue_VCC-Adafruit_Circuit_Playground_Express-eagle-import
-#
-DEF 001-rescue_VCC-Adafruit_Circuit_Playground_Express-eagle-import #P+ 0 40 Y Y 1 L P
-F0 "#P+" 0 0 50 H I C CNN
-F1 "001-rescue_VCC-Adafruit_Circuit_Playground_Express-eagle-import" -100 -100 59 V V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 0 0 -50 -75 N
-P 2 1 0 0 50 -75 0 0 N
-X VCC 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
@@ -673,24 +368,6 @@ X GND 4 0 -400 200 U 0 50 1 0 W
 ENDDRAW
 ENDDEF
 #
-# Adafruit_0.96in_160x80_TFT_Display-eagle-import_AXP083-SAG
-#
-DEF Adafruit_0.96in_160x80_TFT_Display-eagle-import_AXP083-SAG IC 0 40 Y Y 1 L N
-F0 "IC" -200 -300 59 H V L BNN
-F1 "Adafruit_0.96in_160x80_TFT_Display-eagle-import_AXP083-SAG" -200 -400 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -200 -200 -200 200 N
-P 2 1 0 0 -200 200 200 200 N
-P 2 1 0 0 200 -200 -200 -200 N
-P 2 1 0 0 200 200 200 -200 N
-X GND 1 -400 -100 200 R 50 50 1 0 W
-X /RESET 2 400 0 200 L 50 50 1 0 O
-X VCC 3 -400 100 200 R 50 50 1 0 W
-ENDDRAW
-ENDDEF
-#
 # Adafruit_0.96in_160x80_TFT_Display-eagle-import_CAP_CERAMIC0805-NOOUTLINE
 #
 DEF Adafruit_0.96in_160x80_TFT_Display-eagle-import_CAP_CERAMIC0805-NOOUTLINE C 0 40 Y Y 1 L N
@@ -708,104 +385,99 @@ X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_0.96in_160x80_TFT_Display-eagle-import_DISP_LCD_0.9IN_160X80
+# Connector_Conn_01x08_Male
 #
-DEF Adafruit_0.96in_160x80_TFT_Display-eagle-import_DISP_LCD_0.9IN_160X80 ~ 0 40 Y Y 1 L N
-F0 "" 0 0 50 H I C CNN
-F1 "Adafruit_0.96in_160x80_TFT_Display-eagle-import_DISP_LCD_0.9IN_160X80" 0 0 50 H I C CNN
+DEF Connector_Conn_01x08_Male J 0 40 Y N 1 F N
+F0 "J" 0 400 50 H V C CNN
+F1 "Connector_Conn_01x08_Male" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
 DRAW
-T 0 -25 125 85 0 1 0 Generic Normal 0 L B
-T 0 0 -225 85 0 1 0 "SPI TFT" Normal 0 L B
-P 2 1 0 0 -900 -600 -900 600 N
-P 2 1 0 0 -900 600 500 600 N
-P 2 1 0 0 -500 -500 -500 500 N
-P 2 1 0 0 -500 500 400 500 N
-P 2 1 0 0 400 -500 -500 -500 N
-P 2 1 0 0 400 500 400 -500 N
-P 2 1 0 0 500 -600 -900 -600 N
-P 2 1 0 0 500 600 500 -600 N
-X GND 1 -1100 -500 200 R 0 50 1 0 W
-X VDDIO 10 -1100 -300 200 R 50 50 1 0 W
-X VDD 11 -1100 -400 200 R 50 50 1 0 W
-X CS 12 -1100 -100 200 R 50 50 1 0 I
-X GND 13 -1100 -500 200 R 0 50 1 0 W
-X LEDA 2 -1100 500 200 R 50 50 1 0 I
-X LEDK 3 -1100 400 200 R 50 50 1 0 I
-X GND 5 -1100 -500 200 R 0 50 1 0 W
-X RESET 6 -1100 300 200 R 50 50 1 0 I
-X RS/DC 7 -1100 200 200 R 50 50 1 0 I
-X DATA 8 -1100 100 200 R 50 50 1 0 B
-X CLOCK 9 -1100 0 200 R 50 50 1 0 I
+S 34 -395 0 -405 1 1 6 F
+S 34 -295 0 -305 1 1 6 F
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+S 34 305 0 295 1 1 6 F
+P 2 1 1 6 50 -400 34 -400 N
+P 2 1 1 6 50 -300 34 -300 N
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+P 2 1 1 6 50 300 34 300 N
+X Pin_1 1 200 300 150 L 50 50 1 1 P
+X Pin_2 2 200 200 150 L 50 50 1 1 P
+X Pin_3 3 200 100 150 L 50 50 1 1 P
+X Pin_4 4 200 0 150 L 50 50 1 1 P
+X Pin_5 5 200 -100 150 L 50 50 1 1 P
+X Pin_6 6 200 -200 150 L 50 50 1 1 P
+X Pin_7 7 200 -300 150 L 50 50 1 1 P
+X Pin_8 8 200 -400 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_0.96in_160x80_TFT_Display-eagle-import_HEADER-1X11
+# Device_C_Small
 #
-DEF Adafruit_0.96in_160x80_TFT_Display-eagle-import_HEADER-1X11 JP 0 40 Y Y 1 L N
-F0 "JP" -250 625 59 H V L BNN
-F1 "Adafruit_0.96in_160x80_TFT_Display-eagle-import_HEADER-1X11" -250 -700 59 H V L BNN
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
 DRAW
-P 2 1 0 0 -250 -600 50 -600 N
-P 2 1 0 0 -250 600 -250 -600 N
-P 2 1 0 0 50 -600 50 600 N
-P 2 1 0 0 50 600 -250 600 N
-X 1 1 -100 500 100 R 50 0 1 0 P I
-X 10 10 -100 -400 100 R 50 0 1 0 P I
-X 11 11 -100 -500 100 R 50 0 1 0 P I
-X 2 2 -100 400 100 R 50 0 1 0 P I
-X 3 3 -100 300 100 R 50 0 1 0 P I
-X 4 4 -100 200 100 R 50 0 1 0 P I
-X 5 5 -100 100 100 R 50 0 1 0 P I
-X 6 6 -100 0 100 R 50 0 1 0 P I
-X 7 7 -100 -100 100 R 50 0 1 0 P I
-X 8 8 -100 -200 100 R 50 0 1 0 P I
-X 9 9 -100 -300 100 R 50 0 1 0 P I
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_0.96in_160x80_TFT_Display-eagle-import_RESISTOR_0603_NOOUT
+# Device_LED_Small
 #
-DEF Adafruit_0.96in_160x80_TFT_Display-eagle-import_RESISTOR_0603_NOOUT R 0 40 Y Y 1 L N
-F0 "R" 0 100 50 H V C CNN
-F1 "Adafruit_0.96in_160x80_TFT_Display-eagle-import_RESISTOR_0603_NOOUT" 0 0 40 H V C CNB
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF Device_LED_Small D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Device_LED_Small" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
 DRAW
-P 2 1 0 0 -100 -50 -100 50 N
-P 2 1 0 0 -100 50 100 50 N
-P 2 1 0 0 100 -50 -100 -50 N
-P 2 1 0 0 100 50 100 -50 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Adafruit_0.96in_160x80_TFT_Display-eagle-import_TRANSISTOR_NPNWIDE
+# Device_R_Small
 #
-DEF Adafruit_0.96in_160x80_TFT_Display-eagle-import_TRANSISTOR_NPNWIDE Q 0 40 Y Y 1 L N
-F0 "Q" 50 25 42 H V L BNN
-F1 "Adafruit_0.96in_160x80_TFT_Display-eagle-import_TRANSISTOR_NPNWIDE" 50 -50 42 H V L BNN
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
 DRAW
-S -110 -100 -80 100 1 0 0 F
-P 2 1 0 0 -50 -100 -30 -60 N
-P 2 1 0 0 -40 -95 -10 -95 N
-P 2 1 0 0 -40 -90 -25 -90 N
-P 2 1 0 0 -39 -80 -87 -56 N
-P 2 1 0 0 -30 -70 -40 -90 N
-P 2 1 0 0 -30 -60 0 -100 N
-P 2 1 0 0 -25 -90 -30 -80 N
-P 2 1 0 0 -10 -95 -30 -70 N
-P 2 1 0 0 0 -100 -50 -100 N
-P 2 1 0 0 0 100 -80 60 N
-X B 1 -200 0 100 R 0 0 1 0 P
-X E 2 0 -200 100 U 0 0 1 0 P
-X C 3 0 200 100 D 0 0 1 0 P
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -976,6 +648,30 @@ X NC 9 -1050 -200 100 R 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
+# wickerlib_BJT-NPN-40V-0.6A-MMBT2222
+#
+DEF wickerlib_BJT-NPN-40V-0.6A-MMBT2222 Q 0 40 N N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "wickerlib_BJT-NPN-40V-0.6A-MMBT2222" 200 -50 50 H V L CNN
+F2 "Wickerlib:SOT-23-3" 0 -350 50 H I C CIN
+F3 "http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF" 0 0 5 H I C CNN
+F4 "TRANS NPN 40V 0.6A SOT23" 0 -350 50 H I C CIN "Description"
+F5 "ON Semi" 0 -350 50 H I C CIN "MF_Name"
+F6 "MMBT2222ALT1G" 0 -350 50 H I C CIN "MF_PN"
+F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
+F8 "MMBT2222ALT1GOSCT-ND" 0 -350 50 H I C CIN "S1_PN"
+DRAW
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 200 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # wickerlib_DIODE-SCHOTTKY-40V-1A-MBRA140-SMA
 #
 DEF wickerlib_DIODE-SCHOTTKY-40V-1A-MBRA140-SMA D 0 40 N N 1 F N
@@ -995,6 +691,27 @@ P 3 0 1 0 40 30 40 40 30 40 N
 P 4 0 1 0 -40 -30 0 30 40 -30 -40 -30 F
 X K 1 0 100 70 D 50 50 1 1 P
 X A 2 0 -100 70 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# wickerlib_SWITCH-MOMENT-SPST-NO-0.05A-12V-SMT-B3U-1000P
+#
+DEF wickerlib_SWITCH-MOMENT-SPST-NO-0.05A-12V-SMT-B3U-1000P S 0 40 N N 1 F N
+F0 "S" 50 50 50 H V L CNN
+F1 "wickerlib_SWITCH-MOMENT-SPST-NO-0.05A-12V-SMT-B3U-1000P" -200 -75 50 H V L CNN
+F2 "Wickerlib:SWITCH-OMRON-MOMENTARY-SMD-B3U-1000P" 0 -350 50 H I C CIN
+F3 "http://www.omron.com/ecb/products/pdf/en-b3u.pdf" 0 0 5 H I C CNN
+F4 "SWITCH TACTILE SPST-NO 0.05A 12V" 0 -350 50 H I C CIN "Description"
+F5 "Omron" 0 -350 50 H I C CIN "MF_Name"
+F6 "B3U-1000P" 0 -350 50 H I C CIN "MF_PN"
+F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
+F8 "SW1020CT-ND" 0 -350 50 H I C CIN "S1_PN"
+DRAW
+C -122 0 21 0 1 0 N
+C 28 2 20 0 1 0 N
+P 2 0 1 0 -100 12 -10 78 N
+X 1 1 -250 0 104 R 50 50 1 1 I
+X 2 2 150 0 102 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
