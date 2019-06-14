@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# conn_CONN_01X08
+# 001-rescue_CONN_01X08-conn
 #
-DEF conn_CONN_01X08 J 0 40 Y N 1 F N
+DEF 001-rescue_CONN_01X08-conn J 0 40 Y N 1 F N
 F0 "J" 0 450 50 H V C CNN
-F1 "conn_CONN_01X08" 100 0 50 V V C CNN
+F1 "001-rescue_CONN_01X08-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -35,11 +35,11 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_C_Small
+# 001-rescue_C_Small-device
 #
-DEF device_C_Small C 0 10 N N 1 F N
+DEF 001-rescue_C_Small-device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device_C_Small" 10 -80 50 H V L CNN
+F1 "001-rescue_C_Small-device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -53,11 +53,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_R_Small
+# 001-rescue_R_Small-device
 #
-DEF device_R_Small R 0 10 N N 1 F N
+DEF 001-rescue_R_Small-device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "device_R_Small" 30 -40 50 H V L CNN
+F1 "001-rescue_R_Small-device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -67,6 +67,29 @@ DRAW
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 001-rescue_S8050-transistors
+#
+DEF 001-rescue_S8050-transistors Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "001-rescue_S8050-transistors" 200 0 50 H V L CNN
+F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X E 1 100 -200 100 U 50 50 1 1 P
+X B 2 -200 0 200 R 50 50 1 1 I
+X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -135,29 +158,6 @@ X RES 6 -1050 100 100 R 50 50 1 1 P
 X CS 7 -1050 0 100 R 50 50 1 1 P
 X GND1 8 -1050 -100 100 R 50 50 1 1 W
 X NC 9 -1050 -200 100 R 50 50 1 1 N
-ENDDRAW
-ENDDEF
-#
-# transistors_S8050
-#
-DEF transistors_S8050 Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "transistors_S8050" 200 0 50 H V L CNN
-F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-$FPLIST
- TO?92*
-$ENDFPLIST
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 0 0 25 0 N
-P 2 0 1 0 25 25 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
-X E 1 100 -200 100 U 50 50 1 1 P
-X B 2 -200 0 200 R 50 50 1 1 I
-X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
