@@ -26,7 +26,7 @@ F 3 "" H 5875 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X08 J1
+L 001-rescue:CONN_01X08-conn J1
 U 1 1 5CE71D48
 P 3225 3700
 F 0 "J1" H 3142 3125 50  0000 C CNN
@@ -69,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	3425 4050 3550 4050
 $Comp
-L transistors:S8050 Q1
+L 001-rescue:S8050-transistors Q1
 U 1 1 5CE7D6CD
 P 8150 3675
 F 0 "Q1" H 8340 3721 50  0000 L CNN
@@ -80,23 +80,23 @@ F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 8150 3675 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1
+L 001-rescue:R_Small-device R1
 U 1 1 5CE7DDEC
 P 7600 3675
 F 0 "R1" V 7404 3675 50  0000 C CNN
 F 1 "1k" V 7495 3675 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 7600 3675 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 3675 50  0001 C CNN
 F 3 "" H 7600 3675 50  0001 C CNN
 	1    7600 3675
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R3
+L 001-rescue:R_Small-device R3
 U 1 1 5CE7E014
 P 8475 3350
 F 0 "R3" V 8279 3350 50  0000 C CNN
 F 1 "10ohm" V 8370 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 8475 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8475 3350 50  0001 C CNN
 F 3 "" H 8475 3350 50  0001 C CNN
 	1    8475 3350
 	0    1    1    0   
@@ -109,12 +109,12 @@ Wire Wire Line
 	7825 3675 7700 3675
 Connection ~ 7825 3675
 $Comp
-L device:R_Small R2
+L 001-rescue:R_Small-device R2
 U 1 1 5CE7FBA5
 P 7825 3900
 F 0 "R2" H 7884 3946 50  0000 L CNN
 F 1 "10k" H 7884 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.39x1.80mm_HandSolder" H 7825 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7825 3900 50  0001 C CNN
 F 3 "" H 7825 3900 50  0001 C CNN
 	1    7825 3900
 	1    0    0    -1  
@@ -151,12 +151,12 @@ BLK
 Text Label 7375 4125 2    50   ~ 0
 VCC
 $Comp
-L device:C_Small C1
+L 001-rescue:C_Small-device C1
 U 1 1 5CE8903B
 P 4400 4050
 F 0 "C1" V 4350 3950 50  0000 C CNN
 F 1 "1uF" V 4350 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4400 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 4050 50  0001 C CNN
 F 3 "" H 4400 4050 50  0001 C CNN
 	1    4400 4050
 	0    1    1    0   
