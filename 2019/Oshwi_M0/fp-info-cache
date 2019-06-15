@@ -1,4 +1,4 @@
-15515192805819814
+15516740718503814
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50134,6 +50134,13 @@ SOT23-5
 0
 5
 5
+Oshwi_M0
+SSOP-16_3.9x4.9mm_P0.635mm
+SSOP16: plastic shrink small outline package; 16 leads; body width 3.9 mm; lead pitch 0.635; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot519-1_po.pdf)
+SSOP 0.635
+0
+16
+16
 Oshwi_M0
 TESTPOINT_ROUND_1.5MM
 

@@ -1,7 +1,0 @@
-"STARTUP.obj",
-"main.obj",
-"LCD.obj",
-"sys.obj",
-"font.obj" 
-TO "ceshi" 
-RAMSIZE(256) 

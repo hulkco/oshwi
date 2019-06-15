@@ -202,6 +202,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 -90))
     )
+    (model "${KISYS3DMOD}/Display.3dshapes/0.96 - IPS LCD - Reverse Mount_Short.stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A420) (tstamp 5D04AABD)
