@@ -1,0 +1,8 @@
+(module FRAME-NO-BAN-FRAMEONLY (layer F.Cu) (tedit 0)
+  (fp_text reference FRAME2 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value "Page 2" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+)

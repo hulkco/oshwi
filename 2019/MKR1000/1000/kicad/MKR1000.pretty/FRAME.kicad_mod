@@ -1,0 +1,11 @@
+(module FRAME (layer F.Cu) (tedit 0)
+  (fp_text reference FRAME1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value DNP (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.6891 1.6891) (thickness 0.135128)) (justify left bottom))
+  )
+  (fp_text user "Reference Designs ARE PROVIDED \"AS IS\" AND \"WITH ALL FAULTS. Arduino SA DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED,\nREGARDING PRODUCTS, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A \nPARTICULAR PURPOSE \nArduino SA may make changes to specifications and product descriptions at any time, without notice. The Customer must not\nrely on the absence or characteristics of any features or instructions marked \"reserved\" or \"undefined.\" Arduino SA reserves\nthese for future definition and shall have no responsibility whatsoever for conflicts or incompatibilities arising from future changes to them.\nThe product information on the Web Site or Materials is subject to change without notice. Do not finalize a design with this info\n\nARDUINO and other Arduino brands and logos and Trademarks of Arduino SA. All Arduino SA Trademarks cannot be used without owner's formal permission\n\nThis file is licensed under : CC-SA-BY-NC" (at 0 17.78) (layer F.Fab)
+    (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
+  )
+)

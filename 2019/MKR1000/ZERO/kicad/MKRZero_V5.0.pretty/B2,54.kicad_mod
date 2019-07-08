@@ -1,0 +1,14 @@
+(module B2,54 (layer F.Cu) (tedit 0)
+  (descr "<b>TEST PAD</b>")
+  (fp_text reference PA28 (at -1.27 -1.651) (layer F.SilkS) hide
+    (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
+  )
+  (fp_text value TPB2,54 (at -1.27 1.397) (layer F.Fab) hide
+    (effects (font (size 0.02413 0.02413) (thickness 0.002032)) (justify left bottom))
+  )
+  (fp_line (start -0.635 0) (end 0.635 0) (layer Dwgs.User) (width 0.0024))
+  (fp_line (start 0 0.635) (end 0 -0.635) (layer Dwgs.User) (width 0.0024))
+  (fp_circle (center 0 0) (end 0.635 0) (layer Dwgs.User) (width 0.254))
+  (pad PP smd roundrect (at 0 0) (size 2.54 2.54) (layers F.Cu F.Mask) (roundrect_rratio 0.5)
+    (solder_mask_margin 0.0508))
+)

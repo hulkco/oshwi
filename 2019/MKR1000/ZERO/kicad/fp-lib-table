@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MKRZero_V5.0)(type KiCad)(uri "$(KIPRJMOD)/MKRZero_V5.0.pretty")(options "")(descr ""))
+)
