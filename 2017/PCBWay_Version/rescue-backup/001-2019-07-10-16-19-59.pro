@@ -1,4 +1,4 @@
-update=mié 10 jul 2019 16:20:01 MDT
+update=Thu 15 Mar 2018 07:08:01 PM MST
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,6 +25,9 @@ BoardOutlineThickness=0.152400000000
 ModuleOutlineThickness=0.152400000000
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -35,6 +38,3 @@ NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
-[eeschema]
-version=1
-LibDir=

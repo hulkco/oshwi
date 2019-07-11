@@ -1,0 +1,13 @@
+(module Mazmaker:Oshwdem_Mouth_01 (layer F.Cu) (tedit 597F397D)
+  (fp_text reference Mouth*** (at 24.7777 -2.44094) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_text value LOGO (at 16.5989 -3.11404) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_poly (pts (xy -1.37432 -0.087376) (xy -1.329331 0) (xy -0.778381 0.641604) (xy -0.100163 0.760753)
+    (xy 0.606009 0.351959) (xy 0.814099 0.118412) (xy 1.205053 -0.31296) (xy 1.404534 -0.404682)
+    (xy 1.411111 -0.373499) (xy 1.190921 0.111704) (xy 0.672337 0.645859) (xy 0.06834 1.038975)
+    (xy -0.273058 1.128888) (xy -0.902304 0.937636) (xy -1.249842 0.685396) (xy -1.610429 0.121618)
+    (xy -1.689173 -0.231826) (xy -1.610378 -0.424458) (xy -1.37432 -0.087376)) (layer F.SilkS) (width 0.01))
+)
