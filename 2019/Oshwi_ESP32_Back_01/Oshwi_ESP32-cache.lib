@@ -62,21 +62,6 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Jumper_NO_Small
-#
-DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -40 0 20 0 1 0 N
-C 40 0 20 0 1 0 N
-X 1 1 -100 0 40 R 50 50 0 1 P
-X 2 2 100 0 40 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_LED_Small
 #
 DEF Device_LED_Small D 0 10 N N 1 F N
@@ -151,6 +136,58 @@ X 3.3V 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
+# Oshwi_ESP32-rescue_ANT-Cats_GPSLoRa-cache-wemos-01-rescue
+#
+DEF Oshwi_ESP32-rescue_ANT-Cats_GPSLoRa-cache-wemos-01-rescue A 0 40 Y Y 1 F N
+F0 "A" 250 400 60 H V C CNN
+F1 "Oshwi_ESP32-rescue_ANT-Cats_GPSLoRa-cache-wemos-01-rescue" 250 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 350 200 100 0 1 0 N
+S 200 350 500 50 0 1 0 N
+X ~ 1 350 400 200 D 50 50 1 1 P
+X ~ 2 0 300 200 R 50 50 1 1 P
+X ~ 3 700 300 200 L 50 50 1 1 P
+X ~ 4 0 150 200 R 50 50 1 1 P
+X ~ 5 700 150 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Oshwi_ESP32-rescue_CONN_01X08-conn-001-rescue
+#
+DEF Oshwi_ESP32-rescue_CONN_01X08-conn-001-rescue J 0 40 Y N 1 F N
+F0 "J" 0 450 50 H V C CNN
+F1 "Oshwi_ESP32-rescue_CONN_01X08-conn-001-rescue" 100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
+$ENDFPLIST
+DRAW
+S -50 -400 50 400 0 1 0 N
+S -50 -345 10 -355 0 1 0 N
+S -50 -245 10 -255 0 1 0 N
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 255 10 245 0 1 0 N
+S -50 355 10 345 0 1 0 N
+X P1 1 -200 350 150 R 50 50 1 1 P
+X P2 2 -200 250 150 R 50 50 1 1 P
+X P3 3 -200 150 150 R 50 50 1 1 P
+X P4 4 -200 50 150 R 50 50 1 1 P
+X P5 5 -200 -50 150 R 50 50 1 1 P
+X P6 6 -200 -150 150 R 50 50 1 1 P
+X P7 7 -200 -250 150 R 50 50 1 1 P
+X P8 8 -200 -350 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Oshwi_ESP32-rescue_CONN_01X08-wemos-01-rescue
 #
 DEF Oshwi_ESP32-rescue_CONN_01X08-wemos-01-rescue P 0 40 Y N 1 F N
@@ -185,6 +222,26 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Oshwi_ESP32-rescue_CP1_Small-Device-wemos-01-rescue
+#
+DEF Oshwi_ESP32-rescue_CP1_Small-Device-wemos-01-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Oshwi_ESP32-rescue_CP1_Small-Device-wemos-01-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *:CP_*
+$ENDFPLIST
+DRAW
+A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Oshwi_ESP32-rescue_C_Small-device-001-rescue
 #
 DEF Oshwi_ESP32-rescue_C_Small-device-001-rescue C 0 10 N N 1 F N
@@ -200,6 +257,99 @@ P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Oshwi_ESP32-rescue_Conn_01x01-conn-wemos-01-rescue
+#
+DEF Oshwi_ESP32-rescue_Conn_01x01-conn-wemos-01-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Oshwi_ESP32-rescue_Conn_01x01-conn-wemos-01-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Oshwi_ESP32-rescue_Conn_01x04-conn-wemos-01-rescue
+#
+DEF Oshwi_ESP32-rescue_Conn_01x04-conn-wemos-01-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Oshwi_ESP32-rescue_Conn_01x04-conn-wemos-01-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Oshwi_ESP32-rescue_GND-Adafruit_ESP32_Huzzah_Breakout-eagle-import
+#
+DEF Oshwi_ESP32-rescue_GND-Adafruit_ESP32_Huzzah_Breakout-eagle-import ~ 0 40 Y Y 1 L P
+F0 "" 0 0 50 H I C CNN
+F1 "Oshwi_ESP32-rescue_GND-Adafruit_ESP32_Huzzah_Breakout-eagle-import" -60 -100 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 0 50 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# Oshwi_ESP32-rescue_HEADER-1X15-Adafruit_ESP32_Huzzah_Breakout-eagle-import
+#
+DEF Oshwi_ESP32-rescue_HEADER-1X15-Adafruit_ESP32_Huzzah_Breakout-eagle-import JP 0 40 Y Y 1 L N
+F0 "JP" -250 825 59 H V L BNN
+F1 "Oshwi_ESP32-rescue_HEADER-1X15-Adafruit_ESP32_Huzzah_Breakout-eagle-import" -250 -900 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -800 50 -800 N
+P 2 1 0 0 -250 800 -250 -800 N
+P 2 1 0 0 50 -800 50 800 N
+P 2 1 0 0 50 800 -250 800 N
+X 1 1 -100 700 100 R 50 0 1 0 P I
+X 10 10 -100 -200 100 R 50 0 1 0 P I
+X 11 11 -100 -300 100 R 50 0 1 0 P I
+X 12 12 -100 -400 100 R 50 0 1 0 P I
+X 13 13 -100 -500 100 R 50 0 1 0 P I
+X 14 14 -100 -600 100 R 50 0 1 0 P I
+X 15 15 -100 -700 100 R 50 0 1 0 P I
+X 2 2 -100 600 100 R 50 0 1 0 P I
+X 3 3 -100 500 100 R 50 0 1 0 P I
+X 4 4 -100 400 100 R 50 0 1 0 P I
+X 5 5 -100 300 100 R 50 0 1 0 P I
+X 6 6 -100 200 100 R 50 0 1 0 P I
+X 7 7 -100 100 100 R 50 0 1 0 P I
+X 8 8 -100 0 100 R 50 0 1 0 P I
+X 9 9 -100 -100 100 R 50 0 1 0 P I
 ENDDRAW
 ENDDEF
 #
@@ -241,6 +391,38 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
+# Oshwi_ESP32-rescue_RFM95W-915S2-RF_AM_FM-wemos-01-rescue
+#
+DEF Oshwi_ESP32-rescue_RFM95W-915S2-RF_AM_FM-wemos-01-rescue U 0 40 Y Y 1 F N
+F0 "U" -410 460 50 H V L CNN
+F1 "Oshwi_ESP32-rescue_RFM95W-915S2-RF_AM_FM-wemos-01-rescue" 60 450 50 H V L CNN
+F2 "" -3300 1650 50 H I C CNN
+F3 "" -3300 1650 50 H I C CNN
+$FPLIST
+ HOPERF?RFM9XW*SMD*
+ HOPERF?RFM9XW*THT*
+$ENDFPLIST
+DRAW
+S -400 400 400 -500 0 1 10 f
+X GND 1 -100 -600 100 U 50 50 1 1 W
+X GND 10 100 -600 100 U 50 50 1 1 W
+X DIO3 11 500 -100 100 L 50 50 1 1 B
+X DIO4 12 500 0 100 L 50 50 1 1 B
+X 3.3V 13 0 500 100 D 50 50 1 1 W
+X DIO0 14 500 -400 100 L 50 50 1 1 B
+X DIO1 15 500 -300 100 L 50 50 1 1 B
+X DIO2 16 500 -200 100 L 50 50 1 1 B
+X MISO 2 -500 100 100 R 50 50 1 1 I
+X MOSI 3 -500 200 100 R 50 50 1 1 O
+X SCK 4 -500 300 100 R 50 50 1 1 I
+X NSS 5 -500 0 100 R 50 50 1 1 I
+X RESET 6 -500 -200 100 R 50 50 1 1 B
+X DIO5 7 500 100 100 L 50 50 1 1 B
+X GND 8 0 -600 100 U 50 50 1 1 W
+X ANT 9 500 300 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # Oshwi_ESP32-rescue_R_Small-device-001-rescue
 #
 DEF Oshwi_ESP32-rescue_R_Small-device-001-rescue R 0 10 N N 1 F N
@@ -278,6 +460,40 @@ P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
 X E 1 100 -200 100 U 50 50 1 1 P
 X B 2 -200 0 200 R 50 50 1 1 I
 X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Oshwi_ESP32-rescue_VIN-Adafruit_ESP32_Huzzah_Breakout-eagle-import
+#
+DEF Oshwi_ESP32-rescue_VIN-Adafruit_ESP32_Huzzah_Breakout-eagle-import ~ 0 40 Y Y 1 L P
+F0 "" 0 0 50 H I C CNN
+F1 "Oshwi_ESP32-rescue_VIN-Adafruit_ESP32_Huzzah_Breakout-eagle-import" -60 40 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -50 0 0 N
+P 2 1 0 0 0 0 50 -50 N
+X VIN 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# Oshwi_ESP32-rescue_VREG_SOT23-5-Adafruit_ESP32_Huzzah_Breakout-eagle-import
+#
+DEF Oshwi_ESP32-rescue_VREG_SOT23-5-Adafruit_ESP32_Huzzah_Breakout-eagle-import U 0 40 Y Y 1 L N
+F0 "U" -300 240 42 H V L BNN
+F1 "Oshwi_ESP32-rescue_VREG_SOT23-5-Adafruit_ESP32_Huzzah_Breakout-eagle-import" -300 -300 42 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -300 -200 -300 200 N
+P 2 1 0 0 -300 200 300 200 N
+P 2 1 0 0 300 -200 -300 -200 N
+P 2 1 0 0 300 200 300 -200 N
+X IN 1 -400 100 100 R 50 50 1 0 W
+X GND 2 -400 -100 100 R 50 50 1 0 W
+X EN 3 -400 0 100 R 50 50 1 0 I
+X P4 4 400 -100 100 L 50 50 1 0 B
+X OUT 5 400 100 100 L 50 50 1 0 W
 ENDDRAW
 ENDDEF
 #

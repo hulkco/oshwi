@@ -1,0 +1,879 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr User 11980 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5900 5200 5900 4900
+Text Label 5900 5200 0    10   ~ 0
+GND
+Wire Wire Line
+	2700 5700 3000 5700
+Text Label 2700 5700 0    10   ~ 0
+GND
+Wire Wire Line
+	2500 2400 2600 2400
+Wire Wire Line
+	2900 2300 2900 2400
+Wire Wire Line
+	2900 2400 2600 2400
+Connection ~ 2600 2400
+Text Label 2500 2400 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 2400 2000 2400
+Connection ~ 2000 2400
+Text Label 1900 2400 0    10   ~ 0
+GND
+Wire Wire Line
+	5300 4600 4200 4600
+Text Label 4200 4600 0    70   ~ 0
+GND
+Wire Wire Line
+	5500 2000 5500 1800
+Text Label 5500 2000 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 4900 5700 5200
+Text Label 5700 4900 0    10   ~ 0
+VIN
+Wire Wire Line
+	3800 5500 3900 5500
+Wire Wire Line
+	3900 5500 3900 5400
+Text Label 3800 5500 0    10   ~ 0
+3.3V
+Wire Wire Line
+	2600 1000 2600 1100
+Text Label 2600 1000 0    10   ~ 0
+3.3V
+Wire Wire Line
+	4200 4500 5300 4500
+Text Label 4200 4500 0    70   ~ 0
+3.3V
+Wire Wire Line
+	2600 1500 2600 1700
+Wire Wire Line
+	2600 1700 2600 2000
+Wire Wire Line
+	2600 2000 2500 2000
+Wire Wire Line
+	2600 1700 2900 1700
+Wire Wire Line
+	2900 1700 2900 2000
+Text Label 2600 1900 1    70   ~ 0
+RESET
+Connection ~ 2600 2000
+Connection ~ 2600 1700
+Wire Wire Line
+	3100 3800 3600 3800
+Text Label 3200 3800 0    70   ~ 0
+RESET
+Wire Wire Line
+	8400 3300 7900 3300
+Text Label 7900 3300 0    70   ~ 0
+RESET
+Wire Wire Line
+	10400 3500 10800 3500
+Text Label 10500 3500 0    70   ~ 0
+GPIO16
+Wire Wire Line
+	6000 4100 6700 4100
+Text Label 6400 4100 0    70   ~ 0
+GPIO16
+Wire Wire Line
+	10400 3300 10800 3300
+Text Label 10500 3300 0    70   ~ 0
+GPIO14
+Wire Wire Line
+	4600 4200 5300 4200
+Text Label 4600 4200 0    70   ~ 0
+GPIO14
+Wire Wire Line
+	10400 3100 10900 3100
+Text Label 10500 3100 0    70   ~ 0
+GPIO12
+Wire Wire Line
+	4600 4300 5300 4300
+Text Label 4600 4300 0    70   ~ 0
+GPIO12
+Wire Wire Line
+	5300 4400 4600 4400
+Text Label 4600 4400 0    70   ~ 0
+GPIO13
+Wire Wire Line
+	10800 3200 10400 3200
+Text Label 10500 3200 0    70   ~ 0
+GPIO13
+Wire Wire Line
+	4100 1500 4100 1000
+Text Label 4100 1000 3    70   ~ 0
+GPIO13
+Wire Wire Line
+	10800 3400 10400 3400
+Text Label 10500 3400 0    70   ~ 0
+GPIO15
+Wire Wire Line
+	6000 4500 6700 4500
+Text Label 6400 4500 0    70   ~ 0
+GPIO15
+Wire Wire Line
+	10800 2800 10400 2800
+Text Label 10500 2800 0    70   ~ 0
+GPIO2
+Wire Wire Line
+	6700 4400 6000 4400
+Text Label 6400 4400 0    70   ~ 0
+GPIO2
+Wire Wire Line
+	2000 1400 2000 2000
+Wire Wire Line
+	2000 2000 1900 2000
+Text Label 2000 1900 1    70   ~ 0
+GPIO0
+Connection ~ 2000 2000
+Wire Wire Line
+	10400 2700 10800 2700
+Text Label 10500 2700 0    70   ~ 0
+GPIO0
+Wire Wire Line
+	6000 4300 6700 4300
+Text Label 6400 4300 0    70   ~ 0
+GPIO0
+Wire Wire Line
+	10800 3000 10400 3000
+Text Label 10500 3000 0    70   ~ 0
+GPIO5
+Wire Wire Line
+	6000 3900 6700 3900
+Text Label 6400 3900 0    70   ~ 0
+GPIO5
+Wire Wire Line
+	10400 2900 10800 2900
+Text Label 10500 2900 0    70   ~ 0
+GPIO4
+Wire Wire Line
+	6700 4200 6000 4200
+Text Label 6400 4200 0    70   ~ 0
+GPIO4
+Wire Wire Line
+	3100 4100 3700 4100
+Text Label 3200 4100 0    70   ~ 0
+RXD
+Wire Wire Line
+	8400 4600 8000 4600
+Text Label 8000 4600 0    70   ~ 0
+RXD
+Wire Wire Line
+	5500 5500 5500 4900
+Text Label 5500 5500 1    70   ~ 0
+TXD
+Wire Wire Line
+	8400 4700 8000 4700
+Text Label 8000 4700 0    70   ~ 0
+TXD
+Wire Wire Line
+	6000 3400 6700 3400
+Text Label 6400 3400 0    70   ~ 0
+TXD
+Wire Wire Line
+	2400 3800 2900 3800
+Text Label 2400 3800 0    70   ~ 0
+RESET_5V
+Wire Wire Line
+	5300 3200 4600 3200
+Text Label 4600 3200 0    70   ~ 0
+RESET_5V
+Wire Wire Line
+	2900 4100 2400 4100
+Text Label 2400 4100 0    70   ~ 0
+RXD_5V
+Wire Wire Line
+	5600 5500 5600 4900
+Text Label 5600 5500 1    70   ~ 0
+RXD_5V
+Wire Wire Line
+	6700 3500 6000 3500
+Text Label 6400 3500 0    70   ~ 0
+RXD_5V
+Wire Wire Line
+	2300 5200 2300 5100
+Text Label 2300 5200 0    10   ~ 0
+VBAT
+Wire Wire Line
+	6700 4600 6000 4600
+Text Label 6400 4600 0    70   ~ 0
+VBAT
+Wire Wire Line
+	5500 1400 5500 1700
+Text Label 5500 1400 0    10   ~ 0
+VBAT
+Wire Wire Line
+	2500 5600 3000 5600
+Wire Wire Line
+	3000 5500 2500 5500
+Wire Wire Line
+	2500 5500 2300 5500
+Wire Wire Line
+	2300 5500 2000 5500
+Wire Wire Line
+	2000 5500 2000 5400
+Wire Wire Line
+	2300 5500 2300 5400
+Wire Wire Line
+	2000 5500 2000 5600
+Wire Wire Line
+	2500 5600 2500 5500
+Connection ~ 2300 5500
+Connection ~ 2000 5500
+Connection ~ 2500 5500
+Wire Wire Line
+	10400 3600 10800 3600
+Text Label 10500 3600 0    70   ~ 0
+GPIO17
+Wire Wire Line
+	6700 4000 6000 4000
+Text Label 6400 4000 0    70   ~ 0
+GPIO17
+Wire Wire Line
+	10800 3700 10400 3700
+Text Label 10500 3700 0    70   ~ 0
+GPIO18
+Wire Wire Line
+	6700 3800 6000 3800
+Text Label 6400 3800 0    70   ~ 0
+GPIO18
+Wire Wire Line
+	10400 3800 10800 3800
+Text Label 10500 3800 0    70   ~ 0
+GPIO19
+Wire Wire Line
+	6000 3700 6700 3700
+Text Label 6400 3700 0    70   ~ 0
+GPIO19
+Wire Wire Line
+	10800 3900 10400 3900
+Text Label 10500 3900 0    70   ~ 0
+GPIO21
+Wire Wire Line
+	6000 3600 6700 3600
+Text Label 6400 3600 0    70   ~ 0
+GPIO21
+Wire Wire Line
+	10400 4000 10800 4000
+Text Label 10500 4000 0    70   ~ 0
+GPIO22
+Wire Wire Line
+	6700 3300 6000 3300
+Text Label 6400 3300 0    70   ~ 0
+GPIO22
+Wire Wire Line
+	10800 4100 10400 4100
+Text Label 10500 4100 0    70   ~ 0
+GPIO23
+Wire Wire Line
+	6000 3200 6700 3200
+Text Label 6400 3200 0    70   ~ 0
+GPIO23
+Wire Wire Line
+	10400 4200 10800 4200
+Text Label 10500 4200 0    70   ~ 0
+GPIO25
+Wire Wire Line
+	5300 3900 4600 3900
+Text Label 4600 3900 0    70   ~ 0
+GPIO25
+Wire Wire Line
+	10800 4300 10400 4300
+Text Label 10500 4300 0    70   ~ 0
+GPIO26
+Wire Wire Line
+	4600 4000 5300 4000
+Text Label 4600 4000 0    70   ~ 0
+GPIO26
+Wire Wire Line
+	10400 4400 10800 4400
+Text Label 10500 4400 0    70   ~ 0
+GPIO27
+Wire Wire Line
+	5300 4100 4600 4100
+Text Label 4600 4100 0    70   ~ 0
+GPIO27
+Wire Wire Line
+	10800 4500 10400 4500
+Text Label 10500 4500 0    70   ~ 0
+GPIO32
+Wire Wire Line
+	5300 3700 4600 3700
+Text Label 4600 3700 0    70   ~ 0
+GPIO32
+Wire Wire Line
+	10400 4600 10800 4600
+Text Label 10500 4600 0    70   ~ 0
+GPIO33
+Wire Wire Line
+	4600 3800 5300 3800
+Text Label 4600 3800 0    70   ~ 0
+GPIO33
+Wire Wire Line
+	10800 4700 10400 4700
+Text Label 10500 4700 0    70   ~ 0
+GPI34
+Wire Wire Line
+	5300 3500 4600 3500
+Text Label 4600 3500 0    70   ~ 0
+GPI34
+Wire Wire Line
+	10400 4800 10900 4800
+Text Label 10500 4800 0    70   ~ 0
+GPI35
+Wire Wire Line
+	4600 3600 5300 3600
+Text Label 4600 3600 0    70   ~ 0
+GPI35
+Wire Wire Line
+	8400 3400 7900 3400
+Text Label 7900 3400 0    70   ~ 0
+GPIO36
+Wire Wire Line
+	4600 3300 5300 3300
+Text Label 4600 3300 0    70   ~ 0
+GPIO36
+Wire Wire Line
+	7900 3500 8400 3500
+Text Label 7900 3500 0    70   ~ 0
+GPIO39
+Wire Wire Line
+	5300 3400 4600 3400
+Text Label 4600 3400 0    70   ~ 0
+GPIO39
+Wire Wire Line
+	4100 2000 4100 1900
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 5900 5300
+F 0 "#GND06" H 5900 5300 50  0001 C CNN
+F 1 "GND" H 5800 5200 42  0000 L BNN
+F 2 "" H 5900 5300 50  0001 C CNN
+F 3 "" H 5900 5300 50  0001 C CNN
+	1    5900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE C1
+U 1 1 D1512118
+P 4200 5700
+F 0 "C1" V 4109 5749 50  0000 C CNN
+F 1 "10uF" V 4290 5749 50  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:0805-NO" H 4200 5700 50  0001 C CNN
+F 3 "" H 4200 5700 50  0001 C CNN
+	1    4200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:VREG_SOT23-5 U1
+U 1 1 2DFFF14A
+P 3400 5600
+F 0 "U1" H 3100 5840 42  0000 L BNN
+F 1 "AP2112-3.3" H 3100 5300 42  0000 L BNN
+F 2 "Adafruit ESP32 Huzzah Breakout:SOT23-5" H 3400 5600 50  0001 C CNN
+F 3 "" H 3400 5600 50  0001 C CNN
+	1    3400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 2700 5800
+F 0 "#GND07" H 2700 5800 50  0001 C CNN
+F 1 "GND" H 2600 5700 42  0000 L BNN
+F 2 "" H 2700 5800 50  0001 C CNN
+F 3 "" H 2700 5800 50  0001 C CNN
+	1    2700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:3.3V #U$06
+U 1 1 371C5F19
+P 3900 5300
+F 0 "#U$06" H 3900 5300 50  0001 C CNN
+F 1 "3.3V" H 3840 5340 42  0000 L BNN
+F 2 "" H 3900 5300 50  0001 C CNN
+F 3 "" H 3900 5300 50  0001 C CNN
+	1    3900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 4200 5900
+F 0 "#GND02" H 4200 5900 50  0001 C CNN
+F 1 "GND" H 4100 5800 42  0000 L BNN
+F 2 "" H 4200 5900 50  0001 C CNN
+F 3 "" H 4200 5900 50  0001 C CNN
+	1    4200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:3.3V #U$07
+U 1 1 BE1960E8
+P 4200 5400
+F 0 "#U$07" H 4200 5400 50  0001 C CNN
+F 1 "3.3V" H 4140 5440 42  0000 L BNN
+F 2 "" H 4200 5400 50  0001 C CNN
+F 3 "" H 4200 5400 50  0001 C CNN
+	1    4200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE C2
+U 1 1 99D41F3B
+P 2000 5800
+F 0 "C2" V 1910 5849 50  0000 C CNN
+F 1 "10uF" V 2091 5849 50  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:0805-NO" H 2000 5800 50  0001 C CNN
+F 3 "" H 2000 5800 50  0001 C CNN
+	1    2000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND011
+U 1 1 19DA8D48
+P 2000 6000
+F 0 "#GND011" H 2000 6000 50  0001 C CNN
+F 1 "GND" H 1900 5900 42  0000 L BNN
+F 2 "" H 2000 6000 50  0001 C CNN
+F 3 "" H 2000 6000 50  0001 C CNN
+	1    2000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:VIN #U$09
+U 1 1 9B8BA149
+P 5700 5300
+F 0 "#U$09" H 5700 5300 50  0001 C CNN
+F 1 "VIN" H 5640 5340 42  0000 L BNN
+F 2 "" H 5700 5300 50  0001 C CNN
+F 3 "" H 5700 5300 50  0001 C CNN
+	1    5700 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:MOUNTINGHOLE2.5 U$15
+U 1 1 3BDFF694
+P 10600 6400
+F 0 "U$15" H 10600 6400 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 10600 6400 50  0001 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:MOUNTINGHOLE_2.5_PLATED" H 10600 6400 50  0001 C CNN
+F 3 "" H 10600 6400 50  0001 C CNN
+	1    10600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:MOUNTINGHOLE2.5 U$16
+U 1 1 AA3AE13E
+P 10600 6200
+F 0 "U$16" H 10600 6200 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 10600 6200 50  0001 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:MOUNTINGHOLE_2.5_PLATED" H 10600 6200 50  0001 C CNN
+F 3 "" H 10600 6200 50  0001 C CNN
+	1    10600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:FIDUCIAL_1MM FID1
+U 1 1 DB63CB8D
+P 10800 6000
+F 0 "FID1" H 10800 6000 50  0001 C CNN
+F 1 "FIDUCIAL_1MM" H 10800 6000 50  0001 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:FIDUCIAL_1MM" H 10800 6000 50  0001 C CNN
+F 3 "" H 10800 6000 50  0001 C CNN
+	1    10800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:FIDUCIAL_1MM FID3
+U 1 1 4801E4DA
+P 10600 6000
+F 0 "FID3" H 10600 6000 50  0001 C CNN
+F 1 "FIDUCIAL_1MM" H 10600 6000 50  0001 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:FIDUCIAL_1MM" H 10600 6000 50  0001 C CNN
+F 3 "" H 10600 6000 50  0001 C CNN
+	1    10600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:HEADER-1X670MIL JP1
+U 1 1 CF781410
+P 5700 4800
+F 0 "JP1" H 5450 5225 59  0000 L BNN
+F 1 "FTDI" H 5450 4400 59  0000 L BNN
+F 2 "Adafruit ESP32 Huzzah Breakout:1X06_ROUND_70" H 5700 4800 50  0001 C CNN
+F 3 "" H 5700 4800 50  0001 C CNN
+	1    5700 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:RESISTOR_0603_NOOUT R4
+U 1 1 6DEE1610
+P 2600 1300
+F 0 "R4" H 2600 1400 50  0000 C CNN
+F 1 "10K" H 2600 1300 40  0000 C CNB
+F 2 "Adafruit ESP32 Huzzah Breakout:0603-NO" H 2600 1300 50  0001 C CNN
+F 3 "" H 2600 1300 50  0001 C CNN
+	1    2600 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:3.3V #U$04
+U 1 1 84E86E02
+P 2600 900
+F 0 "#U$04" H 2600 900 50  0001 C CNN
+F 1 "3.3V" H 2540 940 42  0000 L BNN
+F 2 "" H 2600 900 50  0001 C CNN
+F 3 "" H 2600 900 50  0001 C CNN
+	1    2600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:DIODESOD-323 D1
+U 1 1 E23E6FCE
+P 3000 3800
+F 0 "D1" H 3000 3900 42  0000 C CNN
+F 1 "1n4148" H 3000 3702 42  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:SOD-323" H 3000 3800 50  0001 C CNN
+F 3 "" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:DIODESOD-323 D2
+U 1 1 4F6DFF89
+P 3000 4100
+F 0 "D2" H 3000 4200 42  0000 C CNN
+F 1 "1n4148" H 3000 4002 42  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:SOD-323" H 3000 4100 50  0001 C CNN
+F 3 "" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:DIODE-SCHOTTKYSOD-123 D5
+U 1 1 8525DD4E
+P 2000 5300
+F 0 "D5" H 2000 5400 42  0000 C CNN
+F 1 "MBR120" H 2000 5202 42  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:SOD-123" H 2000 5300 50  0001 C CNN
+F 3 "" H 2000 5300 50  0001 C CNN
+	1    2000 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:DIODE-SCHOTTKYSOD-123 D6
+U 1 1 FA3A1CE5
+P 2300 5300
+F 0 "D6" H 2300 5400 42  0000 C CNN
+F 1 "MBR120" H 2300 5202 42  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:SOD-123" H 2300 5300 50  0001 C CNN
+F 3 "" H 2300 5300 50  0001 C CNN
+	1    2300 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:VIN #U$010
+U 1 1 9B2F7804
+P 2000 5100
+F 0 "#U$010" H 2000 5100 50  0001 C CNN
+F 1 "VIN" H 1940 5140 42  0000 L BNN
+F 2 "" H 2000 5100 50  0001 C CNN
+F 3 "" H 2000 5100 50  0001 C CNN
+	1    2000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:VBAT #U$011
+U 1 1 283E49E7
+P 2300 5000
+F 0 "#U$011" H 2300 5000 50  0001 C CNN
+F 1 "VBAT" H 2240 5040 42  0000 L BNN
+F 2 "" H 2300 5000 50  0001 C CNN
+F 3 "" H 2300 5000 50  0001 C CNN
+	1    2300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:SWITCH_TACT_SMT4.6X2.8 SW1
+U 1 1 F6BF4301
+P 2500 2200
+F 0 "SW1" H 2400 2450 42  0000 L BNN
+F 1 "KMR2" H 2400 2000 42  0000 L BNN
+F 2 "Adafruit ESP32 Huzzah Breakout:BTN_KMR2_4.6X2.8" H 2500 2200 50  0001 C CNN
+F 3 "" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND04
+U 1 1 D896219B
+P 2600 2500
+F 0 "#GND04" H 2600 2500 50  0001 C CNN
+F 1 "GND" H 2500 2400 42  0000 L BNN
+F 2 "" H 2600 2500 50  0001 C CNN
+F 3 "" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:SWITCH_TACT_SMT4.6X2.8 SW2
+U 1 1 56CFCB1F
+P 1900 2200
+F 0 "SW2" H 1800 2450 42  0000 L BNN
+F 1 "KMR2" H 1800 2000 42  0000 L BNN
+F 2 "Adafruit ESP32 Huzzah Breakout:BTN_KMR2_4.6X2.8" H 1900 2200 50  0001 C CNN
+F 3 "" H 1900 2200 50  0001 C CNN
+	1    1900 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 2000 2500
+F 0 "#GND05" H 2000 2500 50  0001 C CNN
+F 1 "GND" H 1900 2400 42  0000 L BNN
+F 2 "" H 2000 2500 50  0001 C CNN
+F 3 "" H 2000 2500 50  0001 C CNN
+	1    2000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:LED0805_NOOUTLINE D3
+U 1 1 49AFA318
+P 4100 2200
+F 0 "D3" H 4050 2375 42  0000 C CNN
+F 1 "RED" H 4050 2090 42  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:CHIPLED_0805_NOOUTLINE" H 4100 2200 50  0001 C CNN
+F 3 "" H 4100 2200 50  0001 C CNN
+	1    4100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:RESISTOR_0603_NOOUT R2
+U 1 1 8A7CCFCE
+P 4100 1700
+F 0 "R2" H 4100 1800 50  0000 C CNN
+F 1 "1K" H 4100 1700 40  0000 C CNB
+F 2 "Adafruit ESP32 Huzzah Breakout:0603-NO" H 4100 1700 50  0001 C CNN
+F 3 "" H 4100 1700 50  0001 C CNN
+	1    4100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:FRAME_A4_ADAFRUIT #U$8
+U 1 1 E90442EA
+P 1100 7300
+F 0 "#U$8" H 1100 7300 50  0001 C CNN
+F 1 "FRAME_A4_ADAFRUIT" H 1100 7300 50  0001 C CNN
+F 2 "" H 1100 7300 50  0001 C CNN
+F 3 "" H 1100 7300 50  0001 C CNN
+	1    1100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:ESP32_WROOM32 X1
+U 1 1 753049C4
+P 9300 4000
+F 0 "X1" H 9300 4000 50  0001 C CNN
+F 1 "ESP32_WROOM32" H 9300 4000 50  0001 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:WROOM32" H 9300 4000 50  0001 C CNN
+F 3 "" H 9300 4000 50  0001 C CNN
+	1    9300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:3.3V #U$019
+U 1 1 E246D3EE
+P 9300 2300
+F 0 "#U$019" H 9300 2300 50  0001 C CNN
+F 1 "3.3V" H 9240 2340 42  0000 L BNN
+F 2 "" H 9300 2300 50  0001 C CNN
+F 3 "" H 9300 2300 50  0001 C CNN
+	1    9300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 9300 5200
+F 0 "#GND08" H 9300 5200 50  0001 C CNN
+F 1 "GND" H 9200 5100 42  0000 L BNN
+F 2 "" H 9300 5200 50  0001 C CNN
+F 3 "" H 9300 5200 50  0001 C CNN
+	1    9300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:3.3V #U$020
+U 1 1 F3FE4F2D
+P 4100 4500
+F 0 "#U$020" H 4100 4500 50  0001 C CNN
+F 1 "3.3V" H 4040 4540 42  0000 L BNN
+F 2 "" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:HEADER-1X15 JP5
+U 1 1 6716FC81
+P 5900 3900
+F 0 "JP5" H 5650 4725 59  0000 L BNN
+F 1 "HEADER-1X15" H 5650 3000 59  0000 L BNN
+F 2 "Adafruit ESP32 Huzzah Breakout:1X15_ROUND_70" H 5900 3900 50  0001 C CNN
+F 3 "" H 5900 3900 50  0001 C CNN
+	1    5900 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 4100 2400
+F 0 "#GND03" H 4100 2400 50  0001 C CNN
+F 1 "GND" H 4000 2300 42  0000 L BNN
+F 2 "" H 4100 2400 50  0001 C CNN
+F 3 "" H 4100 2400 50  0001 C CNN
+	1    4100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE C3
+U 1 1 FA3B87C3
+P 4500 5700
+F 0 "C3" V 4409 5749 50  0000 C CNN
+F 1 "10uF" V 4590 5749 50  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:0805-NO" H 4500 5700 50  0001 C CNN
+F 3 "" H 4500 5700 50  0001 C CNN
+	1    4500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE C4
+U 1 1 D8933479
+P 4800 5700
+F 0 "C4" V 4709 5749 50  0000 C CNN
+F 1 "10uF" V 4890 5749 50  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:0805-NO" H 4800 5700 50  0001 C CNN
+F 3 "" H 4800 5700 50  0001 C CNN
+	1    4800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:3.3V #U$014
+U 1 1 491AF09A
+P 4500 5400
+F 0 "#U$014" H 4500 5400 50  0001 C CNN
+F 1 "3.3V" H 4440 5440 42  0000 L BNN
+F 2 "" H 4500 5400 50  0001 C CNN
+F 3 "" H 4500 5400 50  0001 C CNN
+	1    4500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:3.3V #U$017
+U 1 1 48FA5267
+P 4800 5400
+F 0 "#U$017" H 4800 5400 50  0001 C CNN
+F 1 "3.3V" H 4740 5440 42  0000 L BNN
+F 2 "" H 4800 5400 50  0001 C CNN
+F 3 "" H 4800 5400 50  0001 C CNN
+	1    4800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND09
+U 1 1 928DF91D
+P 4500 5900
+F 0 "#GND09" H 4500 5900 50  0001 C CNN
+F 1 "GND" H 4400 5800 42  0000 L BNN
+F 2 "" H 4500 5900 50  0001 C CNN
+F 3 "" H 4500 5900 50  0001 C CNN
+	1    4500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #GND010
+U 1 1 845C69E3
+P 4800 5900
+F 0 "#GND010" H 4800 5900 50  0001 C CNN
+F 1 "GND" H 4700 5800 42  0000 L BNN
+F 2 "" H 4800 5900 50  0001 C CNN
+F 3 "" H 4800 5900 50  0001 C CNN
+	1    4800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE C5
+U 1 1 629E9F7E
+P 2900 2200
+F 0 "C5" V 2810 2249 50  0000 C CNN
+F 1 "1uF" V 2990 2249 50  0000 C CNN
+F 2 "Adafruit ESP32 Huzzah Breakout:0805-NO" H 2900 2200 50  0001 C CNN
+F 3 "" H 2900 2200 50  0001 C CNN
+	1    2900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:HEADER-1X15 JP2
+U 1 1 FA93C76E
+P 5400 3900
+F 0 "JP2" H 5150 4725 59  0000 L BNN
+F 1 "HEADER-1X15" H 5150 3000 59  0000 L BNN
+F 2 "Adafruit ESP32 Huzzah Breakout:1X15_ROUND_70" H 5400 3900 50  0001 C CNN
+F 3 "" H 5400 3900 50  0001 C CNN
+	1    5400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:CON_JST_PH_2PIN X2
+U 1 1 DA7B0FD4
+P 5400 1700
+F 0 "X2" H 5150 1925 59  0000 L BNN
+F 1 "JSTPH" H 5150 1500 59  0000 L BNN
+F 2 "Adafruit ESP32 Huzzah Breakout:JSTPH2" H 5400 1700 50  0001 C CNN
+F 3 "" H 5400 1700 50  0001 C CNN
+	1    5400 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:VBAT #U$01
+U 1 1 BABD3B23
+P 5500 1300
+F 0 "#U$01" H 5500 1300 50  0001 C CNN
+F 1 "VBAT" H 5440 1340 42  0000 L BNN
+F 2 "" H 5500 1300 50  0001 C CNN
+F 3 "" H 5500 1300 50  0001 C CNN
+	1    5500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_ESP32_Huzzah_Breakout-eagle-import:GND #U$022
+U 1 1 D872CB34
+P 5500 2100
+F 0 "#U$022" H 5500 2100 50  0001 C CNN
+F 1 "GND" H 5440 2000 42  0000 L BNN
+F 2 "" H 5500 2100 50  0001 C CNN
+F 3 "" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
