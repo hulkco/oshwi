@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name Oshwi_ESP32-rescue)(type Legacy)(uri ${KIPRJMOD}/Oshwi_ESP32-rescue.lib)(options "")(descr ""))
+  (lib (name Oshwi_ESP32-cache)(type Legacy)(uri ${KIPRJMOD}/Oshwi_ESP32-cache.lib)(options "")(descr ""))
+  (lib (name Oshwi_ESP32)(type Legacy)(uri ${KIPRJMOD}/Oshwi_ESP32.lib)(options "")(descr ""))
 )

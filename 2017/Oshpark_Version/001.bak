@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:001-rescue
 LIBS:bbd
 LIBS:battery_management
 LIBS:Worldsemi
@@ -87,7 +88,7 @@ LIBS:ws2812b
 LIBS:SPX3819M5-L-1-8
 LIBS:kmr2
 LIBS:001-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -618,7 +619,7 @@ Text GLabel 1900 900  1    50   Input ~ 0
 Text GLabel 6775 900  1    50   Input ~ 0
 VBAT
 $Comp
-L SPX3819M5-L-1-8 U2
+L SPX3819M5-L-1-8-RESCUE-001 U2
 U 1 1 5980EF98
 P 8150 1275
 F 0 "U2" H 8150 1745 50  0000 C CNN
