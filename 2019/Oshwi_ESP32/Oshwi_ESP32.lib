@@ -459,6 +459,18 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Oshwi_Edge_Cut
+#
+DEF Oshwi_Edge_Cut U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "Oshwi_Edge_Cut" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 112 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # RF_Module_ESP32_WROOM32-32D-Gus
 #
 DEF RF_Module_ESP32_WROOM32-32D-Gus X 0 40 Y Y 1 L N

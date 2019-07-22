@@ -1,0 +1,12 @@
+(module Touch_2 (layer F.Cu) (tedit 5D30DFBE)
+  (descr "Imported from Oshwi_2019_ESP32_01.svg")
+  (tags svg2mod)
+  (attr smd)
+  (fp_text reference svg2mod (at 0 -4.894834) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value G*** (at 0 4.894834) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (pad 1 smd circle (at 0 0) (size 3.9 3.9) (layers F.Cu F.Paste F.Mask))
+)

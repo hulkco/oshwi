@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory /home/greynaga/git/oshwi_2017/Hackster_Version/gerbers/))
+      (outputdirectory /home/greynaga/git/oshwi_2017/Oshpark_Version/gerbers/))
   )
 
   (net 0 "")

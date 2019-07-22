@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Oshwi_ESP8266_LORA-rescue)(type Legacy)(uri ${KIPRJMOD}/Oshwi_ESP8266_LORA-rescue.lib)(options "")(descr ""))
+)

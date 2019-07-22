@@ -1,0 +1,1099 @@
+EESchema Schematic File Version 4
+LIBS:Oshwi_ESP8266_LORA-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1"
+Comp ""
+Comment1 "Designed for OSH Park 2 Layer Prototype"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Oshwi_ESP8266_LORA-rescue:RFM95W-915S2-RF_AM_FM-wemos-01-rescue U3
+U 1 1 5AFC7E17
+P 8025 4275
+F 0 "U3" H 7650 4850 50  0000 C CNN
+F 1 "RFM95W-915S2" H 7625 4750 50  0000 C CNN
+F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 4725 5925 50  0001 C CNN
+F 3 "http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf" H 4725 5925 50  0001 C CNN
+	1    8025 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 3625 9625 3525
+Wire Wire Line
+	9625 3525 9475 3525
+Wire Wire Line
+	9475 3625 9475 3525
+Wire Wire Line
+	9625 4425 9625 4325
+Wire Wire Line
+	9475 4325 9475 4425
+Wire Wire Line
+	8125 3450 8025 3450
+Wire Wire Line
+	8025 3450 8025 3650
+Wire Wire Line
+	8125 3650 8025 3650
+Wire Wire Line
+	8025 5075 8025 4975
+Wire Wire Line
+	7925 4875 7925 4975
+Wire Wire Line
+	7925 4975 8025 4975
+Connection ~ 8025 4975
+Wire Wire Line
+	8025 4975 8025 4875
+Wire Wire Line
+	8125 4875 8125 4975
+Wire Wire Line
+	8125 4975 8025 4975
+Wire Wire Line
+	8525 4575 8675 4575
+Wire Wire Line
+	8525 4675 8675 4675
+Wire Wire Line
+	7525 4475 7375 4475
+Wire Wire Line
+	7525 4275 7375 4275
+Wire Wire Line
+	7525 4175 7375 4175
+Wire Wire Line
+	7525 4075 7375 4075
+Wire Wire Line
+	7525 3975 7375 3975
+Text Label 7375 3975 2    50   ~ 0
+D5
+Text Label 7375 4075 2    50   ~ 0
+D7
+Text Label 7375 4175 2    50   ~ 0
+D6
+Text Label 7375 4275 2    50   ~ 0
+D0
+Text Label 7375 4475 2    50   ~ 0
+RST
+Text Label 8675 4575 0    50   ~ 0
+D2
+Text Label 8675 4675 0    50   ~ 0
+D1
+Wire Wire Line
+	8325 3650 8375 3650
+Wire Wire Line
+	8375 3650 8375 3550
+Wire Wire Line
+	8375 3450 8325 3450
+Wire Wire Line
+	8525 3550 8375 3550
+Connection ~ 8375 3550
+Wire Wire Line
+	8375 3550 8375 3450
+Text Label 9775 4425 0    60   ~ 0
+GND
+Text Label 9775 3525 0    60   ~ 0
+GND
+Text Label 8025 5075 2    60   ~ 0
+GND
+Text Label 8525 3550 0    60   ~ 0
+GND
+Text Label 8025 3325 0    60   ~ 0
++3.3V
+$Comp
+L Oshwi_ESP8266_LORA-rescue:Conn_01x01-conn-wemos-01-rescue J4
+U 1 1 5AFDE5C3
+P 8975 4175
+F 0 "J4" V 8925 4025 50  0000 L CNN
+F 1 "Conn_01x01" V 9075 4025 50  0000 L CNN
+F 2 "Oshwi_ESP8266_LORA:PinSocket_1x01_P2.54mm_WeMos" H 8975 4175 50  0001 C CNN
+F 3 "~" H 8975 4175 50  0001 C CNN
+	1    8975 4175
+	0    1    1    0   
+$EndComp
+Connection ~ 8975 3975
+Wire Wire Line
+	8975 3975 9375 3975
+Wire Wire Line
+	8525 3975 8975 3975
+Wire Wire Line
+	9475 4425 9625 4425
+$Comp
+L Oshwi_ESP8266_LORA-rescue:ANT-Cats_GPSLoRa-cache-wemos-01-rescue A1
+U 1 1 5AFEED37
+P 9775 4325
+F 0 "A1" V 10178 4348 60  0000 R CNN
+F 1 "ANT" V 10072 4348 60  0000 R CNN
+F 2 "Oshwi_ESP8266_LORA:SMA_EDGELAUNCH_UFL_WeMos_Lora" H 9775 4325 60  0001 C CNN
+F 3 "" H 9775 4325 60  0000 C CNN
+	1    9775 4325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9625 3525 9775 3525
+Connection ~ 9625 3525
+Wire Wire Line
+	9625 4425 9775 4425
+Connection ~ 9625 4425
+Text Notes 6925 3975 0    60   ~ 0
+GPIO14
+Text Notes 6925 4075 0    60   ~ 0
+GPIO13
+Text Notes 6925 4175 0    60   ~ 0
+GPIO12
+Text Notes 6925 4275 0    60   ~ 0
+GPIO16
+Text Notes 9075 4575 2    60   ~ 0
+GPIO4
+Text Notes 9075 4675 2    60   ~ 0
+GPIO5
+Text Label 7950 6060 2    50   ~ 0
+D0
+Text Label 8635 6060 0    50   ~ 0
+RST
+Wire Wire Line
+	8100 6060 7950 6060
+Wire Wire Line
+	8500 6060 8635 6060
+$Comp
+L Oshwi_ESP8266_LORA-rescue:GS2-001-rescue J5
+U 1 1 59C6C3C4
+P 8300 6060
+F 0 "J5" V 8095 6060 50  0000 C CNN
+F 1 "GS2" V 8186 6060 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" V 8374 6060 50  0001 C CNN
+F 3 "" H 8300 6060 50  0001 C CNN
+	1    8300 6060
+	0    1    1    0   
+$EndComp
+Text Notes 8075 5690 0    50   ~ 0
+DEEP SLEEP
+Wire Notes Line
+	6910 6765 6915 6765
+Text Label 2750 5625 2    50   ~ 0
++3.3V
+Text Notes 2875 5400 0    50   ~ 0
+BUTTONS & LED
+Text Notes 3225 3250 0    50   ~ 0
+NEOPIXELS
+Text Notes 1825 625  0    50   ~ 0
+ESP-12E MODULE
+Wire Notes Line
+	500  5200 10500 5200
+Wire Notes Line
+	500  2950 10500 2950
+Wire Notes Line
+	6125 2950 6125 475 
+Wire Wire Line
+	9725 5750 9725 5875
+Text Label 5025 5600 2    50   ~ 0
++3.3V
+$Comp
+L Oshwi_ESP8266_LORA-rescue:PWR_FLAG-001-rescue #FLG03
+U 1 1 59624869
+P 9725 5875
+F 0 "#FLG03" H 9725 5950 50  0001 C CNN
+F 1 "PWR_FLAG" H 9725 6048 50  0000 C CNN
+F 2 "" H 9725 5875 50  0001 C CNN
+F 3 "" H 9725 5875 50  0001 C CNN
+	1    9725 5875
+	-1   0    0    1   
+$EndComp
+$Comp
+L Oshwi_ESP8266_LORA-rescue:GND-001-rescue #PWR08
+U 1 1 5961C5A4
+P 7275 2450
+F 0 "#PWR08" H 7275 2200 50  0001 C CNN
+F 1 "GND" H 7280 2277 50  0000 C CNN
+F 2 "" H 7275 2450 50  0001 C CNN
+F 3 "" H 7275 2450 50  0001 C CNN
+	1    7275 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oshwi_ESP8266_LORA-rescue:PWR_FLAG-001-rescue #FLG02
+U 1 1 5959B39B
+P 10175 5775
+F 0 "#FLG02" H 10175 5850 50  0001 C CNN
+F 1 "PWR_FLAG" H 10175 5949 50  0000 C CNN
+F 2 "" H 10175 5775 50  0001 C CNN
+F 3 "" H 10175 5775 50  0001 C CNN
+	1    10175 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oshwi_ESP8266_LORA-rescue:GND-001-rescue #PWR014
+U 1 1 5959B226
+P 10175 5875
+F 0 "#PWR014" H 10175 5625 50  0001 C CNN
+F 1 "GND" H 10180 5702 50  0000 C CNN
+F 2 "" H 10175 5875 50  0001 C CNN
+F 3 "" H 10175 5875 50  0001 C CNN
+	1    10175 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7875 1475 8375 1475
+Wire Wire Line
+	7875 1375 7675 1375
+Wire Wire Line
+	7675 1375 7675 1275
+Wire Wire Line
+	7875 1475 7875 1375
+Connection ~ 7675 1375
+Connection ~ 7875 1375
+$Comp
+L Device:C_Small C2
+U 1 1 5D540D90
+P 9100 1600
+F 0 "C2" H 9192 1646 50  0000 L CNN
+F 1 "10uF" H 9192 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9100 1600 50  0001 C CNN
+F 3 "~" H 9100 1600 50  0001 C CNN
+	1    9100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5D5470D6
+P 9500 1600
+F 0 "C3" H 9592 1646 50  0000 L CNN
+F 1 "1uF" H 9592 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9500 1600 50  0001 C CNN
+F 3 "~" H 9500 1600 50  0001 C CNN
+	1    9500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 1775 8675 1850
+$Comp
+L power:GND #PWR07
+U 1 1 5D5F4B4D
+P 8675 1850
+F 0 "#PWR07" H 8675 1600 50  0001 C CNN
+F 1 "GND" H 8675 1700 50  0000 C CNN
+F 2 "" H 8675 1850 50  0001 C CNN
+F 3 "" H 8675 1850 50  0001 C CNN
+	1    8675 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D5FF53D
+P 9100 1825
+F 0 "#PWR05" H 9100 1575 50  0001 C CNN
+F 1 "GND" H 9100 1675 50  0000 C CNN
+F 2 "" H 9100 1825 50  0001 C CNN
+F 3 "" H 9100 1825 50  0001 C CNN
+	1    9100 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5D602F18
+P 9500 1825
+F 0 "#PWR06" H 9500 1575 50  0001 C CNN
+F 1 "GND" H 9500 1675 50  0000 C CNN
+F 2 "" H 9500 1825 50  0001 C CNN
+F 3 "" H 9500 1825 50  0001 C CNN
+	1    9500 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5D6079E8
+P 7675 1600
+F 0 "C1" H 7767 1646 50  0000 L CNN
+F 1 "10uF" H 7767 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7675 1600 50  0001 C CNN
+F 3 "~" H 7675 1600 50  0001 C CNN
+	1    7675 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D60A6AE
+P 7675 1750
+F 0 "#PWR04" H 7675 1500 50  0001 C CNN
+F 1 "GND" H 7675 1600 50  0000 C CNN
+F 2 "" H 7675 1750 50  0001 C CNN
+F 3 "" H 7675 1750 50  0001 C CNN
+	1    7675 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7675 1750 7675 1700
+$Comp
+L Device:D_Schottky_Small D1
+U 1 1 5D624D11
+P 7675 1175
+F 0 "D1" V 7721 1107 50  0000 R CNN
+F 1 "MBR120" V 7630 1107 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7675 1175 50  0001 C CNN
+F 3 "~" V 7675 1175 50  0001 C CNN
+	1    7675 1175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L wickerlib:VBAT #PWR02
+U 1 1 5D648B00
+P 7675 975
+F 0 "#PWR02" H 7675 825 50  0001 C CNN
+F 1 "VBAT" H 7690 1148 50  0000 C CNN
+F 2 "" H 7675 975 50  0000 C CNN
+F 3 "" H 7675 975 50  0000 C CNN
+	1    7675 975 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7675 1075 7675 975 
+Text Notes 9075 625  2    60   ~ 0
+Power & Filtering
+Wire Wire Line
+	8975 1375 9100 1375
+Wire Wire Line
+	9100 1500 9100 1375
+Connection ~ 9100 1375
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5D5EEB92
+P 9800 1250
+F 0 "#PWR03" H 9800 1100 50  0001 C CNN
+F 1 "+3.3V" H 9815 1423 50  0000 C CNN
+F 2 "" H 9800 1250 50  0001 C CNN
+F 3 "" H 9800 1250 50  0001 C CNN
+	1    9800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1700 9500 1825
+Wire Wire Line
+	9100 1700 9100 1825
+Wire Wire Line
+	9500 1500 9500 1375
+Wire Wire Line
+	9500 1375 9800 1375
+Wire Wire Line
+	9800 1375 9800 1250
+Connection ~ 9500 1375
+Wire Wire Line
+	9100 1375 9500 1375
+Wire Wire Line
+	7675 1375 7675 1500
+$Comp
+L power:VIN #PWR01
+U 1 1 5D647B01
+P 7425 975
+F 0 "#PWR01" H 7425 875 50  0001 C CNN
+F 1 "VIN" H 7440 1148 50  0000 C CNN
+F 2 "" H 7425 975 50  0001 C CNN
+F 3 "" H 7425 975 50  0001 C CNN
+	1    7425 975 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7425 1375 7675 1375
+Wire Wire Line
+	7425 975  7425 1375
+$Comp
+L LED:WS2812B D2
+U 1 1 5DA1981D
+P 1800 4050
+F 0 "D2" H 1550 4350 50  0000 L CNN
+F 1 "WS2812B" H 1875 3800 50  0000 L CNN
+F 2 "Oshwi_ESP8266_LORA:WS2812B" H 1850 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1900 3675 50  0001 L TNN
+	1    1800 4050
+	1    0    0    -1  
+$EndComp
+Text Label 1375 4050 2    47   ~ 0
+D4
+Wire Wire Line
+	2100 4050 2225 4050
+Wire Wire Line
+	2825 4050 2950 4050
+Wire Wire Line
+	3550 4050 3675 4050
+Wire Wire Line
+	4275 4050 4400 4050
+NoConn ~ 5000 4050
+Text Notes 1150 4350 0    50   ~ 0
+VDD +\nVSS  -
+Wire Wire Line
+	4700 3750 4700 3625
+$Comp
+L power:+3.3V #PWR09
+U 1 1 5DA76219
+P 5325 3500
+F 0 "#PWR09" H 5325 3350 50  0001 C CNN
+F 1 "+3.3V" H 5340 3673 50  0000 C CNN
+F 2 "" H 5325 3500 50  0001 C CNN
+F 3 "" H 5325 3500 50  0001 C CNN
+	1    5325 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4350 1800 4475
+$Comp
+L power:GND #PWR011
+U 1 1 5DA8230F
+P 5325 4475
+F 0 "#PWR011" H 5325 4225 50  0001 C CNN
+F 1 "GND" H 5325 4325 50  0000 C CNN
+F 2 "" H 5325 4475 50  0001 C CNN
+F 3 "" H 5325 4475 50  0001 C CNN
+	1    5325 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4350 4700 4475
+Connection ~ 4700 4475
+Wire Wire Line
+	3975 4350 3975 4475
+Wire Wire Line
+	1800 4475 2525 4475
+Connection ~ 3975 4475
+Wire Wire Line
+	3975 4475 4700 4475
+Wire Wire Line
+	3250 4350 3250 4475
+Connection ~ 3250 4475
+Wire Wire Line
+	3250 4475 3975 4475
+Wire Wire Line
+	2525 4350 2525 4475
+Connection ~ 2525 4475
+Wire Wire Line
+	2525 4475 3250 4475
+$Comp
+L Device:C_Small C6
+U 1 1 5DAD1607
+P 5325 3850
+F 0 "C6" H 5417 3896 50  0000 L CNN
+F 1 "22nF" H 5417 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5325 3850 50  0001 C CNN
+F 3 "~" H 5325 3850 50  0001 C CNN
+	1    5325 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4475 5325 4475
+Wire Wire Line
+	4700 3625 5325 3625
+Connection ~ 4700 3625
+Wire Wire Line
+	5325 3750 5325 3625
+Connection ~ 5325 3625
+Wire Wire Line
+	5325 3625 5325 3500
+Wire Wire Line
+	1800 3750 1800 3625
+Wire Wire Line
+	1800 3625 2525 3625
+Wire Wire Line
+	1500 4050 1375 4050
+$Comp
+L power:GND #PWR010
+U 1 1 5DB3704F
+P 5325 4075
+F 0 "#PWR010" H 5325 3825 50  0001 C CNN
+F 1 "GND" H 5325 3925 50  0000 C CNN
+F 2 "" H 5325 4075 50  0001 C CNN
+F 3 "" H 5325 4075 50  0001 C CNN
+	1    5325 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 3950 5325 4075
+Wire Wire Line
+	3975 3750 3975 3625
+Connection ~ 3975 3625
+Wire Wire Line
+	3975 3625 4700 3625
+Wire Wire Line
+	3250 3750 3250 3625
+Connection ~ 3250 3625
+Wire Wire Line
+	3250 3625 3975 3625
+Wire Wire Line
+	2525 3750 2525 3625
+Connection ~ 2525 3625
+Wire Wire Line
+	2525 3625 3250 3625
+$Comp
+L Oshwi_ESP8266_LORA-rescue:AP2112K-3.3-Oshwi_ESP32 U1
+U 1 1 5D358875
+P 8675 1475
+F 0 "U1" H 8675 1817 50  0000 C CNN
+F 1 "AP2112-3.3" H 8675 1726 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8675 1800 50  0001 C CNN
+F 3 "" H 8675 1575 50  0001 C CNN
+	1    8675 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D3
+U 1 1 5D320EA1
+P 2525 4050
+F 0 "D3" H 2275 4350 50  0000 L CNN
+F 1 "WS2812B" H 2600 3800 50  0000 L CNN
+F 2 "Oshwi_ESP8266_LORA:WS2812B" H 2575 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2625 3675 50  0001 L TNN
+	1    2525 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D4
+U 1 1 5D321B6B
+P 3250 4050
+F 0 "D4" H 3000 4350 50  0000 L CNN
+F 1 "WS2812B" H 3325 3800 50  0000 L CNN
+F 2 "Oshwi_ESP8266_LORA:WS2812B" H 3300 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3350 3675 50  0001 L TNN
+	1    3250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D5
+U 1 1 5D32283B
+P 3975 4050
+F 0 "D5" H 3725 4350 50  0000 L CNN
+F 1 "WS2812B" H 4050 3800 50  0000 L CNN
+F 2 "Oshwi_ESP8266_LORA:WS2812B" H 4025 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4075 3675 50  0001 L TNN
+	1    3975 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D6
+U 1 1 5D323088
+P 4700 4050
+F 0 "D6" H 4450 4350 50  0000 L CNN
+F 1 "WS2812B" H 4775 3800 50  0000 L CNN
+F 2 "Oshwi_ESP8266_LORA:WS2812B" H 4750 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4800 3675 50  0001 L TNN
+	1    4700 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 19400 7150
+$Comp
+L Oshwi_ESP8266_LORA-rescue:Oshwi_Edge_Cut-Oshwi_ESP32 U4
+U 1 1 5D564161
+P 7200 5850
+F 0 "U4" H 7150 6075 50  0000 L CNN
+F 1 "Oshwi_Edge_Cut" H 6925 5675 50  0000 L CNN
+F 2 "Oshwi_ESP8266_LORA:Oshwi_ESP32" H 7200 5850 50  0001 C CNN
+F 3 "" H 7200 5850 50  0001 C CNN
+	1    7200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Module:ESP-12E U2
+U 1 1 5D6B1F9A
+P 2125 1850
+F 0 "U2" H 1675 2600 50  0000 C CNN
+F 1 "ESP-12E" H 2425 2600 50  0000 C CNN
+F 2 "RF_Module:ESP-12E" H 2125 1850 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 1775 1950 50  0001 C CNN
+	1    2125 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 1250 2850 1250
+Wire Wire Line
+	2725 1450 2850 1450
+Wire Wire Line
+	2725 1650 2850 1650
+Wire Wire Line
+	2725 1750 2850 1750
+Wire Wire Line
+	2725 1850 2850 1850
+Wire Wire Line
+	2725 1950 2850 1950
+Wire Wire Line
+	2725 2050 2850 2050
+Wire Wire Line
+	2725 2150 2850 2150
+Wire Wire Line
+	2725 2250 2850 2250
+Wire Wire Line
+	2125 2550 2125 2675
+Wire Wire Line
+	1525 1650 1400 1650
+Wire Wire Line
+	1525 1450 1400 1450
+Wire Wire Line
+	1525 1250 1400 1250
+Wire Wire Line
+	2125 1050 2125 925 
+Wire Notes Line
+	6125 2975 6125 5225
+$Comp
+L Device:R_Small R5
+U 1 1 5D97D874
+P 5025 5825
+F 0 "R5" H 5084 5871 50  0000 L CNN
+F 1 "10K" H 5084 5780 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5025 5825 50  0001 C CNN
+F 3 "~" H 5025 5825 50  0001 C CNN
+	1    5025 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 5725 5025 5600
+Wire Wire Line
+	5025 5925 5025 6050
+$Comp
+L Device:R_Small R2
+U 1 1 5D9E7B63
+P 2750 5850
+F 0 "R2" H 2809 5896 50  0000 L CNN
+F 1 "10K" H 2809 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2750 5850 50  0001 C CNN
+F 3 "~" H 2750 5850 50  0001 C CNN
+	1    2750 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5750 2750 5625
+Wire Wire Line
+	2750 5950 2750 6075
+Wire Wire Line
+	2750 6075 2875 6075
+Wire Wire Line
+	2750 6075 2625 6075
+Connection ~ 2750 6075
+$Comp
+L Oshwi_ESP8266_LORA-rescue:SW_Push-Oshwi_ESP32 SW2
+U 1 1 5DA13BC9
+P 2425 6075
+F 0 "SW2" H 2425 6360 50  0000 C CNN
+F 1 "RESET" H 2425 6269 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 2425 6275 50  0001 C CNN
+F 3 "~" H 2425 6275 50  0001 C CNN
+	1    2425 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2225 6075 2100 6075
+$Comp
+L Oshwi_ESP8266_LORA-rescue:GND-001-rescue #PWR016
+U 1 1 5DA3E8BC
+P 2100 6075
+F 0 "#PWR016" H 2100 5825 50  0001 C CNN
+F 1 "GND" H 2105 5902 50  0000 C CNN
+F 2 "" H 2100 6075 50  0001 C CNN
+F 3 "" H 2100 6075 50  0001 C CNN
+	1    2100 6075
+	1    0    0    -1  
+$EndComp
+Text Label 1500 5625 2    50   ~ 0
++3.3V
+$Comp
+L Device:R_Small R1
+U 1 1 5DA4AF57
+P 1500 5850
+F 0 "R1" H 1559 5896 50  0000 L CNN
+F 1 "10K" H 1559 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1500 5850 50  0001 C CNN
+F 3 "~" H 1500 5850 50  0001 C CNN
+	1    1500 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5750 1500 5625
+Wire Wire Line
+	1500 5950 1500 6075
+Wire Wire Line
+	1500 6075 1625 6075
+Wire Wire Line
+	1500 6075 1375 6075
+Connection ~ 1500 6075
+$Comp
+L Oshwi_ESP8266_LORA-rescue:SW_Push-Oshwi_ESP32 SW1
+U 1 1 5DA4AF66
+P 1175 6075
+F 0 "SW1" H 1175 6360 50  0000 C CNN
+F 1 "USER/PROG" H 1175 6269 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 1175 6275 50  0001 C CNN
+F 3 "~" H 1175 6275 50  0001 C CNN
+	1    1175 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	975  6075 850  6075
+$Comp
+L Oshwi_ESP8266_LORA-rescue:GND-001-rescue #PWR015
+U 1 1 5DA4AF71
+P 850 6075
+F 0 "#PWR015" H 850 5825 50  0001 C CNN
+F 1 "GND" H 855 5902 50  0000 C CNN
+F 2 "" H 850 6075 50  0001 C CNN
+F 3 "" H 850 6075 50  0001 C CNN
+	1    850  6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5DA84EF5
+P 3625 5825
+F 0 "R3" H 3684 5871 50  0000 L CNN
+F 1 "10K" H 3684 5780 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3625 5825 50  0001 C CNN
+F 3 "~" H 3625 5825 50  0001 C CNN
+	1    3625 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 5725 3625 5600
+Wire Wire Line
+	3625 5925 3625 6050
+$Comp
+L Oshwi_ESP8266_LORA-rescue:GND-001-rescue #PWR017
+U 1 1 5DA98B70
+P 3625 5600
+F 0 "#PWR017" H 3625 5350 50  0001 C CNN
+F 1 "GND" H 3630 5427 50  0000 C CNN
+F 2 "" H 3625 5600 50  0001 C CNN
+F 3 "" H 3625 5600 50  0001 C CNN
+	1    3625 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3625 6050 3750 6050
+$Comp
+L Device:R_Small R4
+U 1 1 5DAADD08
+P 4325 5825
+F 0 "R4" H 4384 5871 50  0000 L CNN
+F 1 "10K" H 4384 5780 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4325 5825 50  0001 C CNN
+F 3 "~" H 4325 5825 50  0001 C CNN
+	1    4325 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 5725 4325 5600
+Wire Wire Line
+	4325 5925 4325 6050
+Wire Wire Line
+	4325 6050 4450 6050
+Text Label 4325 5600 2    50   ~ 0
++3.3V
+$Comp
+L Device:C_Small C5
+U 1 1 5DBC8839
+P 8225 3650
+F 0 "C5" V 8325 3750 50  0000 L CNN
+F 1 "10uF" V 8325 3875 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8225 3650 50  0001 C CNN
+F 3 "~" H 8225 3650 50  0001 C CNN
+	1    8225 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5DBCD7A5
+P 8225 3450
+F 0 "C4" V 8125 3525 50  0000 L CNN
+F 1 "1uF" V 8125 3650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8225 3450 50  0001 C CNN
+F 3 "~" H 8225 3450 50  0001 C CNN
+	1    8225 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8025 3775 8025 3725
+Connection ~ 8025 3650
+Wire Wire Line
+	8025 3450 8025 3325
+Connection ~ 8025 3450
+Text Notes 8450 3175 0    60   ~ 0
+LORA MODULE
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5DC6F59E
+P 7075 2350
+F 0 "J3" H 6993 2567 50  0000 C CNN
+F 1 "Conn_01x02" H 6993 2476 50  0000 C CNN
+F 2 "Oshwi_ESP8266_LORA:JSTPH2" H 7075 2350 50  0001 C CNN
+F 3 "~" H 7075 2350 50  0001 C CNN
+	1    7075 2350
+	-1   0    0    -1  
+$EndComp
+Text Label 2850 1450 0    60   ~ 0
+D4
+Text Label 2850 1250 0    60   ~ 0
+D3
+Text Label 2850 1650 0    60   ~ 0
+D2
+Text Label 2850 1750 0    60   ~ 0
+D1
+Text Label 2850 2150 0    60   ~ 0
+D8
+Text Label 2850 1950 0    60   ~ 0
+D7
+Text Label 2850 1850 0    60   ~ 0
+D6
+Text Label 2850 2050 0    60   ~ 0
+D5
+Text Label 2850 2250 0    60   ~ 0
+D0
+$Comp
+L power:+3.3V #PWR019
+U 1 1 5DF6C2AF
+P 2125 925
+F 0 "#PWR019" H 2125 775 50  0001 C CNN
+F 1 "+3.3V" H 2140 1098 50  0000 C CNN
+F 2 "" H 2125 925 50  0001 C CNN
+F 3 "" H 2125 925 50  0001 C CNN
+	1    2125 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5DF70D75
+P 2125 2675
+F 0 "#PWR020" H 2125 2425 50  0001 C CNN
+F 1 "GND" H 2125 2525 50  0000 C CNN
+F 2 "" H 2125 2675 50  0001 C CNN
+F 3 "" H 2125 2675 50  0001 C CNN
+	1    2125 2675
+	1    0    0    -1  
+$EndComp
+Text Label 1400 1250 2    60   ~ 0
+RST
+Text Label 2875 6075 0    60   ~ 0
+RST
+Text Label 4450 6050 0    60   ~ 0
+D4
+Text Label 1625 6075 0    60   ~ 0
+D3
+Text Label 3750 6050 0    60   ~ 0
+D8
+Text Label 5025 6050 0    60   ~ 0
+CH_PD
+Text Label 1400 1450 2    60   ~ 0
+CH_PD
+Text Label 1400 1650 2    60   ~ 0
+A0
+Wire Wire Line
+	10175 5775 10175 5875
+NoConn ~ 1525 1850
+NoConn ~ 1525 1950
+NoConn ~ 1525 2050
+NoConn ~ 1525 2150
+NoConn ~ 1525 2250
+NoConn ~ 1525 2350
+$Comp
+L wickerlib:VBAT #PWR0101
+U 1 1 5E142D4F
+P 7275 2350
+F 0 "#PWR0101" H 7275 2200 50  0001 C CNN
+F 1 "VBAT" H 7290 2523 50  0000 C CNN
+F 2 "" H 7275 2350 50  0000 C CNN
+F 3 "" H 7275 2350 50  0000 C CNN
+	1    7275 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8525 4475
+NoConn ~ 8525 4375
+NoConn ~ 8525 4275
+NoConn ~ 8525 4175
+$Comp
+L power:VIN #PWR0102
+U 1 1 5E1CCA52
+P 9725 5750
+F 0 "#PWR0102" H 9725 5650 50  0001 C CNN
+F 1 "VIN" H 9740 5923 50  0000 C CNN
+F 2 "" H 9725 5750 50  0001 C CNN
+F 3 "" H 9725 5750 50  0001 C CNN
+	1    9725 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7875 1375 8375 1375
+Wire Wire Line
+	9250 5750 9250 5875
+$Comp
+L Oshwi_ESP8266_LORA-rescue:PWR_FLAG-001-rescue #FLG0101
+U 1 1 5E204B20
+P 9250 5875
+F 0 "#FLG0101" H 9250 5950 50  0001 C CNN
+F 1 "PWR_FLAG" H 9250 6048 50  0000 C CNN
+F 2 "" H 9250 5875 50  0001 C CNN
+F 3 "" H 9250 5875 50  0001 C CNN
+	1    9250 5875
+	-1   0    0    1   
+$EndComp
+$Comp
+L wickerlib:VBAT #PWR0103
+U 1 1 5E20C242
+P 9250 5750
+F 0 "#PWR0103" H 9250 5600 50  0001 C CNN
+F 1 "VBAT" H 9265 5923 50  0000 C CNN
+F 2 "" H 9250 5750 50  0000 C CNN
+F 3 "" H 9250 5750 50  0000 C CNN
+	1    9250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oshwi_ESP8266_LORA-rescue:PWR_FLAG-001-rescue #FLG0102
+U 1 1 5E210365
+P 7750 3600
+F 0 "#FLG0102" H 7750 3675 50  0001 C CNN
+F 1 "PWR_FLAG" H 7750 3773 50  0000 C CNN
+F 2 "" H 7750 3600 50  0001 C CNN
+F 3 "" H 7750 3600 50  0001 C CNN
+	1    7750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3600 7750 3725
+Wire Wire Line
+	7750 3725 8025 3725
+Connection ~ 8025 3725
+Wire Wire Line
+	8025 3725 8025 3650
+Text Notes 4125 1250 2    60   ~ 0
+Oshwi Port
+Wire Wire Line
+	3700 1900 3575 1900
+Wire Wire Line
+	3700 1800 3575 1800
+Wire Wire Line
+	3700 1700 3575 1700
+Wire Wire Line
+	3700 1600 3575 1600
+Wire Wire Line
+	3700 1500 3575 1500
+Wire Wire Line
+	3700 1400 3575 1400
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 5E2ACFC3
+P 3900 1600
+F 0 "J1" H 4050 1700 50  0000 R CNN
+F 1 "Oshwi Port" H 4375 1500 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 3900 1600 50  0001 C CNN
+F 3 "~" H 3900 1600 50  0001 C CNN
+	1    3900 1600
+	1    0    0    -1  
+$EndComp
+Text Label 3575 1900 2    60   ~ 0
+GND
+Text Label 3575 1800 2    60   ~ 0
++3.3V
+Text Label 3575 1700 2    60   ~ 0
+D8
+Text Label 3575 1600 2    60   ~ 0
+D4
+Text Label 3575 1500 2    60   ~ 0
+D3
+Text Label 3575 1400 2    60   ~ 0
+A0
+Text Notes 5500 1250 2    60   ~ 0
+FTDI Port
+Wire Wire Line
+	5075 1900 4950 1900
+Wire Wire Line
+	5075 1700 4950 1700
+Wire Wire Line
+	5075 1600 4950 1600
+Wire Wire Line
+	5075 1500 4950 1500
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5D3F660E
+P 5275 1600
+F 0 "J2" H 5425 1700 50  0000 R CNN
+F 1 "FTDI Port" H 5750 1500 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 5275 1600 50  0001 C CNN
+F 3 "~" H 5275 1600 50  0001 C CNN
+	1    5275 1600
+	1    0    0    -1  
+$EndComp
+Text Label 4950 1600 2    60   ~ 0
+RXD_5V
+Text Label 4950 1500 2    60   ~ 0
+TXD
+NoConn ~ 5075 1400
+NoConn ~ 5075 1800
+Text Label 4950 1900 2    60   ~ 0
+GND
+Text Label 4950 1700 2    60   ~ 0
+VIN
+Wire Wire Line
+	2725 7200 2725 7325
+Wire Wire Line
+	2725 7325 2850 7325
+Text Label 2850 7325 0    60   ~ 0
+RXD_5V
+Text Label 2725 6775 2    60   ~ 0
+RXD
+$Comp
+L Diode:1N4148 D8
+U 1 1 5D42CAA0
+P 2725 7050
+F 0 "D8" V 2771 6971 50  0000 R CNN
+F 1 "1N4148" V 2680 6971 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 6875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2725 7050 50  0001 C CNN
+	1    2725 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2725 6900 2725 6775
+Wire Wire Line
+	1750 7025 1875 7025
+$Comp
+L Device:LED_Small D7
+U 1 1 5D9B647B
+P 1650 7025
+F 0 "D7" H 1650 6820 50  0000 C CNN
+F 1 "BLUE" H 1650 6911 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1650 7025 50  0001 C CNN
+F 3 "~" V 1650 7025 50  0001 C CNN
+	1    1650 7025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1225 7025 1100 7025
+Wire Wire Line
+	1425 7025 1550 7025
+$Comp
+L Device:R_Small R6
+U 1 1 5D9A0C53
+P 1325 7025
+F 0 "R6" V 1129 7025 50  0000 C CNN
+F 1 "1K" V 1220 7025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1325 7025 50  0001 C CNN
+F 3 "~" H 1325 7025 50  0001 C CNN
+	1    1325 7025
+	0    1    1    0   
+$EndComp
+Text Label 1100 7025 2    50   ~ 0
++3.3V
+$Comp
+L Oshwi_ESP8266_LORA-rescue:GND-001-rescue #PWR018
+U 1 1 597EE12E
+P 1875 7025
+F 0 "#PWR018" H 1875 6775 50  0001 C CNN
+F 1 "GND" H 1880 6852 50  0000 C CNN
+F 2 "" H 1875 7025 50  0001 C CNN
+F 3 "" H 1875 7025 50  0001 C CNN
+	1    1875 7025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 1350 2850 1350
+Wire Wire Line
+	2725 1550 2850 1550
+Text Label 2850 1350 0    60   ~ 0
+TXD
+Text Label 2850 1550 0    60   ~ 0
+RXD
+$EndSCHEMATC
